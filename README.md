@@ -1,7 +1,7 @@
 # ✈️ AI-Powered Airline Disruption Management Platform
 
 An interactive multi-agent airline disruption management prototype built
-for hackathon demonstration. The platform connects airline operations
+The platform connects airline operations
 analysis, disruption recovery, communication, and passenger self-service
 through a shared operational state.
 
@@ -136,10 +136,6 @@ View confirmed recovery booking
           │        Shared Operational & Recovery State         │
           └────────────────────────────────────────────────────┘
 ```
-
-## Data Model
-
-The prototype uses local JSON files for hackathon-friendly persistence.
 
 ### Passenger Records
 
@@ -286,26 +282,6 @@ python -m streamlit run dashboard/app.py
 
 Streamlit will display the local application address in the terminal.
 
-## Recommended Hackathon Demo
-
-A concise demonstration can follow this sequence:
-
-1.  Open the Home page and introduce the two coordinated user
-    experiences.
-2.  Enter the Operations Control Center.
-3.  Show airport weather and the live flight board.
-4.  Select a disrupted flight.
-5.  Expand Demo Tools and generate a PNR.
-6.  Run AI Analysis.
-7.  Walk through Weather, Prediction, Recovery, Evaluator, and
-    Communications.
-8.  Apply the Recovery Plan.
-9.  Show that recovery and communication views now use the applied
-    details.
-10. Open the Passenger Portal.
-11. Search the generated PNR.
-12. Show the confirmed recovery booking.
-
 ## Design Principles
 
 ### Single Operational Source of Truth
@@ -393,17 +369,6 @@ This project is a hackathon prototype using mock and simulated data. It
 is not connected to a live airline reservation, operations-control,
 crew-management, airport, or passenger-notification system.
 
-## Team
-
-Add your team details here:
-
-``` text
-Team Name:
-Team Members:
-Hackathon:
-Project Track:
-Contact:
-```
 
 ## License
 
