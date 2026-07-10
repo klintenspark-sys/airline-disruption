@@ -81,72 +81,191 @@ html, body, [class*="css"] {{ font-family: Arial, 'Segoe UI', sans-serif !import
 .compact-flight .info {{ grid-column:1; font-size:.72rem !important; }}
 .compact-flight .badge {{ grid-column:2; grid-row:1; min-width:68px !important; min-height:30px !important; font-size:.7rem !important; }}
 
+
+
+/* V26 dashboard layout */
+.ops-title h1 {{ margin:0 !important; font-size:1.8rem !important; }}
+.ops-title p {{ margin:3px 0 0 !important; color:{t['muted']} !important; }}
+.compact-section {{ margin:10px 0 6px !important; }}
+.mini-weather {{
+    min-height:58px !important;
+    padding:8px 10px !important;
+    margin:7px 0 !important;
+    border-radius:8px !important;
+}}
+.weather-copy {{ display:flex; flex-direction:column; min-width:0; }}
+.mini-weather .ap {{ font-size:.88rem !important; line-height:1.1; }}
+.mini-weather .wd {{ font-size:.67rem !important; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; max-width:175px; }}
+.mini-weather .badge {{ min-width:52px !important; min-height:25px !important; padding:2px 6px !important; font-size:.62rem !important; border-radius:6px !important; }}
+.compact-flight {{
+    min-height:118px !important;
+    padding:9px 10px !important;
+    margin:4px 0 8px !important;
+    grid-template-columns:1fr auto !important;
+    grid-template-rows:auto auto auto auto !important;
+}}
+.compact-flight .fid {{ grid-column:1; grid-row:1; }}
+.compact-flight .route {{ grid-column:1 / -1; grid-row:2; }}
+.compact-flight .timing {{ grid-column:1 / -1; grid-row:3; }}
+.compact-flight .info {{ grid-column:1; grid-row:4; }}
+.compact-flight .badge {{ grid-column:2; grid-row:4; align-self:end; }}
+
+
+/* Readable 2-card flight board + wider weather panel */
+.mini-weather {{
+    min-height:72px !important;
+    padding:10px 12px !important;
+    margin:8px 0 !important;
+}}
+.mini-weather .ap {{
+    font-size:1rem !important;
+    line-height:1.2 !important;
+}}
+.mini-weather .wd {{
+    font-size:.78rem !important;
+    line-height:1.35 !important;
+    max-width:none !important;
+    white-space:normal !important;
+    overflow:visible !important;
+    text-overflow:clip !important;
+}}
+.mini-weather .badge {{
+    min-width:64px !important;
+    min-height:30px !important;
+    font-size:.68rem !important;
+}}
+
+.compact-flight {{
+    min-height:132px !important;
+    padding:12px 14px !important;
+    margin:6px 0 10px !important;
+    grid-template-columns:1fr auto !important;
+    grid-template-rows:auto auto auto auto !important;
+    row-gap:7px !important;
+}}
+.compact-flight .fid {{
+    grid-column:1 !important;
+    grid-row:1 !important;
+    font-size:1.02rem !important;
+    font-weight:800 !important;
+}}
+.compact-flight .route {{
+    grid-column:1 / -1 !important;
+    grid-row:2 !important;
+    font-size:.94rem !important;
+    font-weight:750 !important;
+    line-height:1.3 !important;
+}}
+.compact-flight .timing {{
+    grid-column:1 / -1 !important;
+    grid-row:3 !important;
+    font-size:.78rem !important;
+    line-height:1.35 !important;
+    white-space:normal !important;
+}}
+.compact-flight .info {{
+    grid-column:1 !important;
+    grid-row:4 !important;
+    font-size:.76rem !important;
+    line-height:1.3 !important;
+}}
+.compact-flight .badge {{
+    grid-column:2 !important;
+    grid-row:4 !important;
+    min-width:76px !important;
+    min-height:32px !important;
+    font-size:.7rem !important;
+}}
+
 </style>
 """, unsafe_allow_html=True)
 
-st.markdown('<div class="header"><h1>🖥 Operations Control Center</h1><p>Multi-agent disruption management · Single operational source of truth</p></div>', unsafe_allow_html=True)
+with st.container(border=True):
+    header_back, header_title = st.columns([1.15, 7.85], vertical_alignment="center")
+    with header_back:
+        if st.button("← Back to Home", key="ops_back", use_container_width=True):
+            st.switch_page("app.py")
+    with header_title:
+        st.markdown('<div class="ops-title"><h1>🖥 Operations Control Center</h1><p>Multi-agent disruption management · Single operational source of truth</p></div>', unsafe_allow_html=True)
 
 states = get_all_operational_states()
 
-# Compact control bar: navigation, board filter and page selector in one row.
-nav_col, filter_col, page_col, spacer_col = st.columns([1.25, 1.55, 1.0, 4.2], vertical_alignment="bottom")
-with nav_col:
-    if st.button("← Back to Home", key="ops_back", use_container_width=True):
-        st.switch_page("app.py")
-with filter_col:
-    status_filter = st.selectbox(
-        "Board status filter",
-        ["All", "On Time", "Delayed", "Cancelled"],
-        key="board_filter"
-    )
+# Shared board controls.
+status_filter = st.session_state.get("board_filter", "All")
 board_states = states if status_filter == "All" else [
     x for x in states if x["effective_status"] == status_filter
 ]
 page_size = 6
 pages = max(1, (len(board_states) + page_size - 1) // page_size)
-with page_col:
-    page = st.selectbox("Board page", list(range(1, pages + 1)), key="board_page")
-start = (int(page) - 1) * page_size
-shown = board_states[start:start + page_size]
-weather = {}
-for s in states:
-    ap = s.get("affected_airport") or s["origin"]
-    if s.get("weather") and ap not in weather: weather[ap] = s["weather"]
-# include all weather airports
+if st.session_state.get("board_page", 1) > pages:
+    st.session_state["board_page"] = 1
+
+# Weather data.
 import json
 import random
 import string
 DATA_DIR=os.path.join(os.path.dirname(__file__),"..","..","mock_data")
-with open(os.path.join(DATA_DIR,"weather.json")) as f: weather=json.load(f)
+with open(os.path.join(DATA_DIR,"weather.json")) as f:
+    weather=json.load(f)
 
-delayed=sum(s['effective_status']=='Delayed' for s in states); cancelled=sum(s['effective_status']=='Cancelled' for s in states); high=sum(w['severity']=='HIGH' for w in weather.values())
+delayed=sum(x['effective_status']=='Delayed' for x in states)
+cancelled=sum(x['effective_status']=='Cancelled' for x in states)
+high=sum(w['severity']=='HIGH' for w in weather.values())
 cols=st.columns(4)
 for c,val,label in zip(cols,[len(states),delayed,cancelled,high],["Total Flights","Delayed","Cancelled","High-Risk Airports"]):
     c.markdown(f'<div class="metric"><div class="l">{label}</div><div class="v">{val}</div></div>',unsafe_allow_html=True)
 
-left,right=st.columns(2)
+# Compact weather rail + wider three-column flight board.
+left,right=st.columns([1.45, 3.55], gap="medium")
 with left:
-    st.markdown('<div class="section">Airport Weather Status</div>',unsafe_allow_html=True)
+    st.markdown('<div class="section compact-section">Airport Weather Status</div>',unsafe_allow_html=True)
     for ap,w in weather.items():
         sev=w['severity']; cls=sev.lower()
-        st.markdown(f'<div class="weather {cls}"><div><div class="ap">{ap}</div><div class="wd">{w["condition"]} · Wind {w["wind_knots"]} kts · Vis {w["visibility_miles"]} mi</div></div><span class="badge b-{cls}">{sev}</span></div>',unsafe_allow_html=True)
+        st.markdown(
+            f'<div class="weather mini-weather">'
+            f'<span class="weather-copy"><span class="ap">{ap}</span>'
+            f'<span class="wd">{w["condition"]} · {w["wind_knots"]} kts · {w["visibility_miles"]} mi</span></span>'
+            f'<span class="badge b-{cls}">{sev}</span></div>',
+            unsafe_allow_html=True
+        )
+
 with right:
-    st.markdown('<div class="section">Live Flight Board</div>',unsafe_allow_html=True)
+    board_title, filter_col, page_col = st.columns([2.2, 2.4, 1.0], vertical_alignment="bottom")
+    with board_title:
+        st.markdown('<div class="section compact-section">Live Flight Board</div>',unsafe_allow_html=True)
+    with filter_col:
+        status_filter = st.selectbox(
+            "Board Status Filter",
+            ["All", "On Time", "Delayed", "Cancelled"],
+            key="board_filter"
+        )
+    board_states = states if status_filter == "All" else [
+        x for x in states if x["effective_status"] == status_filter
+    ]
+    pages = max(1, (len(board_states) + page_size - 1) // page_size)
+    if st.session_state.get("board_page", 1) > pages:
+        st.session_state["board_page"] = 1
+    with page_col:
+        page = st.selectbox("Board Page", list(range(1, pages + 1)), key="board_page")
+    start_idx = (int(page) - 1) * page_size
+    shown = board_states[start_idx:start_idx + page_size]
+
     for row_start in range(0, len(shown), 2):
-        board_cols=st.columns(2)
-        for offset, s in enumerate(shown[row_start:row_start+2]):
-            status=s['effective_status']; cls=status.lower().replace(' ','')
-            dep=s.get("scheduled_departure","")[11:16]; arr=s.get("scheduled_arrival","")[11:16]
+        board_cols=st.columns(2, gap="small")
+        for offset, flight in enumerate(shown[row_start:row_start+2]):
+            status=flight['effective_status']; cls=status.lower().replace(' ','')
+            dep=flight.get("scheduled_departure","")[11:16]
+            arr=flight.get("scheduled_arrival","")[11:16]
             timing=f"Dep {dep} · Arr {arr}"
-            if status=="Delayed" and s.get("estimated_departure"):
-                timing += f" · Est {s['estimated_departure'][11:16]}"
+            if status=="Delayed" and flight.get("estimated_departure"):
+                timing += f" · Est {flight['estimated_departure'][11:16]}"
             with board_cols[offset]:
                 st.markdown(
                     f'<div class="flight compact-flight">'
-                    f'<span class="fid">{s["flight_id"]}</span>'
-                    f'<span class="route">{s["origin"]} → {s["destination"]}</span>'
+                    f'<span class="fid">{flight["flight_id"]}</span>'
+                    f'<span class="route">{flight["origin"]} → {flight["destination"]}</span>'
                     f'<span class="timing">{timing}</span>'
-                    f'<span class="info">{s.get("operational_stage","At Gate")} · {s.get("current_location",s["origin"])}</span>'
+                    f'<span class="info">{flight.get("operational_stage","At Gate")} · {flight.get("current_location",flight["origin"])}</span>'
                     f'<span class="badge b-{cls}">{status}</span>'
                     f'</div>',
                     unsafe_allow_html=True

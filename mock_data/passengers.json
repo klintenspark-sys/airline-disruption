@@ -955,5 +955,16 @@
     "cabin": "Economy Class",
     "terminal": "A",
     "gate": "JFK-B4"
+  },
+  {
+    "pnr": "QO4HDR",
+    "passenger_name": "Demo Passenger 88",
+    "flight_id": "AA347",
+    "email": "demo88@example.com",
+    "phone": "+1-555-0088",
+    "seat": "18E",
+    "cabin": "Economy Class",
+    "terminal": "A",
+    "gate": "JFK-B5"
   }
 ]

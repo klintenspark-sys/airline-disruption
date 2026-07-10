@@ -295,5 +295,49 @@
     "status": "Confirmed",
     "cause": "Dense Fog",
     "applied": true
+  },
+  "JXUIS3": {
+    "original_flight": "AA347",
+    "new_flight": "AA744",
+    "new_departure": "2026-07-07T13:20",
+    "new_gate": "JFK-R7",
+    "seat": "13F",
+    "voucher_code": "MEAL-JXUIS3",
+    "status": "Confirmed",
+    "cause": "Severe Thunderstorm",
+    "applied": true
+  },
+  "MIL4NP": {
+    "original_flight": "AA347",
+    "new_flight": "AA745",
+    "new_departure": "2026-07-07T13:20",
+    "new_gate": "JFK-R8",
+    "seat": "14A",
+    "voucher_code": "MEAL-MIL4NP",
+    "status": "Confirmed",
+    "cause": "Severe Thunderstorm",
+    "applied": true
+  },
+  "NJUUDX": {
+    "original_flight": "AA347",
+    "new_flight": "AA746",
+    "new_departure": "2026-07-07T13:20",
+    "new_gate": "JFK-R1",
+    "seat": "17D",
+    "voucher_code": "MEAL-NJUUDX",
+    "status": "Confirmed",
+    "cause": "Severe Thunderstorm",
+    "applied": true
+  },
+  "QO4HDR": {
+    "original_flight": "AA347",
+    "new_flight": "AA747",
+    "new_departure": "2026-07-07T13:20",
+    "new_gate": "JFK-R2",
+    "seat": "18E",
+    "voucher_code": "MEAL-QO4HDR",
+    "status": "Confirmed",
+    "cause": "Severe Thunderstorm",
+    "applied": true
   }
 }
