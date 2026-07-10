@@ -1,0 +1,7 @@
+ollama
+faker
+streamlit
+fastapi
+uvicorn
+httpx
+python-dotenv

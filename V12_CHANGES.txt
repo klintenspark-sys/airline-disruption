@@ -1,0 +1,1 @@
+V12 complete: V11 PNR search + all 20 flights through paging/filtering + scheduled/estimated departure and arrival + operational stage/current location + synchronized Passenger timing.

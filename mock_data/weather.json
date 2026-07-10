@@ -1,0 +1,32 @@
+{
+  "JFK": {
+    "condition": "Thunderstorm",
+    "visibility_miles": 1.2,
+    "wind_knots": 35,
+    "severity": "HIGH"
+  },
+  "LAX": {
+    "condition": "Clear",
+    "visibility_miles": 10.0,
+    "wind_knots": 8,
+    "severity": "LOW"
+  },
+  "ORD": {
+    "condition": "Snow",
+    "visibility_miles": 2.5,
+    "wind_knots": 22,
+    "severity": "MEDIUM"
+  },
+  "DFW": {
+    "condition": "Clear",
+    "visibility_miles": 9.0,
+    "wind_knots": 12,
+    "severity": "LOW"
+  },
+  "ATL": {
+    "condition": "Fog",
+    "visibility_miles": 0.8,
+    "wind_knots": 5,
+    "severity": "HIGH"
+  }
+}

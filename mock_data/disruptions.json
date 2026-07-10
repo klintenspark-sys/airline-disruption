@@ -1,0 +1,112 @@
+{
+  "AA347": {
+    "event_active": true,
+    "status": "Delayed",
+    "affected_airport": "JFK",
+    "cause": "Severe Thunderstorm",
+    "event_start": "2026-07-07T08:15:00",
+    "current_delay_minutes": 95,
+    "severity": "HIGH",
+    "recovery_required": true,
+    "escalation_threshold_minutes": 180
+  },
+  "AA875": {
+    "event_active": true,
+    "status": "Cancelled",
+    "affected_airport": "JFK",
+    "cause": "Severe Thunderstorm",
+    "event_start": "2026-07-07T10:40:00",
+    "current_delay_minutes": 205,
+    "severity": "HIGH",
+    "recovery_required": true,
+    "escalation_threshold_minutes": 180
+  },
+  "AA299": {
+    "event_active": true,
+    "status": "Delayed",
+    "affected_airport": "JFK",
+    "cause": "Severe Thunderstorm",
+    "event_start": "2026-07-07T15:10:00",
+    "current_delay_minutes": 70,
+    "severity": "HIGH",
+    "recovery_required": true,
+    "escalation_threshold_minutes": 180
+  },
+  "AA173": {
+    "event_active": true,
+    "status": "Cancelled",
+    "affected_airport": "JFK",
+    "cause": "Ground Stop",
+    "event_start": "2026-07-07T13:05:00",
+    "current_delay_minutes": 190,
+    "severity": "HIGH",
+    "recovery_required": true,
+    "escalation_threshold_minutes": 180
+  },
+  "AA754": {
+    "event_active": true,
+    "status": "Delayed",
+    "affected_airport": "ATL",
+    "cause": "Dense Fog",
+    "event_start": "2026-07-07T06:55:00",
+    "current_delay_minutes": 80,
+    "severity": "HIGH",
+    "recovery_required": true,
+    "escalation_threshold_minutes": 180
+  },
+  "AA364": {
+    "event_active": true,
+    "status": "Delayed",
+    "affected_airport": "LAX",
+    "cause": "Mechanical Issue",
+    "event_start": "2026-07-07T09:50:00",
+    "current_delay_minutes": 55,
+    "severity": "LOW",
+    "recovery_required": true,
+    "escalation_threshold_minutes": 180
+  },
+  "AA809": {
+    "event_active": true,
+    "status": "Cancelled",
+    "affected_airport": "JFK",
+    "cause": "Crew Shortage",
+    "event_start": "2026-07-07T14:20:00",
+    "current_delay_minutes": 0,
+    "severity": "HIGH",
+    "recovery_required": true,
+    "escalation_threshold_minutes": 180
+  },
+  "AA762": {
+    "event_active": true,
+    "status": "Delayed",
+    "affected_airport": "DFW",
+    "cause": "ATC Hold",
+    "event_start": "2026-07-07T07:20:00",
+    "current_delay_minutes": 45,
+    "severity": "LOW",
+    "recovery_required": true,
+    "escalation_threshold_minutes": 180
+  },
+  "AA474": {
+    "event_active": true,
+    "status": "Cancelled",
+    "affected_airport": "ATL",
+    "cause": "Dense Fog",
+    "event_start": "2026-07-07T19:10:00",
+    "current_delay_minutes": 215,
+    "severity": "HIGH",
+    "recovery_required": true,
+    "escalation_threshold_minutes": 180
+  },
+  "AA981": {
+    "event_active": true,
+    "status": "Delayed",
+    "affected_airport": "LAX",
+    "cause": "Ground Stop",
+    "event_start": "2026-07-07T21:35:00",
+    "current_delay_minutes": 65,
+    "severity": "LOW",
+    "recovery_required": true,
+    "escalation_threshold_minutes": 180
+  }
+}

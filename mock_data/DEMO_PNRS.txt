@@ -1,0 +1,3 @@
+Cancelled: PNR 2A5690 | Flight AA347
+On Time: PNR E8A4FA | Flight AA343
+Delayed: PNR FF7A2F | Flight AA981

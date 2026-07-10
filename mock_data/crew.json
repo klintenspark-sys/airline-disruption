@@ -1,0 +1,242 @@
+[
+  {
+    "crew_id": "CR001",
+    "name": "Robert Howell",
+    "role": "First Officer",
+    "available": true,
+    "base": "ORD",
+    "hours_remaining": 10
+  },
+  {
+    "crew_id": "CR002",
+    "name": "John Mann",
+    "role": "Flight Attendant",
+    "available": true,
+    "base": "ATL",
+    "hours_remaining": 11
+  },
+  {
+    "crew_id": "CR003",
+    "name": "Robert Padilla",
+    "role": "Flight Attendant",
+    "available": false,
+    "base": "ATL",
+    "hours_remaining": 2
+  },
+  {
+    "crew_id": "CR004",
+    "name": "Pamela Peterson",
+    "role": "Flight Attendant",
+    "available": true,
+    "base": "LAX",
+    "hours_remaining": 6
+  },
+  {
+    "crew_id": "CR005",
+    "name": "Jerry Perez",
+    "role": "First Officer",
+    "available": true,
+    "base": "ORD",
+    "hours_remaining": 4
+  },
+  {
+    "crew_id": "CR006",
+    "name": "Matthew Moore",
+    "role": "First Officer",
+    "available": true,
+    "base": "DFW",
+    "hours_remaining": 9
+  },
+  {
+    "crew_id": "CR007",
+    "name": "Rodney Sanchez",
+    "role": "Flight Attendant",
+    "available": true,
+    "base": "JFK",
+    "hours_remaining": 2
+  },
+  {
+    "crew_id": "CR008",
+    "name": "Aimee Elliott",
+    "role": "Flight Attendant",
+    "available": false,
+    "base": "ORD",
+    "hours_remaining": 11
+  },
+  {
+    "crew_id": "CR009",
+    "name": "Kimberly Aguirre",
+    "role": "Flight Attendant",
+    "available": true,
+    "base": "ATL",
+    "hours_remaining": 11
+  },
+  {
+    "crew_id": "CR010",
+    "name": "Maria Horn",
+    "role": "Captain",
+    "available": true,
+    "base": "ORD",
+    "hours_remaining": 3
+  },
+  {
+    "crew_id": "CR011",
+    "name": "Douglas Cunningham",
+    "role": "Flight Attendant",
+    "available": true,
+    "base": "ATL",
+    "hours_remaining": 2
+  },
+  {
+    "crew_id": "CR012",
+    "name": "David Zhang",
+    "role": "First Officer",
+    "available": false,
+    "base": "LAX",
+    "hours_remaining": 12
+  },
+  {
+    "crew_id": "CR013",
+    "name": "Bianca Webb",
+    "role": "Flight Attendant",
+    "available": true,
+    "base": "JFK",
+    "hours_remaining": 11
+  },
+  {
+    "crew_id": "CR014",
+    "name": "David Andrews",
+    "role": "First Officer",
+    "available": true,
+    "base": "JFK",
+    "hours_remaining": 7
+  },
+  {
+    "crew_id": "CR015",
+    "name": "Jill Garcia",
+    "role": "First Officer",
+    "available": true,
+    "base": "JFK",
+    "hours_remaining": 11
+  },
+  {
+    "crew_id": "CR016",
+    "name": "Nicole Villanueva",
+    "role": "First Officer",
+    "available": false,
+    "base": "ORD",
+    "hours_remaining": 2
+  },
+  {
+    "crew_id": "CR017",
+    "name": "Andrea Brown",
+    "role": "Captain",
+    "available": false,
+    "base": "DFW",
+    "hours_remaining": 2
+  },
+  {
+    "crew_id": "CR018",
+    "name": "Michael Oliver",
+    "role": "Flight Attendant",
+    "available": true,
+    "base": "JFK",
+    "hours_remaining": 4
+  },
+  {
+    "crew_id": "CR019",
+    "name": "Jesse Ross",
+    "role": "Captain",
+    "available": true,
+    "base": "JFK",
+    "hours_remaining": 12
+  },
+  {
+    "crew_id": "CR020",
+    "name": "Leslie Soto",
+    "role": "Flight Attendant",
+    "available": true,
+    "base": "JFK",
+    "hours_remaining": 4
+  },
+  {
+    "crew_id": "CR021",
+    "name": "Faith Coleman DDS",
+    "role": "First Officer",
+    "available": false,
+    "base": "ORD",
+    "hours_remaining": 10
+  },
+  {
+    "crew_id": "CR022",
+    "name": "David Reed",
+    "role": "Captain",
+    "available": true,
+    "base": "JFK",
+    "hours_remaining": 2
+  },
+  {
+    "crew_id": "CR023",
+    "name": "Karla Miller",
+    "role": "Captain",
+    "available": true,
+    "base": "ORD",
+    "hours_remaining": 2
+  },
+  {
+    "crew_id": "CR024",
+    "name": "Susan Leonard",
+    "role": "First Officer",
+    "available": false,
+    "base": "DFW",
+    "hours_remaining": 12
+  },
+  {
+    "crew_id": "CR025",
+    "name": "Nicholas Savage",
+    "role": "First Officer",
+    "available": true,
+    "base": "JFK",
+    "hours_remaining": 3
+  },
+  {
+    "crew_id": "CR026",
+    "name": "Cynthia Small",
+    "role": "First Officer",
+    "available": false,
+    "base": "DFW",
+    "hours_remaining": 9
+  },
+  {
+    "crew_id": "CR027",
+    "name": "Sheryl Lucas",
+    "role": "First Officer",
+    "available": true,
+    "base": "ATL",
+    "hours_remaining": 2
+  },
+  {
+    "crew_id": "CR028",
+    "name": "Isaac Brown",
+    "role": "First Officer",
+    "available": false,
+    "base": "ORD",
+    "hours_remaining": 4
+  },
+  {
+    "crew_id": "CR029",
+    "name": "Sabrina Schwartz",
+    "role": "First Officer",
+    "available": true,
+    "base": "ORD",
+    "hours_remaining": 5
+  },
+  {
+    "crew_id": "CR030",
+    "name": "Lisa Smith",
+    "role": "Captain",
+    "available": true,
+    "base": "ATL",
+    "hours_remaining": 4
+  }
+]
