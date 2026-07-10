@@ -1,0 +1,312 @@
+{
+  "JFK": [
+    {
+      "gate": "JFK-A1",
+      "available": false
+    },
+    {
+      "gate": "JFK-A2",
+      "available": false
+    },
+    {
+      "gate": "JFK-A3",
+      "available": false
+    },
+    {
+      "gate": "JFK-A4",
+      "available": true
+    },
+    {
+      "gate": "JFK-A5",
+      "available": true
+    },
+    {
+      "gate": "JFK-B1",
+      "available": false
+    },
+    {
+      "gate": "JFK-B2",
+      "available": false
+    },
+    {
+      "gate": "JFK-B3",
+      "available": true
+    },
+    {
+      "gate": "JFK-B4",
+      "available": false
+    },
+    {
+      "gate": "JFK-B5",
+      "available": true
+    },
+    {
+      "gate": "JFK-C1",
+      "available": false
+    },
+    {
+      "gate": "JFK-C2",
+      "available": true
+    },
+    {
+      "gate": "JFK-C3",
+      "available": true
+    },
+    {
+      "gate": "JFK-C4",
+      "available": true
+    },
+    {
+      "gate": "JFK-C5",
+      "available": false
+    }
+  ],
+  "LAX": [
+    {
+      "gate": "LAX-A1",
+      "available": true
+    },
+    {
+      "gate": "LAX-A2",
+      "available": true
+    },
+    {
+      "gate": "LAX-A3",
+      "available": true
+    },
+    {
+      "gate": "LAX-A4",
+      "available": true
+    },
+    {
+      "gate": "LAX-A5",
+      "available": true
+    },
+    {
+      "gate": "LAX-B1",
+      "available": false
+    },
+    {
+      "gate": "LAX-B2",
+      "available": true
+    },
+    {
+      "gate": "LAX-B3",
+      "available": true
+    },
+    {
+      "gate": "LAX-B4",
+      "available": false
+    },
+    {
+      "gate": "LAX-B5",
+      "available": true
+    },
+    {
+      "gate": "LAX-C1",
+      "available": true
+    },
+    {
+      "gate": "LAX-C2",
+      "available": true
+    },
+    {
+      "gate": "LAX-C3",
+      "available": true
+    },
+    {
+      "gate": "LAX-C4",
+      "available": true
+    },
+    {
+      "gate": "LAX-C5",
+      "available": false
+    }
+  ],
+  "ORD": [
+    {
+      "gate": "ORD-A1",
+      "available": true
+    },
+    {
+      "gate": "ORD-A2",
+      "available": false
+    },
+    {
+      "gate": "ORD-A3",
+      "available": false
+    },
+    {
+      "gate": "ORD-A4",
+      "available": false
+    },
+    {
+      "gate": "ORD-A5",
+      "available": false
+    },
+    {
+      "gate": "ORD-B1",
+      "available": true
+    },
+    {
+      "gate": "ORD-B2",
+      "available": true
+    },
+    {
+      "gate": "ORD-B3",
+      "available": true
+    },
+    {
+      "gate": "ORD-B4",
+      "available": false
+    },
+    {
+      "gate": "ORD-B5",
+      "available": true
+    },
+    {
+      "gate": "ORD-C1",
+      "available": false
+    },
+    {
+      "gate": "ORD-C2",
+      "available": true
+    },
+    {
+      "gate": "ORD-C3",
+      "available": true
+    },
+    {
+      "gate": "ORD-C4",
+      "available": true
+    },
+    {
+      "gate": "ORD-C5",
+      "available": false
+    }
+  ],
+  "DFW": [
+    {
+      "gate": "DFW-A1",
+      "available": true
+    },
+    {
+      "gate": "DFW-A2",
+      "available": false
+    },
+    {
+      "gate": "DFW-A3",
+      "available": false
+    },
+    {
+      "gate": "DFW-A4",
+      "available": true
+    },
+    {
+      "gate": "DFW-A5",
+      "available": false
+    },
+    {
+      "gate": "DFW-B1",
+      "available": false
+    },
+    {
+      "gate": "DFW-B2",
+      "available": false
+    },
+    {
+      "gate": "DFW-B3",
+      "available": true
+    },
+    {
+      "gate": "DFW-B4",
+      "available": false
+    },
+    {
+      "gate": "DFW-B5",
+      "available": true
+    },
+    {
+      "gate": "DFW-C1",
+      "available": true
+    },
+    {
+      "gate": "DFW-C2",
+      "available": true
+    },
+    {
+      "gate": "DFW-C3",
+      "available": false
+    },
+    {
+      "gate": "DFW-C4",
+      "available": true
+    },
+    {
+      "gate": "DFW-C5",
+      "available": true
+    }
+  ],
+  "ATL": [
+    {
+      "gate": "ATL-A1",
+      "available": false
+    },
+    {
+      "gate": "ATL-A2",
+      "available": true
+    },
+    {
+      "gate": "ATL-A3",
+      "available": true
+    },
+    {
+      "gate": "ATL-A4",
+      "available": true
+    },
+    {
+      "gate": "ATL-A5",
+      "available": false
+    },
+    {
+      "gate": "ATL-B1",
+      "available": false
+    },
+    {
+      "gate": "ATL-B2",
+      "available": true
+    },
+    {
+      "gate": "ATL-B3",
+      "available": true
+    },
+    {
+      "gate": "ATL-B4",
+      "available": true
+    },
+    {
+      "gate": "ATL-B5",
+      "available": true
+    },
+    {
+      "gate": "ATL-C1",
+      "available": false
+    },
+    {
+      "gate": "ATL-C2",
+      "available": true
+    },
+    {
+      "gate": "ATL-C3",
+      "available": true
+    },
+    {
+      "gate": "ATL-C4",
+      "available": true
+    },
+    {
+      "gate": "ATL-C5",
+      "available": false
+    }
+  ]
+}

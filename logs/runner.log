@@ -1,0 +1,828 @@
+2026-07-10 19:33:35 India Standard Time | INFO     | ProcessLogBridge:_ensure_root_configured:202 - Runner logging initialized (rich console enabled)
+2026-07-10 19:33:52 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - Loading plugin: ProcessLogBridgePlugin from module: neuro_san_studio.plugins.log_bridge.process_log_bridge_plugin
+2026-07-10 19:33:52 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - Loaded plugin: ProcessLogBridgePlugin Plugin
+2026-07-10 19:33:52 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - Initializing plugin: ProcessLogBridgePlugin Plugin
+2026-07-10 19:33:52 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - [ProcessLogBridgePlugin] Initializing (PID=16040)
+2026-07-10 19:33:52 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - [ProcessLogBridgePlugin] Initialized (PID=16040)
+2026-07-10 19:33:52 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - Validating airline_disruption agent network...
+2026-07-10 19:33:52 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - Reading C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\neuro_san\deploy\logging.hocon
+2026-07-10 19:33:53 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Using Authorizer: neuro_san.internals.authorization.null.always_yes_authorizer.AlwaysYesAuthorizer
+2026-07-10 19:33:53 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - >>>>>>>>>>>> Enabling MCP service...
+2026-07-10 19:33:53 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Added agent airline_disruption to allowed http service list
+2026-07-10 19:33:53 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: ADDED network for agent airline_disruption : 1624820570432
+2026-07-10 19:33:53 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: HTTP server is running 1 instances on port 8080 with backlog 128
+2026-07-10 19:33:53 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: HTTP server idle connections timeout: 3600 seconds
+2026-07-10 19:33:53 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: HTTP server is shutting down after 1012760 requests
+2026-07-10 19:33:53 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: MCP server is running protocol 2025-06-18
+2026-07-10 19:33:53 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Starting StorageWatcher with 5 seconds period
+2026-07-10 19:33:53 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Starting RegistryStorageUpdater for ['C:\airline-disruption-neuro-san-integrated\registries\manifest.hocon'] with 5 seconds period
+2026-07-10 19:33:53 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - {"message": "Registry polling watchdog started on: C:\airline-disruption-neuro-san-integrated\registries for manifest ['C:\\airline-disruption-neuro-san-integrated\\registries\\manifest.hocon'] with polling every 1 sec", "user_id": "None", "Timestamp": "2026-07-10T19:33:53.184313", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+2026-07-10 19:33:53 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Starting TempNetworkStorageUpdater
+2026-07-10 19:33:53 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Waiting for new queues to be added for processing
+2026-07-10 19:33:53 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Starting EventWorkMonitor with 0.500000 seconds period
+2026-07-10 19:33:53 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Starting PeriodicEventInitiator with 1.000000 seconds period
+2026-07-10 19:33:53 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Found 0 periodic agent interactions
+2026-07-10 19:39:02 India Standard Time | INFO     | ProcessLogBridge:_ensure_root_configured:202 - Runner logging initialized (rich console enabled)
+2026-07-10 19:39:09 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - Loading plugin: ProcessLogBridgePlugin from module: neuro_san_studio.plugins.log_bridge.process_log_bridge_plugin
+2026-07-10 19:39:09 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - Loaded plugin: ProcessLogBridgePlugin Plugin
+2026-07-10 19:39:09 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - Initializing plugin: ProcessLogBridgePlugin Plugin
+2026-07-10 19:39:09 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - [ProcessLogBridgePlugin] Initializing (PID=18164)
+2026-07-10 19:39:09 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - [ProcessLogBridgePlugin] Initialized (PID=18164)
+2026-07-10 19:39:09 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - Validating airline_disruption agent network...
+2026-07-10 19:39:09 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - Reading C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\neuro_san\deploy\logging.hocon
+2026-07-10 19:39:09 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Using Authorizer: neuro_san.internals.authorization.null.always_yes_authorizer.AlwaysYesAuthorizer
+2026-07-10 19:39:09 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - >>>>>>>>>>>> Enabling MCP service...
+2026-07-10 19:39:09 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Added agent airline_disruption to allowed http service list
+2026-07-10 19:39:09 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: ADDED network for agent airline_disruption : 2045195730432
+2026-07-10 19:39:09 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: HTTP server is running 1 instances on port 8080 with backlog 128
+2026-07-10 19:39:09 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: HTTP server idle connections timeout: 3600 seconds
+2026-07-10 19:39:09 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: HTTP server is shutting down after 947922 requests
+2026-07-10 19:39:09 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: MCP server is running protocol 2025-06-18
+2026-07-10 19:39:09 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Starting StorageWatcher with 5 seconds period
+2026-07-10 19:39:09 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Starting RegistryStorageUpdater for ['C:\airline-disruption-neuro-san-integrated\registries\manifest.hocon'] with 5 seconds period
+2026-07-10 19:39:09 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - {"message": "Registry polling watchdog started on: C:\airline-disruption-neuro-san-integrated\registries for manifest ['C:\\airline-disruption-neuro-san-integrated\\registries\\manifest.hocon'] with polling every 1 sec", "user_id": "None", "Timestamp": "2026-07-10T19:39:09.697719", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+2026-07-10 19:39:09 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Starting TempNetworkStorageUpdater
+2026-07-10 19:39:09 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Starting EventWorkMonitor with 0.500000 seconds period
+2026-07-10 19:39:09 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Waiting for new queues to be added for processing
+2026-07-10 19:39:09 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Starting PeriodicEventInitiator with 1.000000 seconds period
+2026-07-10 19:39:09 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Found 0 periodic agent interactions
+2026-07-10 19:40:37 India Standard Time | INFO     | ProcessLogBridge:_ensure_root_configured:202 - Runner logging initialized (rich console enabled)
+2026-07-10 19:40:48 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - Loading plugin: ProcessLogBridgePlugin from module: neuro_san_studio.plugins.log_bridge.process_log_bridge_plugin
+2026-07-10 19:40:48 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - Loaded plugin: ProcessLogBridgePlugin Plugin
+2026-07-10 19:40:48 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - Initializing plugin: ProcessLogBridgePlugin Plugin
+2026-07-10 19:40:48 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - [ProcessLogBridgePlugin] Initializing (PID=28168)
+2026-07-10 19:40:48 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - [ProcessLogBridgePlugin] Initialized (PID=28168)
+2026-07-10 19:40:49 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - Validating airline_disruption agent network...
+2026-07-10 19:40:49 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - Reading C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\neuro_san\deploy\logging.hocon
+2026-07-10 19:40:49 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Using Authorizer: neuro_san.internals.authorization.null.always_yes_authorizer.AlwaysYesAuthorizer
+2026-07-10 19:40:49 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - >>>>>>>>>>>> Enabling MCP service...
+2026-07-10 19:40:49 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Added agent airline_disruption to allowed http service list
+2026-07-10 19:40:49 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: ADDED network for agent airline_disruption : 2650264518144
+2026-07-10 19:40:49 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: HTTP server is running 1 instances on port 8080 with backlog 128
+2026-07-10 19:40:49 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: HTTP server idle connections timeout: 3600 seconds
+2026-07-10 19:40:49 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: HTTP server is shutting down after 1090834 requests
+2026-07-10 19:40:49 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: MCP server is running protocol 2025-06-18
+2026-07-10 19:40:49 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Starting StorageWatcher with 5 seconds period
+2026-07-10 19:40:49 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Starting RegistryStorageUpdater for ['C:\airline-disruption-neuro-san-integrated\registries\manifest.hocon'] with 5 seconds period
+2026-07-10 19:40:49 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - {"message": "Registry polling watchdog started on: C:\airline-disruption-neuro-san-integrated\registries for manifest ['C:\\airline-disruption-neuro-san-integrated\\registries\\manifest.hocon'] with polling every 1 sec", "user_id": "None", "Timestamp": "2026-07-10T19:40:49.327518", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+2026-07-10 19:40:49 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Starting TempNetworkStorageUpdater
+2026-07-10 19:40:49 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Waiting for new queues to be added for processing
+2026-07-10 19:40:49 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Starting EventWorkMonitor with 0.500000 seconds period
+2026-07-10 19:40:49 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Starting PeriodicEventInitiator with 1.000000 seconds period
+2026-07-10 19:40:49 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Found 0 periodic agent interactions
+2026-07-10 19:46:12 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Start airline_disruption/streaming_chat
+2026-07-10 19:46:12 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - {"message": "Received a airline_disruption.StreamingChat request for 'Analyze airline disruption for flight AA347. Flight status: Delayed Origin: JFK Destination: SEA Affected airport: JFK Disruption reason: Severe Thunderstorm Current delay minutes: 95 Known weather severity: HIGH Coordinate all specialist agents and return the required JSON object only.'", "user_id": "None", "Timestamp": "2026-07-10T19:46:12.940903", "source": "HttpServer", "message_type": "Other", "request_id": "request-1"}
+2026-07-10 19:46:12 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Agent network 'airline_disruption' (ID: 2650264518144) used for operation: streaming_chat
+2026-07-10 19:46:12 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Request reporting: {}
+2026-07-10 19:46:12 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - {"message": "Done with airline_disruption.StreamingChat request for 'Analyze airline disruption for flight AA347. Flight status: Delayed Origin: JFK Destination: SEA Affected airport: JFK Disruption reason: Severe Thunderstorm Current delay minutes: 95 Known weather severity: HIGH Coordinate all specialist agents and return the required JSON object only.'", "user_id": "None", "Timestamp": "2026-07-10T19:46:12.966388", "source": "HttpServer", "message_type": "Other", "request_id": "request-1"}
+2026-07-10 19:46:12 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: 200 POST /api/v1/airline_disruption/streaming_chat (127.0.0.1) 2575.90ms
+2026-07-10 19:46:12 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Finish airline_disruption/streaming_chat
+2026-07-10 19:46:12 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Stats: {'NumProcessing': 0, 'Total': 1, 'airline_disruption/streaming_chat': 1}
+2026-07-10 19:48:35 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Start airline_disruption/function
+2026-07-10 19:48:35 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Received a airline_disruption.Function request for function request
+2026-07-10 19:48:35 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Agent network 'airline_disruption' (ID: 2650264518144) used for operation: function
+2026-07-10 19:48:35 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Done with airline_disruption.Function request for function request
+2026-07-10 19:48:35 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: 200 GET /api/v1/airline_disruption/function (127.0.0.1) 2.36ms
+2026-07-10 19:48:35 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Finish airline_disruption/function
+2026-07-10 19:49:59 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Start airline_disruption/streaming_chat
+2026-07-10 19:49:59 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - {"message": "Received a airline_disruption.StreamingChat request for 'Analyze airline disruption for flight AA347. Flight status: Delayed Origin: JFK Destination: SEA Affected airport: JFK Disruption reason: Severe Thunderstorm Current delay minutes: 95 Known weather severity: HIGH Coordinate all specialist agents and return the required JSON object only.'", "user_id": "None", "Timestamp": "2026-07-10T19:49:59.526083", "source": "HttpServer", "message_type": "Other", "request_id": "request-3"}
+2026-07-10 19:49:59 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Agent network 'airline_disruption' (ID: 2650264518144) used for operation: streaming_chat
+2026-07-10 19:49:59 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Request reporting: {}
+2026-07-10 19:49:59 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - {"message": "Done with airline_disruption.StreamingChat request for 'Analyze airline disruption for flight AA347. Flight status: Delayed Origin: JFK Destination: SEA Affected airport: JFK Disruption reason: Severe Thunderstorm Current delay minutes: 95 Known weather severity: HIGH Coordinate all specialist agents and return the required JSON object only.'", "user_id": "None", "Timestamp": "2026-07-10T19:49:59.559649", "source": "HttpServer", "message_type": "Other", "request_id": "request-3"}
+2026-07-10 19:49:59 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: 200 POST /api/v1/airline_disruption/streaming_chat (127.0.0.1) 39.04ms
+2026-07-10 19:49:59 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Finish airline_disruption/streaming_chat
+2026-07-10 19:49:59 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Stats: {'NumProcessing': 0, 'Total': 3, 'airline_disruption/streaming_chat': 2, 'airline_disruption/function': 1}
+2026-07-10 19:50:31 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Start airline_disruption/streaming_chat
+2026-07-10 19:50:31 India Standard Time | ERROR    | NeuroSan:_log:716 - NeuroSan:HttpServer: error: Invalid JSON format
+2026-07-10 19:50:31 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: 400 POST /api/v1/airline_disruption/streaming_chat (::1) 2.03ms
+2026-07-10 19:50:31 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Finish airline_disruption/streaming_chat
+2026-07-10 19:50:31 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Stats: {'NumProcessing': 0, 'Total': 4, 'airline_disruption/streaming_chat': 3, 'airline_disruption/function': 1}
+2026-07-10 19:51:19 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Start airline_disruption/streaming_chat
+2026-07-10 19:51:19 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Received a airline_disruption.StreamingChat request for 'Analyze disrupted flight AA347 and return the required JSON object.'
+2026-07-10 19:51:19 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Agent network 'airline_disruption' (ID: 2650264518144) used for operation: streaming_chat
+2026-07-10 19:51:19 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Request reporting: {}
+2026-07-10 19:51:19 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Done with airline_disruption.StreamingChat request for 'Analyze disrupted flight AA347 and return the required JSON object.'
+2026-07-10 19:51:19 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: 200 POST /api/v1/airline_disruption/streaming_chat (::1) 23.80ms
+2026-07-10 19:51:19 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Finish airline_disruption/streaming_chat
+2026-07-10 19:51:19 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Stats: {'NumProcessing': 0, 'Total': 5, 'airline_disruption/streaming_chat': 4, 'airline_disruption/function': 1}
+2026-07-10 21:30:08 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Start airline_disruption/streaming_chat
+2026-07-10 21:30:08 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - {"message": "Received a airline_disruption.StreamingChat request for 'Analyze airline disruption for flight AA347. Flight status: Delayed Origin: JFK Destination: SEA Affected airport: JFK Disruption reason: Severe Thunderstorm Current delay minutes: 95 Known weather severity: HIGH Coordinate all specialist agents and return the required JSON object only.'", "user_id": "None", "Timestamp": "2026-07-10T21:30:08.860062", "source": "HttpServer", "message_type": "Other", "request_id": "request-6"}
+2026-07-10 21:30:08 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Agent network 'airline_disruption' (ID: 2650264518144) used for operation: streaming_chat
+2026-07-10 21:30:08 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Request reporting: {}
+2026-07-10 21:30:08 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - {"message": "Done with airline_disruption.StreamingChat request for 'Analyze airline disruption for flight AA347. Flight status: Delayed Origin: JFK Destination: SEA Affected airport: JFK Disruption reason: Severe Thunderstorm Current delay minutes: 95 Known weather severity: HIGH Coordinate all specialist agents and return the required JSON object only.'", "user_id": "None", "Timestamp": "2026-07-10T21:30:08.888151", "source": "HttpServer", "message_type": "Other", "request_id": "request-6"}
+2026-07-10 21:30:08 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: 200 POST /api/v1/airline_disruption/streaming_chat (127.0.0.1) 35.20ms
+2026-07-10 21:30:08 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Finish airline_disruption/streaming_chat
+2026-07-10 21:30:08 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Stats: {'NumProcessing': 0, 'Total': 6, 'airline_disruption/streaming_chat': 5, 'airline_disruption/function': 1}
+2026-07-10 21:34:18 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Start airline_disruption/streaming_chat
+2026-07-10 21:34:18 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - {"message": "Received a airline_disruption.StreamingChat request for 'Analyze airline disruption for flight AA347. Flight status: Delayed Origin: JFK Destination: SEA Affected airport: JFK Disruption reason: Severe Thunderstorm Current delay minutes: 95 Known weather severity: HIGH Coordinate all specialist agents and return the required JSON object only.'", "user_id": "None", "Timestamp": "2026-07-10T21:34:18.628671", "source": "HttpServer", "message_type": "Other", "request_id": "request-7"}
+2026-07-10 21:34:18 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Agent network 'airline_disruption' (ID: 2650264518144) used for operation: streaming_chat
+2026-07-10 21:34:18 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Request reporting: {}
+2026-07-10 21:34:18 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - {"message": "Done with airline_disruption.StreamingChat request for 'Analyze airline disruption for flight AA347. Flight status: Delayed Origin: JFK Destination: SEA Affected airport: JFK Disruption reason: Severe Thunderstorm Current delay minutes: 95 Known weather severity: HIGH Coordinate all specialist agents and return the required JSON object only.'", "user_id": "None", "Timestamp": "2026-07-10T21:34:18.651127", "source": "HttpServer", "message_type": "Other", "request_id": "request-7"}
+2026-07-10 21:34:18 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: 200 POST /api/v1/airline_disruption/streaming_chat (127.0.0.1) 25.65ms
+2026-07-10 21:34:18 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Finish airline_disruption/streaming_chat
+2026-07-10 21:34:18 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Stats: {'NumProcessing': 0, 'Total': 7, 'airline_disruption/streaming_chat': 6, 'airline_disruption/function': 1}
+2026-07-10 21:38:18 India Standard Time | ERROR    | NeuroSan:_log:716 - NeuroSan - --- Logging error ---
+2026-07-10 21:38:18 India Standard Time | ERROR    | NeuroSan:_log:716 - NeuroSan - Traceback (most recent call last):
+2026-07-10 21:38:18 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\Users\DELL\AppData\Local\Python\pythoncore-3.13-64\Lib\logging\__init__.py", line 1154, in emit
+2026-07-10 21:38:18 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     stream.write(msg + self.terminator)
+2026-07-10 21:38:18 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+2026-07-10 21:38:18 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\Users\DELL\AppData\Local\Python\pythoncore-3.13-64\Lib\encodings\cp1252.py", line 19, in encode
+2026-07-10 21:38:18 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+2026-07-10 21:38:18 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -            ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-07-10 21:38:18 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f514' in position 13: character maps to <undefined>
+2026-07-10 21:38:18 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - Call stack:
+2026-07-10 21:38:18 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\Users\DELL\AppData\Local\Python\pythoncore-3.13-64\Lib\threading.py", line 1015, in _bootstrap
+2026-07-10 21:38:18 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     self._bootstrap_inner()
+2026-07-10 21:38:18 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\Users\DELL\AppData\Local\Python\pythoncore-3.13-64\Lib\threading.py", line 1044, in _bootstrap_inner
+2026-07-10 21:38:18 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     self.run()
+2026-07-10 21:38:18 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\watchdog\observers\api.py", line 213, in run
+2026-07-10 21:38:18 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     self.dispatch_events(self.event_queue)
+2026-07-10 21:38:18 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\watchdog\observers\api.py", line 391, in dispatch_events
+2026-07-10 21:38:18 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     handler.dispatch(event)
+2026-07-10 21:38:18 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\watchdog\events.py", line 217, in dispatch
+2026-07-10 21:38:18 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - getattr(self, f"on_{event.event_type}")(event)
+2026-07-10 21:38:18 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\neuro_san\service\watcher\registries\registry_change_handler.py", line 51, in on_modified
+2026-07-10 21:38:18 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     self.handle_event(RegistryChangeHandler.MODIFIED, event.src_path)
+2026-07-10 21:38:18 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\neuro_san\service\watcher\registries\registry_change_handler.py", line 73, in handle_event
+2026-07-10 21:38:18 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     self.logger.info("\U0001f514 File %s: %s", event_name, src_path)
+2026-07-10 21:38:18 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - Message: '\U0001f514 File %s: %s'
+2026-07-10 21:38:18 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - Arguments: ('modified', 'C:\\airline-disruption-neuro-san-integrated\\registries\\airline_disruption.hocon')
+2026-07-10 21:38:18 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:Http Server: Observed events: modified 1, added 0, deleted 0
+2026-07-10 21:38:18 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:Http Server: Updating manifest file: ['C:\airline-disruption-neuro-san-integrated\registries\manifest.hocon']
+2026-07-10 21:38:18 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:Http Server: Validating airline_disruption agent network...
+2026-07-10 21:38:18 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Reset service for modified agent airline_disruption
+2026-07-10 21:38:18 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:Http Server: REPLACED network for agent airline_disruption : 2650266722352
+2026-07-10 21:38:32 India Standard Time | ERROR    | NeuroSan:_log:716 - NeuroSan - --- Logging error ---
+2026-07-10 21:38:32 India Standard Time | ERROR    | NeuroSan:_log:716 - NeuroSan - Traceback (most recent call last):
+2026-07-10 21:38:32 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\Users\DELL\AppData\Local\Python\pythoncore-3.13-64\Lib\logging\__init__.py", line 1154, in emit
+2026-07-10 21:38:32 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     stream.write(msg + self.terminator)
+2026-07-10 21:38:32 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+2026-07-10 21:38:32 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\Users\DELL\AppData\Local\Python\pythoncore-3.13-64\Lib\encodings\cp1252.py", line 19, in encode
+2026-07-10 21:38:32 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+2026-07-10 21:38:32 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -            ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-07-10 21:38:32 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f514' in position 13: character maps to <undefined>
+2026-07-10 21:38:32 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - Call stack:
+2026-07-10 21:38:32 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\Users\DELL\AppData\Local\Python\pythoncore-3.13-64\Lib\threading.py", line 1015, in _bootstrap
+2026-07-10 21:38:32 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     self._bootstrap_inner()
+2026-07-10 21:38:32 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\Users\DELL\AppData\Local\Python\pythoncore-3.13-64\Lib\threading.py", line 1044, in _bootstrap_inner
+2026-07-10 21:38:32 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     self.run()
+2026-07-10 21:38:32 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\watchdog\observers\api.py", line 213, in run
+2026-07-10 21:38:32 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     self.dispatch_events(self.event_queue)
+2026-07-10 21:38:32 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\watchdog\observers\api.py", line 391, in dispatch_events
+2026-07-10 21:38:32 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     handler.dispatch(event)
+2026-07-10 21:38:32 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\watchdog\events.py", line 217, in dispatch
+2026-07-10 21:38:32 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - getattr(self, f"on_{event.event_type}")(event)
+2026-07-10 21:38:32 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\neuro_san\service\watcher\registries\registry_change_handler.py", line 51, in on_modified
+2026-07-10 21:38:32 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     self.handle_event(RegistryChangeHandler.MODIFIED, event.src_path)
+2026-07-10 21:38:32 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\neuro_san\service\watcher\registries\registry_change_handler.py", line 73, in handle_event
+2026-07-10 21:38:32 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     self.logger.info("\U0001f514 File %s: %s", event_name, src_path)
+2026-07-10 21:38:32 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - Message: '\U0001f514 File %s: %s'
+2026-07-10 21:38:32 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - Arguments: ('modified', 'C:\\airline-disruption-neuro-san-integrated\\registries\\airline_disruption.hocon')
+2026-07-10 21:38:33 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:Http Server: Observed events: modified 1, added 0, deleted 0
+2026-07-10 21:38:33 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:Http Server: Updating manifest file: ['C:\airline-disruption-neuro-san-integrated\registries\manifest.hocon']
+2026-07-10 21:38:34 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:Http Server: Validating airline_disruption agent network...
+2026-07-10 21:38:34 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Reset service for modified agent airline_disruption
+2026-07-10 21:38:34 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:Http Server: REPLACED network for agent airline_disruption : 2650268155376
+2026-07-10 21:40:32 India Standard Time | ERROR    | NeuroSan:_log:716 - NeuroSan - --- Logging error ---
+2026-07-10 21:40:32 India Standard Time | ERROR    | NeuroSan:_log:716 - NeuroSan - Traceback (most recent call last):
+2026-07-10 21:40:32 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\Users\DELL\AppData\Local\Python\pythoncore-3.13-64\Lib\logging\__init__.py", line 1154, in emit
+2026-07-10 21:40:32 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     stream.write(msg + self.terminator)
+2026-07-10 21:40:32 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+2026-07-10 21:40:32 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\Users\DELL\AppData\Local\Python\pythoncore-3.13-64\Lib\encodings\cp1252.py", line 19, in encode
+2026-07-10 21:40:32 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+2026-07-10 21:40:32 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -            ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-07-10 21:40:32 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f514' in position 13: character maps to <undefined>
+2026-07-10 21:40:32 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - Call stack:
+2026-07-10 21:40:32 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\Users\DELL\AppData\Local\Python\pythoncore-3.13-64\Lib\threading.py", line 1015, in _bootstrap
+2026-07-10 21:40:32 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     self._bootstrap_inner()
+2026-07-10 21:40:32 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\Users\DELL\AppData\Local\Python\pythoncore-3.13-64\Lib\threading.py", line 1044, in _bootstrap_inner
+2026-07-10 21:40:32 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     self.run()
+2026-07-10 21:40:32 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\watchdog\observers\api.py", line 213, in run
+2026-07-10 21:40:32 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     self.dispatch_events(self.event_queue)
+2026-07-10 21:40:32 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\watchdog\observers\api.py", line 391, in dispatch_events
+2026-07-10 21:40:32 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     handler.dispatch(event)
+2026-07-10 21:40:32 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\watchdog\events.py", line 217, in dispatch
+2026-07-10 21:40:32 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - getattr(self, f"on_{event.event_type}")(event)
+2026-07-10 21:40:32 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\neuro_san\service\watcher\registries\registry_change_handler.py", line 51, in on_modified
+2026-07-10 21:40:32 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     self.handle_event(RegistryChangeHandler.MODIFIED, event.src_path)
+2026-07-10 21:40:32 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\neuro_san\service\watcher\registries\registry_change_handler.py", line 73, in handle_event
+2026-07-10 21:40:32 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     self.logger.info("\U0001f514 File %s: %s", event_name, src_path)
+2026-07-10 21:40:32 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - Message: '\U0001f514 File %s: %s'
+2026-07-10 21:40:32 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - Arguments: ('modified', 'C:\\airline-disruption-neuro-san-integrated\\registries\\airline_disruption.hocon')
+2026-07-10 21:40:33 India Standard Time | ERROR    | NeuroSan:_log:716 - NeuroSan - --- Logging error ---
+2026-07-10 21:40:33 India Standard Time | ERROR    | NeuroSan:_log:716 - NeuroSan - Traceback (most recent call last):
+2026-07-10 21:40:33 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\Users\DELL\AppData\Local\Python\pythoncore-3.13-64\Lib\logging\__init__.py", line 1154, in emit
+2026-07-10 21:40:33 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     stream.write(msg + self.terminator)
+2026-07-10 21:40:33 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+2026-07-10 21:40:33 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\Users\DELL\AppData\Local\Python\pythoncore-3.13-64\Lib\encodings\cp1252.py", line 19, in encode
+2026-07-10 21:40:33 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+2026-07-10 21:40:33 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -            ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-07-10 21:40:33 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f514' in position 13: character maps to <undefined>
+2026-07-10 21:40:33 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - Call stack:
+2026-07-10 21:40:33 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\Users\DELL\AppData\Local\Python\pythoncore-3.13-64\Lib\threading.py", line 1015, in _bootstrap
+2026-07-10 21:40:33 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     self._bootstrap_inner()
+2026-07-10 21:40:33 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\Users\DELL\AppData\Local\Python\pythoncore-3.13-64\Lib\threading.py", line 1044, in _bootstrap_inner
+2026-07-10 21:40:33 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     self.run()
+2026-07-10 21:40:33 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\watchdog\observers\api.py", line 213, in run
+2026-07-10 21:40:33 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     self.dispatch_events(self.event_queue)
+2026-07-10 21:40:33 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\watchdog\observers\api.py", line 391, in dispatch_events
+2026-07-10 21:40:33 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     handler.dispatch(event)
+2026-07-10 21:40:33 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\watchdog\events.py", line 217, in dispatch
+2026-07-10 21:40:33 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - getattr(self, f"on_{event.event_type}")(event)
+2026-07-10 21:40:33 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\neuro_san\service\watcher\registries\registry_change_handler.py", line 51, in on_modified
+2026-07-10 21:40:33 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     self.handle_event(RegistryChangeHandler.MODIFIED, event.src_path)
+2026-07-10 21:40:33 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\neuro_san\service\watcher\registries\registry_change_handler.py", line 73, in handle_event
+2026-07-10 21:40:33 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     self.logger.info("\U0001f514 File %s: %s", event_name, src_path)
+2026-07-10 21:40:33 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - Message: '\U0001f514 File %s: %s'
+2026-07-10 21:40:33 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - Arguments: ('modified', 'C:\\airline-disruption-neuro-san-integrated\\registries\\airline_disruption.hocon')
+2026-07-10 21:40:33 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:Http Server: Observed events: modified 2, added 0, deleted 0
+2026-07-10 21:40:33 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:Http Server: Updating manifest file: ['C:\airline-disruption-neuro-san-integrated\registries\manifest.hocon']
+2026-07-10 21:40:33 India Standard Time | ERROR    | NeuroSan:_log:716 - NeuroSan:Http Server: Parse error in registry item airline_disruption.hocon. Skipping. - Expected '}', found '{'  (at char 5), (line:2, col:4)
+2026-07-10 21:40:33 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - {"message": "manifest registry airline_disruption.hocon not found in C:\airline-disruption-neuro-san-integrated\registries\manifest.hocon", "user_id": "None", "Timestamp": "2026-07-10T21:40:33.683685", "source": "Http Server", "message_type": "Error", "request_id": "request-7"}
+2026-07-10 21:40:33 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Removed agent airline_disruption from allowed http service list
+2026-07-10 21:40:33 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:Http Server: REMOVED network for agent airline_disruption : 2650268155376
+2026-07-10 21:42:10 India Standard Time | ERROR    | NeuroSan:_log:716 - NeuroSan - --- Logging error ---
+2026-07-10 21:42:10 India Standard Time | ERROR    | NeuroSan:_log:716 - NeuroSan - Traceback (most recent call last):
+2026-07-10 21:42:10 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\Users\DELL\AppData\Local\Python\pythoncore-3.13-64\Lib\logging\__init__.py", line 1154, in emit
+2026-07-10 21:42:10 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     stream.write(msg + self.terminator)
+2026-07-10 21:42:10 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+2026-07-10 21:42:10 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\Users\DELL\AppData\Local\Python\pythoncore-3.13-64\Lib\encodings\cp1252.py", line 19, in encode
+2026-07-10 21:42:10 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+2026-07-10 21:42:10 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -            ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-07-10 21:42:10 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f514' in position 13: character maps to <undefined>
+2026-07-10 21:42:10 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - Call stack:
+2026-07-10 21:42:10 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\Users\DELL\AppData\Local\Python\pythoncore-3.13-64\Lib\threading.py", line 1015, in _bootstrap
+2026-07-10 21:42:10 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     self._bootstrap_inner()
+2026-07-10 21:42:10 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\Users\DELL\AppData\Local\Python\pythoncore-3.13-64\Lib\threading.py", line 1044, in _bootstrap_inner
+2026-07-10 21:42:10 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     self.run()
+2026-07-10 21:42:10 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\watchdog\observers\api.py", line 213, in run
+2026-07-10 21:42:10 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     self.dispatch_events(self.event_queue)
+2026-07-10 21:42:10 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\watchdog\observers\api.py", line 391, in dispatch_events
+2026-07-10 21:42:10 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     handler.dispatch(event)
+2026-07-10 21:42:10 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\watchdog\events.py", line 217, in dispatch
+2026-07-10 21:42:10 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - getattr(self, f"on_{event.event_type}")(event)
+2026-07-10 21:42:10 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\neuro_san\service\watcher\registries\registry_change_handler.py", line 51, in on_modified
+2026-07-10 21:42:10 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     self.handle_event(RegistryChangeHandler.MODIFIED, event.src_path)
+2026-07-10 21:42:10 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\neuro_san\service\watcher\registries\registry_change_handler.py", line 73, in handle_event
+2026-07-10 21:42:10 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     self.logger.info("\U0001f514 File %s: %s", event_name, src_path)
+2026-07-10 21:42:10 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - Message: '\U0001f514 File %s: %s'
+2026-07-10 21:42:10 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - Arguments: ('modified', 'C:\\airline-disruption-neuro-san-integrated\\registries\\airline_disruption.hocon')
+2026-07-10 21:42:13 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:Http Server: Observed events: modified 1, added 0, deleted 0
+2026-07-10 21:42:13 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:Http Server: Updating manifest file: ['C:\airline-disruption-neuro-san-integrated\registries\manifest.hocon']
+2026-07-10 21:42:13 India Standard Time | ERROR    | NeuroSan:_log:716 - NeuroSan:Http Server: Parse error in registry item airline_disruption.hocon. Skipping. - Expected '}', found '{'  (at char 5), (line:2, col:4)
+2026-07-10 21:42:13 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - {"message": "manifest registry airline_disruption.hocon not found in C:\airline-disruption-neuro-san-integrated\registries\manifest.hocon", "user_id": "None", "Timestamp": "2026-07-10T21:42:13.689148", "source": "Http Server", "message_type": "Error", "request_id": "request-7"}
+2026-07-10 21:42:41 India Standard Time | ERROR    | NeuroSan:_log:716 - NeuroSan - --- Logging error ---
+2026-07-10 21:42:41 India Standard Time | ERROR    | NeuroSan:_log:716 - NeuroSan - Traceback (most recent call last):
+2026-07-10 21:42:41 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\Users\DELL\AppData\Local\Python\pythoncore-3.13-64\Lib\logging\__init__.py", line 1154, in emit
+2026-07-10 21:42:41 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     stream.write(msg + self.terminator)
+2026-07-10 21:42:41 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+2026-07-10 21:42:41 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\Users\DELL\AppData\Local\Python\pythoncore-3.13-64\Lib\encodings\cp1252.py", line 19, in encode
+2026-07-10 21:42:41 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+2026-07-10 21:42:41 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -            ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-07-10 21:42:41 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f514' in position 13: character maps to <undefined>
+2026-07-10 21:42:41 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - Call stack:
+2026-07-10 21:42:41 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\Users\DELL\AppData\Local\Python\pythoncore-3.13-64\Lib\threading.py", line 1015, in _bootstrap
+2026-07-10 21:42:41 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     self._bootstrap_inner()
+2026-07-10 21:42:41 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\Users\DELL\AppData\Local\Python\pythoncore-3.13-64\Lib\threading.py", line 1044, in _bootstrap_inner
+2026-07-10 21:42:41 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     self.run()
+2026-07-10 21:42:41 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\watchdog\observers\api.py", line 213, in run
+2026-07-10 21:42:41 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     self.dispatch_events(self.event_queue)
+2026-07-10 21:42:41 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\watchdog\observers\api.py", line 391, in dispatch_events
+2026-07-10 21:42:41 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     handler.dispatch(event)
+2026-07-10 21:42:41 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\watchdog\events.py", line 217, in dispatch
+2026-07-10 21:42:41 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - getattr(self, f"on_{event.event_type}")(event)
+2026-07-10 21:42:41 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\neuro_san\service\watcher\registries\registry_change_handler.py", line 51, in on_modified
+2026-07-10 21:42:41 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     self.handle_event(RegistryChangeHandler.MODIFIED, event.src_path)
+2026-07-10 21:42:41 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\neuro_san\service\watcher\registries\registry_change_handler.py", line 73, in handle_event
+2026-07-10 21:42:41 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     self.logger.info("\U0001f514 File %s: %s", event_name, src_path)
+2026-07-10 21:42:41 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - Message: '\U0001f514 File %s: %s'
+2026-07-10 21:42:41 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - Arguments: ('modified', 'C:\\airline-disruption-neuro-san-integrated\\registries\\airline_disruption.hocon')
+2026-07-10 21:42:43 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:Http Server: Observed events: modified 1, added 0, deleted 0
+2026-07-10 21:42:43 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:Http Server: Updating manifest file: ['C:\airline-disruption-neuro-san-integrated\registries\manifest.hocon']
+2026-07-10 21:42:44 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:Http Server: Validating airline_disruption agent network...
+2026-07-10 21:42:44 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Added agent airline_disruption to allowed http service list
+2026-07-10 21:42:44 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:Http Server: ADDED network for agent airline_disruption : 2650288109904
+2026-07-10 21:42:53 India Standard Time | ERROR    | NeuroSan:_log:716 - NeuroSan - --- Logging error ---
+2026-07-10 21:42:53 India Standard Time | ERROR    | NeuroSan:_log:716 - NeuroSan - Traceback (most recent call last):
+2026-07-10 21:42:53 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\Users\DELL\AppData\Local\Python\pythoncore-3.13-64\Lib\logging\__init__.py", line 1154, in emit
+2026-07-10 21:42:53 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     stream.write(msg + self.terminator)
+2026-07-10 21:42:53 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+2026-07-10 21:42:53 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\Users\DELL\AppData\Local\Python\pythoncore-3.13-64\Lib\encodings\cp1252.py", line 19, in encode
+2026-07-10 21:42:53 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+2026-07-10 21:42:53 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -            ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-07-10 21:42:53 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f514' in position 13: character maps to <undefined>
+2026-07-10 21:42:53 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - Call stack:
+2026-07-10 21:42:53 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\Users\DELL\AppData\Local\Python\pythoncore-3.13-64\Lib\threading.py", line 1015, in _bootstrap
+2026-07-10 21:42:53 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     self._bootstrap_inner()
+2026-07-10 21:42:53 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\Users\DELL\AppData\Local\Python\pythoncore-3.13-64\Lib\threading.py", line 1044, in _bootstrap_inner
+2026-07-10 21:42:53 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     self.run()
+2026-07-10 21:42:53 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\watchdog\observers\api.py", line 213, in run
+2026-07-10 21:42:53 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     self.dispatch_events(self.event_queue)
+2026-07-10 21:42:53 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\watchdog\observers\api.py", line 391, in dispatch_events
+2026-07-10 21:42:53 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     handler.dispatch(event)
+2026-07-10 21:42:53 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\watchdog\events.py", line 217, in dispatch
+2026-07-10 21:42:53 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - getattr(self, f"on_{event.event_type}")(event)
+2026-07-10 21:42:53 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\neuro_san\service\watcher\registries\registry_change_handler.py", line 51, in on_modified
+2026-07-10 21:42:53 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     self.handle_event(RegistryChangeHandler.MODIFIED, event.src_path)
+2026-07-10 21:42:53 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\neuro_san\service\watcher\registries\registry_change_handler.py", line 73, in handle_event
+2026-07-10 21:42:53 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     self.logger.info("\U0001f514 File %s: %s", event_name, src_path)
+2026-07-10 21:42:53 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - Message: '\U0001f514 File %s: %s'
+2026-07-10 21:42:53 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - Arguments: ('modified', 'C:\\airline-disruption-neuro-san-integrated\\registries\\airline_disruption.hocon')
+2026-07-10 21:42:53 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:Http Server: Observed events: modified 1, added 0, deleted 0
+2026-07-10 21:42:53 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:Http Server: Updating manifest file: ['C:\airline-disruption-neuro-san-integrated\registries\manifest.hocon']
+2026-07-10 21:42:54 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:Http Server: Validating airline_disruption agent network...
+2026-07-10 21:42:54 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Reset service for modified agent airline_disruption
+2026-07-10 21:42:54 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:Http Server: REPLACED network for agent airline_disruption : 2650288109136
+2026-07-10 21:43:12 India Standard Time | ERROR    | NeuroSan:_log:716 - NeuroSan - --- Logging error ---
+2026-07-10 21:43:12 India Standard Time | ERROR    | NeuroSan:_log:716 - NeuroSan - Traceback (most recent call last):
+2026-07-10 21:43:12 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\Users\DELL\AppData\Local\Python\pythoncore-3.13-64\Lib\logging\__init__.py", line 1154, in emit
+2026-07-10 21:43:12 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     stream.write(msg + self.terminator)
+2026-07-10 21:43:12 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+2026-07-10 21:43:12 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\Users\DELL\AppData\Local\Python\pythoncore-3.13-64\Lib\encodings\cp1252.py", line 19, in encode
+2026-07-10 21:43:12 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+2026-07-10 21:43:12 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -            ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-07-10 21:43:12 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f514' in position 13: character maps to <undefined>
+2026-07-10 21:43:12 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - Call stack:
+2026-07-10 21:43:12 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\Users\DELL\AppData\Local\Python\pythoncore-3.13-64\Lib\threading.py", line 1015, in _bootstrap
+2026-07-10 21:43:12 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     self._bootstrap_inner()
+2026-07-10 21:43:12 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\Users\DELL\AppData\Local\Python\pythoncore-3.13-64\Lib\threading.py", line 1044, in _bootstrap_inner
+2026-07-10 21:43:12 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     self.run()
+2026-07-10 21:43:12 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\watchdog\observers\api.py", line 213, in run
+2026-07-10 21:43:12 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     self.dispatch_events(self.event_queue)
+2026-07-10 21:43:12 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\watchdog\observers\api.py", line 391, in dispatch_events
+2026-07-10 21:43:12 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     handler.dispatch(event)
+2026-07-10 21:43:12 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\watchdog\events.py", line 217, in dispatch
+2026-07-10 21:43:12 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - getattr(self, f"on_{event.event_type}")(event)
+2026-07-10 21:43:12 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\neuro_san\service\watcher\registries\registry_change_handler.py", line 51, in on_modified
+2026-07-10 21:43:12 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     self.handle_event(RegistryChangeHandler.MODIFIED, event.src_path)
+2026-07-10 21:43:12 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\neuro_san\service\watcher\registries\registry_change_handler.py", line 73, in handle_event
+2026-07-10 21:43:12 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     self.logger.info("\U0001f514 File %s: %s", event_name, src_path)
+2026-07-10 21:43:12 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - Message: '\U0001f514 File %s: %s'
+2026-07-10 21:43:12 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - Arguments: ('modified', 'C:\\airline-disruption-neuro-san-integrated\\registries\\airline_disruption.hocon')
+2026-07-10 21:43:13 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:Http Server: Observed events: modified 1, added 0, deleted 0
+2026-07-10 21:43:13 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:Http Server: Updating manifest file: ['C:\airline-disruption-neuro-san-integrated\registries\manifest.hocon']
+2026-07-10 21:43:14 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:Http Server: Validating airline_disruption agent network...
+2026-07-10 21:43:14 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Reset service for modified agent airline_disruption
+2026-07-10 21:43:14 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:Http Server: REPLACED network for agent airline_disruption : 2650269323328
+2026-07-10 21:48:05 India Standard Time | INFO     | ProcessLogBridge:_ensure_root_configured:202 - Runner logging initialized (rich console enabled)
+2026-07-10 21:48:18 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - Loading plugin: ProcessLogBridgePlugin from module: neuro_san_studio.plugins.log_bridge.process_log_bridge_plugin
+2026-07-10 21:48:18 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - Loaded plugin: ProcessLogBridgePlugin Plugin
+2026-07-10 21:48:18 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - Initializing plugin: ProcessLogBridgePlugin Plugin
+2026-07-10 21:48:18 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - [ProcessLogBridgePlugin] Initializing (PID=5288)
+2026-07-10 21:48:18 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - [ProcessLogBridgePlugin] Initialized (PID=5288)
+2026-07-10 21:48:18 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - Validating airline_disruption agent network...
+2026-07-10 21:48:18 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - Reading C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\neuro_san\deploy\logging.hocon
+2026-07-10 21:48:18 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Using Authorizer: neuro_san.internals.authorization.null.always_yes_authorizer.AlwaysYesAuthorizer
+2026-07-10 21:48:18 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - >>>>>>>>>>>> Enabling MCP service...
+2026-07-10 21:48:18 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Added agent airline_disruption to allowed http service list
+2026-07-10 21:48:18 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: ADDED network for agent airline_disruption : 2589921197568
+2026-07-10 21:48:18 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: HTTP server is running 1 instances on port 8080 with backlog 128
+2026-07-10 21:48:18 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: HTTP server idle connections timeout: 3600 seconds
+2026-07-10 21:48:18 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: HTTP server is shutting down after 1039597 requests
+2026-07-10 21:48:18 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: MCP server is running protocol 2025-06-18
+2026-07-10 21:48:18 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Starting StorageWatcher with 5 seconds period
+2026-07-10 21:48:18 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Starting RegistryStorageUpdater for ['C:\airline-disruption-neuro-san-integrated\registries\manifest.hocon'] with 5 seconds period
+2026-07-10 21:48:18 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - {"message": "Registry polling watchdog started on: C:\airline-disruption-neuro-san-integrated\registries for manifest ['C:\\airline-disruption-neuro-san-integrated\\registries\\manifest.hocon'] with polling every 1 sec", "user_id": "None", "Timestamp": "2026-07-10T21:48:18.670143", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+2026-07-10 21:48:18 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Starting TempNetworkStorageUpdater
+2026-07-10 21:48:18 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Starting EventWorkMonitor with 0.500000 seconds period
+2026-07-10 21:48:18 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Waiting for new queues to be added for processing
+2026-07-10 21:48:18 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Starting PeriodicEventInitiator with 1.000000 seconds period
+2026-07-10 21:48:18 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Found 0 periodic agent interactions
+2026-07-10 21:49:16 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Start airline_disruption/streaming_chat
+2026-07-10 21:49:16 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - {"message": "Received a airline_disruption.StreamingChat request for 'Analyze airline disruption for flight AA347. Flight status: Delayed Origin: JFK Destination: SEA Affected airport: JFK Disruption reason: Severe Thunderstorm Current delay minutes: 95 Known weather severity: HIGH Coordinate all specialist agents and return the required JSON object only.'", "user_id": "None", "Timestamp": "2026-07-10T21:49:16.050146", "source": "HttpServer", "message_type": "Other", "request_id": "request-1"}
+2026-07-10 21:49:16 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Agent network 'airline_disruption' (ID: 2589921197568) used for operation: streaming_chat
+2026-07-10 21:50:48 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Task from orchestrator:RunContextRunnable.invoke_agent_chain was cancelled
+2026-07-10 21:50:48 India Standard Time | WARNING  | NeuroSan:_log:718 - NeuroSan:HttpServer: Agent 'orchestrator' timed out: exceeded max_execution_seconds=90s and was cancelled.
+2026-07-10 21:50:48 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Task 2589923191008/request-1:DataDrivenChatSession.streaming_chat is not present in the tasks table.
+2026-07-10 21:50:48 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan: time_taken_in_seconds includes overhead from Langchain and Neuro SAN
+2026-07-10 21:50:48 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: {"token_accounting": {"time_taken_in_seconds": 90.01475167274475, "caveats": ["External agent token usage is not included.", "Token counts are approximate and estimated using tiktoken."], "models": {}}}
+2026-07-10 21:50:48 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - {"message": "Done with airline_disruption.StreamingChat request for 'Analyze airline disruption for flight AA347. Flight status: Delayed Origin: JFK Destination: SEA Affected airport: JFK Disruption reason: Severe Thunderstorm Current delay minutes: 95 Known weather severity: HIGH Coordinate all specialist agents and return the required JSON object only.'", "user_id": "None", "Timestamp": "2026-07-10T21:50:48.885175", "source": "HttpServer", "message_type": "Other", "request_id": "request-1"}
+2026-07-10 21:50:48 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: 200 POST /api/v1/airline_disruption/streaming_chat (127.0.0.1) 95507.48ms
+2026-07-10 21:50:48 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Finish airline_disruption/streaming_chat
+2026-07-10 21:50:48 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Stats: {'NumProcessing': 0, 'Total': 1, 'airline_disruption/streaming_chat': 1}
+2026-07-10 21:53:04 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Start airline_disruption/streaming_chat
+2026-07-10 21:53:04 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - {"message": "Received a airline_disruption.StreamingChat request for 'Analyze airline disruption for flight AA347. Flight status: Delayed Origin: JFK Destination: SEA Affected airport: JFK Disruption reason: Severe Thunderstorm Current delay minutes: 95 Known weather severity: HIGH Coordinate all specialist agents and return the required JSON object only.'", "user_id": "None", "Timestamp": "2026-07-10T21:53:04.940736", "source": "HttpServer", "message_type": "Other", "request_id": "request-2"}
+2026-07-10 21:53:04 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Agent network 'airline_disruption' (ID: 2589921197568) used for operation: streaming_chat
+2026-07-10 21:54:13 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Calling class airline_tools.WeatherLookup
+2026-07-10 21:54:13 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Calling class airline_tools.ForecastLookup
+2026-07-10 21:54:36 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Task from orchestrator.weather_agent:RunContextRunnable.invoke_agent_chain was cancelled
+2026-07-10 21:54:36 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Task from orchestrator.prediction_agent:RunContextRunnable.invoke_agent_chain was cancelled
+2026-07-10 21:54:36 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Task from orchestrator.recovery_agent:RunContextRunnable.invoke_agent_chain was cancelled
+2026-07-10 21:54:36 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Task from orchestrator:RunContextRunnable.invoke_agent_chain was cancelled
+2026-07-10 21:54:36 India Standard Time | WARNING  | NeuroSan:_log:718 - NeuroSan:HttpServer: Agent 'orchestrator' timed out: exceeded max_execution_seconds=90s and was cancelled.
+2026-07-10 21:54:36 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan: time_taken_in_seconds includes overhead from Langchain and Neuro SAN
+2026-07-10 21:54:36 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: {"token_accounting": {"total_tokens": 1037, "prompt_tokens": 843, "completion_tokens": 194, "successful_requests": 2, "empty_responses": 0, "total_cost": 0.0, "time_taken_in_seconds": 90.02543830871582, "caveats": ["External agent token usage is not included.", "Token counts are approximate and estimated using tiktoken."], "models": {"ollama": {"llama3.1:8b": {"total_tokens": 1037, "prompt_tokens": 843, "completion_tokens": 194, "successful_requests": 2, "empty_responses": 0, "total_cost": 0.0, "time_taken_in_seconds": 61.23984241485596}}}}}
+2026-07-10 21:54:36 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - {"message": "Done with airline_disruption.StreamingChat request for 'Analyze airline disruption for flight AA347. Flight status: Delayed Origin: JFK Destination: SEA Affected airport: JFK Disruption reason: Severe Thunderstorm Current delay minutes: 95 Known weather severity: HIGH Coordinate all specialist agents and return the required JSON object only.'", "user_id": "None", "Timestamp": "2026-07-10T21:54:36.468344", "source": "HttpServer", "message_type": "Other", "request_id": "request-2"}
+2026-07-10 21:54:36 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: 200 POST /api/v1/airline_disruption/streaming_chat (127.0.0.1) 91534.91ms
+2026-07-10 21:54:36 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Finish airline_disruption/streaming_chat
+2026-07-10 21:54:36 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Stats: {'NumProcessing': 0, 'Total': 2, 'airline_disruption/streaming_chat': 2}
+2026-07-10 21:56:19 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Cleaning up plugin: ProcessLogBridgePlugin Plugin
+2026-07-10 21:56:19 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: [ProcessLogBridgePlugin] Cleaning up
+2026-07-10 21:56:19 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: [ProcessLogBridgePlugin] Cleanup complete
+2026-07-10 21:56:19 India Standard Time | ERROR    | NeuroSan:_log:716 - NeuroSan - Traceback (most recent call last):
+2026-07-10 21:56:19 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "<frozen runpy>", line 203, in _run_module_as_main
+2026-07-10 21:56:19 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "<frozen runpy>", line 88, in _run_code
+2026-07-10 21:56:19 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\neuro_san_studio\runner\neuro_san_server_wrapper.py", line 89, in <module>
+2026-07-10 21:56:19 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     wrapper.run()
+2026-07-10 21:56:19 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     ~~~~~~~~~~~^^
+2026-07-10 21:56:19 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\neuro_san_studio\runner\neuro_san_server_wrapper.py", line 80, in run
+2026-07-10 21:56:19 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     ServerMainLoop().main_loop()
+2026-07-10 21:56:19 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     ~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+2026-07-10 21:56:19 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\neuro_san\service\main_loop\server_main_loop.py", line 298, in main_loop
+2026-07-10 21:56:19 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     self.http_server.start(components_to_start)
+2026-07-10 21:56:19 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+2026-07-10 21:56:19 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\neuro_san\service\http\server\http_server.py", line 194, in start
+2026-07-10 21:56:19 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     tornado.ioloop.IOLoop.current().start()
+2026-07-10 21:56:19 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+2026-07-10 21:56:19 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\tornado\platform\asyncio.py", line 211, in start
+2026-07-10 21:56:19 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     self.asyncio_loop.run_forever()
+2026-07-10 21:56:19 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+2026-07-10 21:56:19 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\Users\DELL\AppData\Local\Python\pythoncore-3.13-64\Lib\asyncio\base_events.py", line 683, in run_forever
+2026-07-10 21:56:19 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     self._run_once()
+2026-07-10 21:56:19 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     ~~~~~~~~~~~~~~^^
+2026-07-10 21:56:19 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\Users\DELL\AppData\Local\Python\pythoncore-3.13-64\Lib\asyncio\base_events.py", line 2022, in _run_once
+2026-07-10 21:56:19 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     event_list = self._selector.select(timeout)
+2026-07-10 21:56:19 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\Users\DELL\AppData\Local\Python\pythoncore-3.13-64\Lib\selectors.py", line 314, in select
+2026-07-10 21:56:19 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     r, w, _ = self._select(self._readers, self._writers, [], timeout)
+2026-07-10 21:56:19 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -               ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-07-10 21:56:19 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\Users\DELL\AppData\Local\Python\pythoncore-3.13-64\Lib\selectors.py", line 305, in _select
+2026-07-10 21:56:19 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     r, w, x = select.select(r, w, w, timeout)
+2026-07-10 21:56:19 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -               ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+2026-07-10 21:56:19 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - KeyboardInterrupt
+2026-07-10 21:56:20 India Standard Time | INFO     | NeuroSanRunner:signal_handler:318 - Running cleanup for plugin: ProcessLogBridgePlugin Plugin
+2026-07-10 21:56:20 India Standard Time | INFO     | ProcessLogBridgePlugin:cleanup:87 - [ProcessLogBridgePlugin] Cleaning up
+2026-07-10 21:56:20 India Standard Time | INFO     | ProcessLogBridgePlugin:cleanup:89 - [ProcessLogBridgePlugin] Cleanup complete
+2026-07-10 21:58:11 India Standard Time | INFO     | ProcessLogBridge:_ensure_root_configured:202 - Runner logging initialized (rich console enabled)
+2026-07-10 21:58:22 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - Loading plugin: ProcessLogBridgePlugin from module: neuro_san_studio.plugins.log_bridge.process_log_bridge_plugin
+2026-07-10 21:58:22 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - Loaded plugin: ProcessLogBridgePlugin Plugin
+2026-07-10 21:58:22 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - Initializing plugin: ProcessLogBridgePlugin Plugin
+2026-07-10 21:58:22 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - [ProcessLogBridgePlugin] Initializing (PID=24264)
+2026-07-10 21:58:22 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - [ProcessLogBridgePlugin] Initialized (PID=24264)
+2026-07-10 21:58:22 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - Validating airline_disruption agent network...
+2026-07-10 21:58:22 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - Reading C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\neuro_san\deploy\logging.hocon
+2026-07-10 21:58:23 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Using Authorizer: neuro_san.internals.authorization.null.always_yes_authorizer.AlwaysYesAuthorizer
+2026-07-10 21:58:23 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - >>>>>>>>>>>> Enabling MCP service...
+2026-07-10 21:58:23 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Added agent airline_disruption to allowed http service list
+2026-07-10 21:58:23 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: ADDED network for agent airline_disruption : 2421043183104
+2026-07-10 21:58:23 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: HTTP server is running 1 instances on port 8080 with backlog 128
+2026-07-10 21:58:23 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: HTTP server idle connections timeout: 3600 seconds
+2026-07-10 21:58:23 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: HTTP server is shutting down after 916816 requests
+2026-07-10 21:58:23 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: MCP server is running protocol 2025-06-18
+2026-07-10 21:58:23 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Starting StorageWatcher with 5 seconds period
+2026-07-10 21:58:23 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Starting RegistryStorageUpdater for ['C:\airline-disruption-neuro-san-integrated\registries\manifest.hocon'] with 5 seconds period
+2026-07-10 21:58:23 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - {"message": "Registry polling watchdog started on: C:\airline-disruption-neuro-san-integrated\registries for manifest ['C:\\airline-disruption-neuro-san-integrated\\registries\\manifest.hocon'] with polling every 1 sec", "user_id": "None", "Timestamp": "2026-07-10T21:58:23.060778", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+2026-07-10 21:58:23 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Starting TempNetworkStorageUpdater
+2026-07-10 21:58:23 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Starting EventWorkMonitor with 0.500000 seconds period
+2026-07-10 21:58:23 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Waiting for new queues to be added for processing
+2026-07-10 21:58:23 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Starting PeriodicEventInitiator with 1.000000 seconds period
+2026-07-10 21:58:23 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Found 0 periodic agent interactions
+2026-07-10 21:58:38 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Start airline_disruption/streaming_chat
+2026-07-10 21:58:38 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - {"message": "Received a airline_disruption.StreamingChat request for 'Analyze airline disruption for flight AA347. Flight status: Delayed Origin: JFK Destination: SEA Affected airport: JFK Disruption reason: Severe Thunderstorm Current delay minutes: 95 Known weather severity: HIGH Coordinate all specialist agents and return the required JSON object only.'", "user_id": "None", "Timestamp": "2026-07-10T21:58:38.014796", "source": "HttpServer", "message_type": "Other", "request_id": "request-1"}
+2026-07-10 21:58:38 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Agent network 'airline_disruption' (ID: 2421043183104) used for operation: streaming_chat
+2026-07-10 21:59:44 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Start airline_disruption/function
+2026-07-10 21:59:44 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Received a airline_disruption.Function request for function request
+2026-07-10 21:59:44 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Agent network 'airline_disruption' (ID: 2421043183104) used for operation: function
+2026-07-10 21:59:44 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Done with airline_disruption.Function request for function request
+2026-07-10 21:59:44 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: 200 GET /api/v1/airline_disruption/function (127.0.0.1) 11.31ms
+2026-07-10 21:59:44 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Finish airline_disruption/function
+2026-07-10 22:00:10 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Task from orchestrator.weather_agent:RunContextRunnable.invoke_agent_chain was cancelled
+2026-07-10 22:00:10 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Task from orchestrator.prediction_agent:RunContextRunnable.invoke_agent_chain was cancelled
+2026-07-10 22:00:10 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Task from orchestrator.recovery_agent:RunContextRunnable.invoke_agent_chain was cancelled
+2026-07-10 22:00:10 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Task from orchestrator:RunContextRunnable.invoke_agent_chain was cancelled
+2026-07-10 22:00:10 India Standard Time | WARNING  | NeuroSan:_log:718 - NeuroSan:HttpServer: Agent 'orchestrator' timed out: exceeded max_execution_seconds=90s and was cancelled.
+2026-07-10 22:00:10 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan: time_taken_in_seconds includes overhead from Langchain and Neuro SAN
+2026-07-10 22:00:10 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: {"token_accounting": {"total_tokens": 777, "prompt_tokens": 618, "completion_tokens": 159, "successful_requests": 1, "empty_responses": 0, "total_cost": 0.0, "time_taken_in_seconds": 90.01223111152649, "caveats": ["External agent token usage is not included.", "Token counts are approximate and estimated using tiktoken."], "models": {"ollama": {"llama3.1:8b": {"total_tokens": 777, "prompt_tokens": 618, "completion_tokens": 159, "successful_requests": 1, "empty_responses": 0, "total_cost": 0.0, "time_taken_in_seconds": 40.09805226325989}}}}}
+2026-07-10 22:00:10 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - {"message": "Done with airline_disruption.StreamingChat request for 'Analyze airline disruption for flight AA347. Flight status: Delayed Origin: JFK Destination: SEA Affected airport: JFK Disruption reason: Severe Thunderstorm Current delay minutes: 95 Known weather severity: HIGH Coordinate all specialist agents and return the required JSON object only.'", "user_id": "None", "Timestamp": "2026-07-10T22:00:10.871358", "source": "HttpServer", "message_type": "Other", "request_id": "request-1"}
+2026-07-10 22:00:10 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: 200 POST /api/v1/airline_disruption/streaming_chat (127.0.0.1) 95442.16ms
+2026-07-10 22:00:10 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Finish airline_disruption/streaming_chat
+2026-07-10 22:00:10 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Stats: {'NumProcessing': 0, 'Total': 2, 'airline_disruption/streaming_chat': 1, 'airline_disruption/function': 1}
+2026-07-10 22:00:21 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Start airline_disruption/streaming_chat
+2026-07-10 22:00:21 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - {"message": "Received a airline_disruption.StreamingChat request for 'Analyze airline disruption for flight AA347. Flight status: Delayed Origin: JFK Destination: SEA Affected airport: JFK Disruption reason: Severe Thunderstorm Current delay minutes: 95 Known weather severity: HIGH Coordinate all specialist agents and return the required JSON object only.'", "user_id": "None", "Timestamp": "2026-07-10T22:00:21.377550", "source": "HttpServer", "message_type": "Other", "request_id": "request-3"}
+2026-07-10 22:00:21 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Agent network 'airline_disruption' (ID: 2421043183104) used for operation: streaming_chat
+2026-07-10 22:01:53 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Task from orchestrator.weather_agent:RunContextRunnable.invoke_agent_chain was cancelled
+2026-07-10 22:01:53 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Task from orchestrator.prediction_agent:RunContextRunnable.invoke_agent_chain was cancelled
+2026-07-10 22:01:53 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Task from orchestrator.recovery_agent:RunContextRunnable.invoke_agent_chain was cancelled
+2026-07-10 22:01:53 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Task from orchestrator:RunContextRunnable.invoke_agent_chain was cancelled
+2026-07-10 22:01:53 India Standard Time | WARNING  | NeuroSan:_log:718 - NeuroSan:HttpServer: Agent 'orchestrator' timed out: exceeded max_execution_seconds=90s and was cancelled.
+2026-07-10 22:01:53 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Task 2421045176544/request-3:DataDrivenChatSession.streaming_chat is not present in the tasks table.
+2026-07-10 22:01:53 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan: time_taken_in_seconds includes overhead from Langchain and Neuro SAN
+2026-07-10 22:01:53 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: {"token_accounting": {"total_tokens": 777, "prompt_tokens": 618, "completion_tokens": 159, "successful_requests": 1, "empty_responses": 0, "total_cost": 0.0, "time_taken_in_seconds": 90.02176523208618, "caveats": ["External agent token usage is not included.", "Token counts are approximate and estimated using tiktoken."], "models": {"ollama": {"llama3.1:8b": {"total_tokens": 777, "prompt_tokens": 618, "completion_tokens": 159, "successful_requests": 1, "empty_responses": 0, "total_cost": 0.0, "time_taken_in_seconds": 41.361995458602905}}}}}
+2026-07-10 22:01:53 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - {"message": "Done with airline_disruption.StreamingChat request for 'Analyze airline disruption for flight AA347. Flight status: Delayed Origin: JFK Destination: SEA Affected airport: JFK Disruption reason: Severe Thunderstorm Current delay minutes: 95 Known weather severity: HIGH Coordinate all specialist agents and return the required JSON object only.'", "user_id": "None", "Timestamp": "2026-07-10T22:01:53.070128", "source": "HttpServer", "message_type": "Other", "request_id": "request-3"}
+2026-07-10 22:01:53 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: 200 POST /api/v1/airline_disruption/streaming_chat (127.0.0.1) 91699.01ms
+2026-07-10 22:01:53 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Finish airline_disruption/streaming_chat
+2026-07-10 22:01:53 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Stats: {'NumProcessing': 0, 'Total': 3, 'airline_disruption/streaming_chat': 2, 'airline_disruption/function': 1}
+2026-07-10 22:01:59 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Start airline_disruption/streaming_chat
+2026-07-10 22:01:59 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - {"message": "Received a airline_disruption.StreamingChat request for 'Analyze airline disruption for flight AA347. Flight status: Delayed Origin: JFK Destination: SEA Affected airport: JFK Disruption reason: Severe Thunderstorm Current delay minutes: 95 Known weather severity: HIGH Coordinate all specialist agents and return the required JSON object only.'", "user_id": "None", "Timestamp": "2026-07-10T22:01:59.083291", "source": "HttpServer", "message_type": "Other", "request_id": "request-4"}
+2026-07-10 22:01:59 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Agent network 'airline_disruption' (ID: 2421043183104) used for operation: streaming_chat
+2026-07-10 22:03:28 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Calling class airline_tools.AlternateFlights
+2026-07-10 22:03:28 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Calling class airline_tools.GateAvailability
+2026-07-10 22:03:28 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Calling class airline_tools.PassengerImpact
+2026-07-10 22:03:28 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Calling class airline_tools.AlternateFlights
+2026-07-10 22:03:28 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Calling class airline_tools.GateAvailability
+2026-07-10 22:03:28 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Calling class airline_tools.PassengerImpact
+2026-07-10 22:03:30 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Task from orchestrator.weather_agent:RunContextRunnable.invoke_agent_chain was cancelled
+2026-07-10 22:03:30 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Task from orchestrator.prediction_agent:RunContextRunnable.invoke_agent_chain was cancelled
+2026-07-10 22:03:30 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Task from orchestrator.recovery_agent:RunContextRunnable.invoke_agent_chain was cancelled
+2026-07-10 22:03:30 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Task from orchestrator:RunContextRunnable.invoke_agent_chain was cancelled
+2026-07-10 22:03:30 India Standard Time | WARNING  | NeuroSan:_log:718 - NeuroSan:HttpServer: Agent 'orchestrator' timed out: exceeded max_execution_seconds=90s and was cancelled.
+2026-07-10 22:03:30 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Task 2421066907360/request-4:DataDrivenChatSession.streaming_chat is not present in the tasks table.
+2026-07-10 22:03:30 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan: time_taken_in_seconds includes overhead from Langchain and Neuro SAN
+2026-07-10 22:03:30 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: {"token_accounting": {"total_tokens": 1285, "prompt_tokens": 965, "completion_tokens": 320, "successful_requests": 2, "empty_responses": 0, "total_cost": 0.0, "time_taken_in_seconds": 90.02338433265686, "caveats": ["External agent token usage is not included.", "Token counts are approximate and estimated using tiktoken."], "models": {"ollama": {"llama3.1:8b": {"total_tokens": 1285, "prompt_tokens": 965, "completion_tokens": 320, "successful_requests": 2, "empty_responses": 0, "total_cost": 0.0, "time_taken_in_seconds": 82.31204438209534}}}}}
+2026-07-10 22:03:30 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - {"message": "Done with airline_disruption.StreamingChat request for 'Analyze airline disruption for flight AA347. Flight status: Delayed Origin: JFK Destination: SEA Affected airport: JFK Disruption reason: Severe Thunderstorm Current delay minutes: 95 Known weather severity: HIGH Coordinate all specialist agents and return the required JSON object only.'", "user_id": "None", "Timestamp": "2026-07-10T22:03:30.766248", "source": "HttpServer", "message_type": "Other", "request_id": "request-4"}
+2026-07-10 22:03:30 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: 200 POST /api/v1/airline_disruption/streaming_chat (127.0.0.1) 91689.41ms
+2026-07-10 22:03:30 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Finish airline_disruption/streaming_chat
+2026-07-10 22:03:30 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Stats: {'NumProcessing': 0, 'Total': 4, 'airline_disruption/streaming_chat': 3, 'airline_disruption/function': 1}
+2026-07-10 22:09:57 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Cleaning up plugin: ProcessLogBridgePlugin Plugin
+2026-07-10 22:09:57 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: [ProcessLogBridgePlugin] Cleaning up
+2026-07-10 22:09:57 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: [ProcessLogBridgePlugin] Cleanup complete
+2026-07-10 22:09:58 India Standard Time | ERROR    | NeuroSan:_log:716 - NeuroSan - Traceback (most recent call last):
+2026-07-10 22:09:58 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "<frozen runpy>", line 203, in _run_module_as_main
+2026-07-10 22:09:58 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "<frozen runpy>", line 88, in _run_code
+2026-07-10 22:09:58 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\neuro_san_studio\runner\neuro_san_server_wrapper.py", line 89, in <module>
+2026-07-10 22:09:58 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     wrapper.run()
+2026-07-10 22:09:58 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     ~~~~~~~~~~~^^
+2026-07-10 22:09:58 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\neuro_san_studio\runner\neuro_san_server_wrapper.py", line 80, in run
+2026-07-10 22:09:58 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     ServerMainLoop().main_loop()
+2026-07-10 22:09:58 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     ~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+2026-07-10 22:09:58 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\neuro_san\service\main_loop\server_main_loop.py", line 298, in main_loop
+2026-07-10 22:09:58 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     self.http_server.start(components_to_start)
+2026-07-10 22:09:58 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+2026-07-10 22:09:58 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\neuro_san\service\http\server\http_server.py", line 194, in start
+2026-07-10 22:09:58 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     tornado.ioloop.IOLoop.current().start()
+2026-07-10 22:09:58 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+2026-07-10 22:09:58 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\tornado\platform\asyncio.py", line 211, in start
+2026-07-10 22:09:58 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     self.asyncio_loop.run_forever()
+2026-07-10 22:09:58 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+2026-07-10 22:09:58 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\Users\DELL\AppData\Local\Python\pythoncore-3.13-64\Lib\asyncio\base_events.py", line 683, in run_forever
+2026-07-10 22:09:58 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     self._run_once()
+2026-07-10 22:09:58 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     ~~~~~~~~~~~~~~^^
+2026-07-10 22:09:58 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\Users\DELL\AppData\Local\Python\pythoncore-3.13-64\Lib\asyncio\base_events.py", line 2022, in _run_once
+2026-07-10 22:09:58 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     event_list = self._selector.select(timeout)
+2026-07-10 22:09:58 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\Users\DELL\AppData\Local\Python\pythoncore-3.13-64\Lib\selectors.py", line 314, in select
+2026-07-10 22:09:58 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     r, w, _ = self._select(self._readers, self._writers, [], timeout)
+2026-07-10 22:09:58 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -               ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-07-10 22:09:58 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\Users\DELL\AppData\Local\Python\pythoncore-3.13-64\Lib\selectors.py", line 305, in _select
+2026-07-10 22:09:58 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     r, w, x = select.select(r, w, w, timeout)
+2026-07-10 22:09:58 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -               ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+2026-07-10 22:09:58 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - KeyboardInterrupt
+2026-07-10 22:09:59 India Standard Time | INFO     | NeuroSanRunner:signal_handler:318 - Running cleanup for plugin: ProcessLogBridgePlugin Plugin
+2026-07-10 22:09:59 India Standard Time | INFO     | ProcessLogBridgePlugin:cleanup:87 - [ProcessLogBridgePlugin] Cleaning up
+2026-07-10 22:09:59 India Standard Time | INFO     | ProcessLogBridgePlugin:cleanup:89 - [ProcessLogBridgePlugin] Cleanup complete
+2026-07-10 22:10:22 India Standard Time | INFO     | ProcessLogBridge:_ensure_root_configured:202 - Runner logging initialized (rich console enabled)
+2026-07-10 22:10:34 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - Loading plugin: ProcessLogBridgePlugin from module: neuro_san_studio.plugins.log_bridge.process_log_bridge_plugin
+2026-07-10 22:10:34 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - Loaded plugin: ProcessLogBridgePlugin Plugin
+2026-07-10 22:10:34 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - Initializing plugin: ProcessLogBridgePlugin Plugin
+2026-07-10 22:10:34 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - [ProcessLogBridgePlugin] Initializing (PID=24908)
+2026-07-10 22:10:34 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - [ProcessLogBridgePlugin] Initialized (PID=24908)
+2026-07-10 22:10:35 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - Validating airline_disruption agent network...
+2026-07-10 22:10:35 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - Reading C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\neuro_san\deploy\logging.hocon
+2026-07-10 22:10:35 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Using Authorizer: neuro_san.internals.authorization.null.always_yes_authorizer.AlwaysYesAuthorizer
+2026-07-10 22:10:35 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - >>>>>>>>>>>> Enabling MCP service...
+2026-07-10 22:10:35 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Added agent airline_disruption to allowed http service list
+2026-07-10 22:10:35 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: ADDED network for agent airline_disruption : 2617793854976
+2026-07-10 22:10:35 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: HTTP server is running 1 instances on port 8080 with backlog 128
+2026-07-10 22:10:35 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: HTTP server idle connections timeout: 3600 seconds
+2026-07-10 22:10:35 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: HTTP server is shutting down after 927485 requests
+2026-07-10 22:10:35 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: MCP server is running protocol 2025-06-18
+2026-07-10 22:10:35 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Starting StorageWatcher with 5 seconds period
+2026-07-10 22:10:35 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Starting RegistryStorageUpdater for ['C:\airline-disruption-neuro-san-integrated\registries\manifest.hocon'] with 5 seconds period
+2026-07-10 22:10:35 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - {"message": "Registry polling watchdog started on: C:\airline-disruption-neuro-san-integrated\registries for manifest ['C:\\airline-disruption-neuro-san-integrated\\registries\\manifest.hocon'] with polling every 1 sec", "user_id": "None", "Timestamp": "2026-07-10T22:10:35.501783", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+2026-07-10 22:10:35 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Starting TempNetworkStorageUpdater
+2026-07-10 22:10:35 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Starting EventWorkMonitor with 0.500000 seconds period
+2026-07-10 22:10:35 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Waiting for new queues to be added for processing
+2026-07-10 22:10:35 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Starting PeriodicEventInitiator with 1.000000 seconds period
+2026-07-10 22:10:35 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Found 0 periodic agent interactions
+2026-07-10 22:10:46 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Start airline_disruption/streaming_chat
+2026-07-10 22:10:46 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - {"message": "Received a airline_disruption.StreamingChat request for 'Analyze airline disruption for flight AA347. Flight status: Delayed Origin: JFK Destination: SEA Affected airport: JFK Disruption reason: Severe Thunderstorm Current delay minutes: 95 Known weather severity: HIGH Coordinate all specialist agents and return the required JSON object only.'", "user_id": "None", "Timestamp": "2026-07-10T22:10:46.036520", "source": "HttpServer", "message_type": "Other", "request_id": "request-1"}
+2026-07-10 22:10:46 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Agent network 'airline_disruption' (ID: 2617793854976) used for operation: streaming_chat
+2026-07-10 22:12:18 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Task from orchestrator:RunContextRunnable.invoke_agent_chain was cancelled
+2026-07-10 22:12:18 India Standard Time | WARNING  | NeuroSan:_log:718 - NeuroSan:HttpServer: Agent 'orchestrator' timed out: exceeded max_execution_seconds=90s and was cancelled.
+2026-07-10 22:12:18 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan: time_taken_in_seconds includes overhead from Langchain and Neuro SAN
+2026-07-10 22:12:18 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: {"token_accounting": {"time_taken_in_seconds": 90.00924754142761, "caveats": ["External agent token usage is not included.", "Token counts are approximate and estimated using tiktoken."], "models": {}}}
+2026-07-10 22:12:18 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - {"message": "Done with airline_disruption.StreamingChat request for 'Analyze airline disruption for flight AA347. Flight status: Delayed Origin: JFK Destination: SEA Affected airport: JFK Disruption reason: Severe Thunderstorm Current delay minutes: 95 Known weather severity: HIGH Coordinate all specialist agents and return the required JSON object only.'", "user_id": "None", "Timestamp": "2026-07-10T22:12:18.875145", "source": "HttpServer", "message_type": "Other", "request_id": "request-1"}
+2026-07-10 22:12:18 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: 200 POST /api/v1/airline_disruption/streaming_chat (127.0.0.1) 95409.93ms
+2026-07-10 22:12:18 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Finish airline_disruption/streaming_chat
+2026-07-10 22:12:18 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Stats: {'NumProcessing': 0, 'Total': 1, 'airline_disruption/streaming_chat': 1}
+2026-07-10 22:18:18 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Cleaning up plugin: ProcessLogBridgePlugin Plugin
+2026-07-10 22:18:18 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: [ProcessLogBridgePlugin] Cleaning up
+2026-07-10 22:18:18 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: [ProcessLogBridgePlugin] Cleanup complete
+2026-07-10 22:18:18 India Standard Time | ERROR    | NeuroSan:_log:716 - NeuroSan - Traceback (most recent call last):
+2026-07-10 22:18:18 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "<frozen runpy>", line 203, in _run_module_as_main
+2026-07-10 22:18:18 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "<frozen runpy>", line 88, in _run_code
+2026-07-10 22:18:18 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\neuro_san_studio\runner\neuro_san_server_wrapper.py", line 89, in <module>
+2026-07-10 22:18:18 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     wrapper.run()
+2026-07-10 22:18:18 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     ~~~~~~~~~~~^^
+2026-07-10 22:18:18 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\neuro_san_studio\runner\neuro_san_server_wrapper.py", line 80, in run
+2026-07-10 22:18:18 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     ServerMainLoop().main_loop()
+2026-07-10 22:18:18 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     ~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+2026-07-10 22:18:18 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\neuro_san\service\main_loop\server_main_loop.py", line 298, in main_loop
+2026-07-10 22:18:18 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     self.http_server.start(components_to_start)
+2026-07-10 22:18:18 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+2026-07-10 22:18:18 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\neuro_san\service\http\server\http_server.py", line 194, in start
+2026-07-10 22:18:18 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     tornado.ioloop.IOLoop.current().start()
+2026-07-10 22:18:18 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+2026-07-10 22:18:18 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\tornado\platform\asyncio.py", line 211, in start
+2026-07-10 22:18:18 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     self.asyncio_loop.run_forever()
+2026-07-10 22:18:18 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+2026-07-10 22:18:18 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\Users\DELL\AppData\Local\Python\pythoncore-3.13-64\Lib\asyncio\base_events.py", line 683, in run_forever
+2026-07-10 22:18:18 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     self._run_once()
+2026-07-10 22:18:18 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     ~~~~~~~~~~~~~~^^
+2026-07-10 22:18:18 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\Users\DELL\AppData\Local\Python\pythoncore-3.13-64\Lib\asyncio\base_events.py", line 2022, in _run_once
+2026-07-10 22:18:18 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     event_list = self._selector.select(timeout)
+2026-07-10 22:18:18 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\Users\DELL\AppData\Local\Python\pythoncore-3.13-64\Lib\selectors.py", line 314, in select
+2026-07-10 22:18:18 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     r, w, _ = self._select(self._readers, self._writers, [], timeout)
+2026-07-10 22:18:18 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -               ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-07-10 22:18:18 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\Users\DELL\AppData\Local\Python\pythoncore-3.13-64\Lib\selectors.py", line 305, in _select
+2026-07-10 22:18:18 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     r, w, x = select.select(r, w, w, timeout)
+2026-07-10 22:18:18 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -               ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+2026-07-10 22:18:18 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - KeyboardInterrupt
+2026-07-10 22:18:19 India Standard Time | INFO     | NeuroSanRunner:signal_handler:318 - Running cleanup for plugin: ProcessLogBridgePlugin Plugin
+2026-07-10 22:18:19 India Standard Time | INFO     | ProcessLogBridgePlugin:cleanup:87 - [ProcessLogBridgePlugin] Cleaning up
+2026-07-10 22:18:19 India Standard Time | INFO     | ProcessLogBridgePlugin:cleanup:89 - [ProcessLogBridgePlugin] Cleanup complete
+2026-07-10 22:18:34 India Standard Time | INFO     | ProcessLogBridge:_ensure_root_configured:202 - Runner logging initialized (rich console enabled)
+2026-07-10 22:18:41 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - Loading plugin: ProcessLogBridgePlugin from module: neuro_san_studio.plugins.log_bridge.process_log_bridge_plugin
+2026-07-10 22:18:41 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - Loaded plugin: ProcessLogBridgePlugin Plugin
+2026-07-10 22:18:41 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - Initializing plugin: ProcessLogBridgePlugin Plugin
+2026-07-10 22:18:41 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - [ProcessLogBridgePlugin] Initializing (PID=30664)
+2026-07-10 22:18:41 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - [ProcessLogBridgePlugin] Initialized (PID=30664)
+2026-07-10 22:18:41 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - Validating airline_disruption agent network...
+2026-07-10 22:18:41 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - Reading C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\neuro_san\deploy\logging.hocon
+2026-07-10 22:18:41 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Using Authorizer: neuro_san.internals.authorization.null.always_yes_authorizer.AlwaysYesAuthorizer
+2026-07-10 22:18:41 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - >>>>>>>>>>>> Enabling MCP service...
+2026-07-10 22:18:41 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Added agent airline_disruption to allowed http service list
+2026-07-10 22:18:41 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: ADDED network for agent airline_disruption : 1469825564160
+2026-07-10 22:18:41 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: HTTP server is running 1 instances on port 8080 with backlog 128
+2026-07-10 22:18:41 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: HTTP server idle connections timeout: 3600 seconds
+2026-07-10 22:18:41 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: HTTP server is shutting down after 1084042 requests
+2026-07-10 22:18:41 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: MCP server is running protocol 2025-06-18
+2026-07-10 22:18:41 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Starting StorageWatcher with 5 seconds period
+2026-07-10 22:18:41 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Starting RegistryStorageUpdater for ['C:\airline-disruption-neuro-san-integrated\registries\manifest.hocon'] with 5 seconds period
+2026-07-10 22:18:41 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - {"message": "Registry polling watchdog started on: C:\airline-disruption-neuro-san-integrated\registries for manifest ['C:\\airline-disruption-neuro-san-integrated\\registries\\manifest.hocon'] with polling every 1 sec", "user_id": "None", "Timestamp": "2026-07-10T22:18:41.450898", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+2026-07-10 22:18:41 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Starting TempNetworkStorageUpdater
+2026-07-10 22:18:41 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Starting EventWorkMonitor with 0.500000 seconds period
+2026-07-10 22:18:41 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Waiting for new queues to be added for processing
+2026-07-10 22:18:41 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Starting PeriodicEventInitiator with 1.000000 seconds period
+2026-07-10 22:18:41 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Found 0 periodic agent interactions
+2026-07-10 22:18:51 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Start airline_disruption/streaming_chat
+2026-07-10 22:18:51 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - {"message": "Received a airline_disruption.StreamingChat request for 'Analyze airline disruption for flight AA347. Flight status: Delayed Origin: JFK Destination: SEA Affected airport: JFK Disruption reason: Severe Thunderstorm Current delay minutes: 95 Known weather severity: HIGH Coordinate all specialist agents and return the required JSON object only.'", "user_id": "None", "Timestamp": "2026-07-10T22:18:51.072978", "source": "HttpServer", "message_type": "Other", "request_id": "request-1"}
+2026-07-10 22:18:51 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Agent network 'airline_disruption' (ID: 1469825564160) used for operation: streaming_chat
+2026-07-10 22:20:22 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Task from orchestrator.weather_agent:RunContextRunnable.invoke_agent_chain was cancelled
+2026-07-10 22:20:22 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Task from orchestrator.prediction_agent:RunContextRunnable.invoke_agent_chain was cancelled
+2026-07-10 22:20:22 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Task from orchestrator.recovery_agent:RunContextRunnable.invoke_agent_chain was cancelled
+2026-07-10 22:20:22 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Task from orchestrator:RunContextRunnable.invoke_agent_chain was cancelled
+2026-07-10 22:20:22 India Standard Time | WARNING  | NeuroSan:_log:718 - NeuroSan:HttpServer: Agent 'orchestrator' timed out: exceeded max_execution_seconds=90s and was cancelled.
+2026-07-10 22:20:22 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan: time_taken_in_seconds includes overhead from Langchain and Neuro SAN
+2026-07-10 22:20:22 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: {"token_accounting": {"total_tokens": 777, "prompt_tokens": 618, "completion_tokens": 159, "successful_requests": 1, "empty_responses": 0, "total_cost": 0.0, "time_taken_in_seconds": 90.01061201095581, "caveats": ["External agent token usage is not included.", "Token counts are approximate and estimated using tiktoken."], "models": {"ollama": {"llama3.1:8b": {"total_tokens": 777, "prompt_tokens": 618, "completion_tokens": 159, "successful_requests": 1, "empty_responses": 0, "total_cost": 0.0, "time_taken_in_seconds": 85.45068120956421}}}}}
+2026-07-10 22:20:22 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - {"message": "Done with airline_disruption.StreamingChat request for 'Analyze airline disruption for flight AA347. Flight status: Delayed Origin: JFK Destination: SEA Affected airport: JFK Disruption reason: Severe Thunderstorm Current delay minutes: 95 Known weather severity: HIGH Coordinate all specialist agents and return the required JSON object only.'", "user_id": "None", "Timestamp": "2026-07-10T22:20:22.106953", "source": "HttpServer", "message_type": "Other", "request_id": "request-1"}
+2026-07-10 22:20:22 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: 200 POST /api/v1/airline_disruption/streaming_chat (127.0.0.1) 91980.46ms
+2026-07-10 22:20:22 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Finish airline_disruption/streaming_chat
+2026-07-10 22:20:22 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Stats: {'NumProcessing': 0, 'Total': 1, 'airline_disruption/streaming_chat': 1}
+2026-07-10 22:25:02 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Start airline_disruption/streaming_chat
+2026-07-10 22:25:02 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - {"message": "Received a airline_disruption.StreamingChat request for 'Analyze airline disruption for flight AA347. Flight status: Delayed Origin: JFK Destination: SEA Affected airport: JFK Disruption reason: Severe Thunderstorm Current delay minutes: 95 Known weather severity: HIGH Coordinate all specialist agents and return the required JSON object only.'", "user_id": "None", "Timestamp": "2026-07-10T22:25:02.045645", "source": "HttpServer", "message_type": "Other", "request_id": "request-2"}
+2026-07-10 22:25:02 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Agent network 'airline_disruption' (ID: 1469825564160) used for operation: streaming_chat
+2026-07-10 22:26:32 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Task from orchestrator.weather_agent:RunContextRunnable.invoke_agent_chain was cancelled
+2026-07-10 22:26:32 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Task from orchestrator.prediction_agent:RunContextRunnable.invoke_agent_chain was cancelled
+2026-07-10 22:26:32 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Task from orchestrator.recovery_agent:RunContextRunnable.invoke_agent_chain was cancelled
+2026-07-10 22:26:32 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Task from orchestrator:RunContextRunnable.invoke_agent_chain was cancelled
+2026-07-10 22:26:32 India Standard Time | WARNING  | NeuroSan:_log:718 - NeuroSan:HttpServer: Agent 'orchestrator' timed out: exceeded max_execution_seconds=90s and was cancelled.
+2026-07-10 22:26:32 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan: time_taken_in_seconds includes overhead from Langchain and Neuro SAN
+2026-07-10 22:26:32 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: {"token_accounting": {"total_tokens": 777, "prompt_tokens": 618, "completion_tokens": 159, "successful_requests": 1, "empty_responses": 0, "total_cost": 0.0, "time_taken_in_seconds": 90.0222897529602, "caveats": ["External agent token usage is not included.", "Token counts are approximate and estimated using tiktoken."], "models": {"ollama": {"llama3.1:8b": {"total_tokens": 777, "prompt_tokens": 618, "completion_tokens": 159, "successful_requests": 1, "empty_responses": 0, "total_cost": 0.0, "time_taken_in_seconds": 33.59261775016785}}}}}
+2026-07-10 22:26:32 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - {"message": "Done with airline_disruption.StreamingChat request for 'Analyze airline disruption for flight AA347. Flight status: Delayed Origin: JFK Destination: SEA Affected airport: JFK Disruption reason: Severe Thunderstorm Current delay minutes: 95 Known weather severity: HIGH Coordinate all specialist agents and return the required JSON object only.'", "user_id": "None", "Timestamp": "2026-07-10T22:26:32.947957", "source": "HttpServer", "message_type": "Other", "request_id": "request-2"}
+2026-07-10 22:26:32 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: 200 POST /api/v1/airline_disruption/streaming_chat (127.0.0.1) 90915.86ms
+2026-07-10 22:26:32 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Finish airline_disruption/streaming_chat
+2026-07-10 22:26:32 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Stats: {'NumProcessing': 0, 'Total': 2, 'airline_disruption/streaming_chat': 2}
+2026-07-10 22:29:15 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Start airline_disruption/function
+2026-07-10 22:29:15 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Received a airline_disruption.Function request for function request
+2026-07-10 22:29:15 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Agent network 'airline_disruption' (ID: 1469825564160) used for operation: function
+2026-07-10 22:29:15 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Done with airline_disruption.Function request for function request
+2026-07-10 22:29:15 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: 200 GET /api/v1/airline_disruption/function (127.0.0.1) 3.38ms
+2026-07-10 22:29:15 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Finish airline_disruption/function
+2026-07-10 22:29:52 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Start airline_disruption/streaming_chat
+2026-07-10 22:29:52 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - {"message": "Received a airline_disruption.StreamingChat request for 'Analyze airline disruption for flight AA347. Flight status: Delayed Origin: JFK Destination: SEA Affected airport: JFK Disruption reason: Severe Thunderstorm Current delay minutes: 95 Known weather severity: HIGH Coordinate all specialist agents and return the required JSON object only.'", "user_id": "None", "Timestamp": "2026-07-10T22:29:52.622772", "source": "HttpServer", "message_type": "Other", "request_id": "request-4"}
+2026-07-10 22:29:52 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Agent network 'airline_disruption' (ID: 1469825564160) used for operation: streaming_chat
+2026-07-10 22:30:53 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Calling class airline_tools.DelayPrediction
+2026-07-10 22:30:53 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Calling class airline_tools.HistoricalPerformance
+2026-07-10 22:30:53 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Calling class airline_tools.AircraftPosition
+2026-07-10 22:31:21 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Calling class airline_tools.AlternateFlights
+2026-07-10 22:31:21 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Calling class airline_tools.GateAvailability
+2026-07-10 22:31:21 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Calling class airline_tools.PassengerImpact
+2026-07-10 22:31:21 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Calling class airline_tools.AlternateFlights
+2026-07-10 22:31:21 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Calling class airline_tools.GateAvailability
+2026-07-10 22:31:21 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Calling class airline_tools.PassengerImpact
+2026-07-10 22:31:23 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Task from orchestrator.weather_agent:RunContextRunnable.invoke_agent_chain was cancelled
+2026-07-10 22:31:23 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Task from orchestrator.prediction_agent:RunContextRunnable.invoke_agent_chain was cancelled
+2026-07-10 22:31:23 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Task from orchestrator.recovery_agent:RunContextRunnable.invoke_agent_chain was cancelled
+2026-07-10 22:31:23 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Task from orchestrator:RunContextRunnable.invoke_agent_chain was cancelled
+2026-07-10 22:31:23 India Standard Time | WARNING  | NeuroSan:_log:718 - NeuroSan:HttpServer: Agent 'orchestrator' timed out: exceeded max_execution_seconds=90s and was cancelled.
+2026-07-10 22:31:23 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan: time_taken_in_seconds includes overhead from Langchain and Neuro SAN
+2026-07-10 22:31:23 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: {"token_accounting": {"total_tokens": 1652, "prompt_tokens": 1266, "completion_tokens": 386, "successful_requests": 3, "empty_responses": 0, "total_cost": 0.0, "time_taken_in_seconds": 90.01043677330017, "caveats": ["External agent token usage is not included.", "Token counts are approximate and estimated using tiktoken."], "models": {"ollama": {"llama3.1:8b": {"total_tokens": 1652, "prompt_tokens": 1266, "completion_tokens": 386, "successful_requests": 3, "empty_responses": 0, "total_cost": 0.0, "time_taken_in_seconds": 86.98776960372925}}}}}
+2026-07-10 22:31:23 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - {"message": "Done with airline_disruption.StreamingChat request for 'Analyze airline disruption for flight AA347. Flight status: Delayed Origin: JFK Destination: SEA Affected airport: JFK Disruption reason: Severe Thunderstorm Current delay minutes: 95 Known weather severity: HIGH Coordinate all specialist agents and return the required JSON object only.'", "user_id": "None", "Timestamp": "2026-07-10T22:31:23.091711", "source": "HttpServer", "message_type": "Other", "request_id": "request-4"}
+2026-07-10 22:31:23 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: 200 POST /api/v1/airline_disruption/streaming_chat (127.0.0.1) 90471.39ms
+2026-07-10 22:31:23 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Finish airline_disruption/streaming_chat
+2026-07-10 22:31:23 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Stats: {'NumProcessing': 0, 'Total': 4, 'airline_disruption/streaming_chat': 3, 'airline_disruption/function': 1}
+2026-07-10 22:42:36 India Standard Time | ERROR    | NeuroSan:_log:716 - NeuroSan - --- Logging error ---
+2026-07-10 22:42:36 India Standard Time | ERROR    | NeuroSan:_log:716 - NeuroSan - Traceback (most recent call last):
+2026-07-10 22:42:36 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\Users\DELL\AppData\Local\Python\pythoncore-3.13-64\Lib\logging\__init__.py", line 1154, in emit
+2026-07-10 22:42:36 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     stream.write(msg + self.terminator)
+2026-07-10 22:42:36 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+2026-07-10 22:42:36 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\Users\DELL\AppData\Local\Python\pythoncore-3.13-64\Lib\encodings\cp1252.py", line 19, in encode
+2026-07-10 22:42:36 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+2026-07-10 22:42:36 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -            ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-07-10 22:42:36 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f514' in position 13: character maps to <undefined>
+2026-07-10 22:42:36 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - Call stack:
+2026-07-10 22:42:36 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\Users\DELL\AppData\Local\Python\pythoncore-3.13-64\Lib\threading.py", line 1015, in _bootstrap
+2026-07-10 22:42:36 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:Http Server: Observed events: modified 1, added 0, deleted 0
+2026-07-10 22:42:36 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     self._bootstrap_inner()
+2026-07-10 22:42:36 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:Http Server: Updating manifest file: ['C:\airline-disruption-neuro-san-integrated\registries\manifest.hocon']
+2026-07-10 22:42:36 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\Users\DELL\AppData\Local\Python\pythoncore-3.13-64\Lib\threading.py", line 1044, in _bootstrap_inner
+2026-07-10 22:42:36 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     self.run()
+2026-07-10 22:42:36 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\watchdog\observers\api.py", line 213, in run
+2026-07-10 22:42:36 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     self.dispatch_events(self.event_queue)
+2026-07-10 22:42:36 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\watchdog\observers\api.py", line 391, in dispatch_events
+2026-07-10 22:42:36 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     handler.dispatch(event)
+2026-07-10 22:42:36 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\watchdog\events.py", line 217, in dispatch
+2026-07-10 22:42:36 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - getattr(self, f"on_{event.event_type}")(event)
+2026-07-10 22:42:36 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\neuro_san\service\watcher\registries\registry_change_handler.py", line 51, in on_modified
+2026-07-10 22:42:36 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     self.handle_event(RegistryChangeHandler.MODIFIED, event.src_path)
+2026-07-10 22:42:36 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\neuro_san\service\watcher\registries\registry_change_handler.py", line 73, in handle_event
+2026-07-10 22:42:36 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     self.logger.info("\U0001f514 File %s: %s", event_name, src_path)
+2026-07-10 22:42:36 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - Message: '\U0001f514 File %s: %s'
+2026-07-10 22:42:36 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - Arguments: ('modified', 'C:\\airline-disruption-neuro-san-integrated\\registries\\airline_disruption.hocon')
+2026-07-10 22:42:36 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:Http Server: Validating airline_disruption agent network...
+2026-07-10 22:42:36 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Reset service for modified agent airline_disruption
+2026-07-10 22:42:36 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:Http Server: REPLACED network for agent airline_disruption : 1469830704800
+2026-07-10 22:42:37 India Standard Time | ERROR    | NeuroSan:_log:716 - NeuroSan - --- Logging error ---
+2026-07-10 22:42:37 India Standard Time | ERROR    | NeuroSan:_log:716 - NeuroSan - Traceback (most recent call last):
+2026-07-10 22:42:37 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\Users\DELL\AppData\Local\Python\pythoncore-3.13-64\Lib\logging\__init__.py", line 1154, in emit
+2026-07-10 22:42:37 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     stream.write(msg + self.terminator)
+2026-07-10 22:42:37 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+2026-07-10 22:42:37 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\Users\DELL\AppData\Local\Python\pythoncore-3.13-64\Lib\encodings\cp1252.py", line 19, in encode
+2026-07-10 22:42:37 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+2026-07-10 22:42:37 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -            ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-07-10 22:42:37 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f514' in position 13: character maps to <undefined>
+2026-07-10 22:42:37 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - Call stack:
+2026-07-10 22:42:37 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\Users\DELL\AppData\Local\Python\pythoncore-3.13-64\Lib\threading.py", line 1015, in _bootstrap
+2026-07-10 22:42:37 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     self._bootstrap_inner()
+2026-07-10 22:42:37 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\Users\DELL\AppData\Local\Python\pythoncore-3.13-64\Lib\threading.py", line 1044, in _bootstrap_inner
+2026-07-10 22:42:37 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     self.run()
+2026-07-10 22:42:37 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\watchdog\observers\api.py", line 213, in run
+2026-07-10 22:42:37 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     self.dispatch_events(self.event_queue)
+2026-07-10 22:42:37 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\watchdog\observers\api.py", line 391, in dispatch_events
+2026-07-10 22:42:37 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     handler.dispatch(event)
+2026-07-10 22:42:37 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\watchdog\events.py", line 217, in dispatch
+2026-07-10 22:42:37 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - getattr(self, f"on_{event.event_type}")(event)
+2026-07-10 22:42:37 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\neuro_san\service\watcher\registries\registry_change_handler.py", line 51, in on_modified
+2026-07-10 22:42:37 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     self.handle_event(RegistryChangeHandler.MODIFIED, event.src_path)
+2026-07-10 22:42:37 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\neuro_san\service\watcher\registries\registry_change_handler.py", line 73, in handle_event
+2026-07-10 22:42:37 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     self.logger.info("\U0001f514 File %s: %s", event_name, src_path)
+2026-07-10 22:42:37 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - Message: '\U0001f514 File %s: %s'
+2026-07-10 22:42:37 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - Arguments: ('modified', 'C:\\airline-disruption-neuro-san-integrated\\registries\\airline_disruption.hocon')
+2026-07-10 22:42:41 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:Http Server: Observed events: modified 1, added 0, deleted 0
+2026-07-10 22:42:41 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:Http Server: Updating manifest file: ['C:\airline-disruption-neuro-san-integrated\registries\manifest.hocon']
+2026-07-10 22:42:41 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:Http Server: Validating airline_disruption agent network...
+2026-07-10 22:42:41 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Reset service for modified agent airline_disruption
+2026-07-10 22:42:41 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:Http Server: REPLACED network for agent airline_disruption : 1469853596656
+2026-07-10 22:44:44 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: Cleaning up plugin: ProcessLogBridgePlugin Plugin
+2026-07-10 22:44:44 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: [ProcessLogBridgePlugin] Cleaning up
+2026-07-10 22:44:44 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan:HttpServer: [ProcessLogBridgePlugin] Cleanup complete
+2026-07-10 22:44:44 India Standard Time | ERROR    | NeuroSan:_log:716 - NeuroSan - Traceback (most recent call last):
+2026-07-10 22:44:44 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "<frozen runpy>", line 203, in _run_module_as_main
+2026-07-10 22:44:44 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "<frozen runpy>", line 88, in _run_code
+2026-07-10 22:44:44 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\neuro_san_studio\runner\neuro_san_server_wrapper.py", line 89, in <module>
+2026-07-10 22:44:44 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     wrapper.run()
+2026-07-10 22:44:44 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     ~~~~~~~~~~~^^
+2026-07-10 22:44:44 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\neuro_san_studio\runner\neuro_san_server_wrapper.py", line 80, in run
+2026-07-10 22:44:44 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     ServerMainLoop().main_loop()
+2026-07-10 22:44:44 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     ~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+2026-07-10 22:44:44 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\neuro_san\service\main_loop\server_main_loop.py", line 298, in main_loop
+2026-07-10 22:44:44 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     self.http_server.start(components_to_start)
+2026-07-10 22:44:44 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+2026-07-10 22:44:44 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\neuro_san\service\http\server\http_server.py", line 194, in start
+2026-07-10 22:44:44 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     tornado.ioloop.IOLoop.current().start()
+2026-07-10 22:44:44 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+2026-07-10 22:44:44 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\tornado\platform\asyncio.py", line 211, in start
+2026-07-10 22:44:44 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     self.asyncio_loop.run_forever()
+2026-07-10 22:44:44 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+2026-07-10 22:44:44 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\Users\DELL\AppData\Local\Python\pythoncore-3.13-64\Lib\asyncio\base_events.py", line 683, in run_forever
+2026-07-10 22:44:44 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     self._run_once()
+2026-07-10 22:44:44 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     ~~~~~~~~~~~~~~^^
+2026-07-10 22:44:44 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\Users\DELL\AppData\Local\Python\pythoncore-3.13-64\Lib\asyncio\base_events.py", line 2022, in _run_once
+2026-07-10 22:44:44 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     event_list = self._selector.select(timeout)
+2026-07-10 22:44:44 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\Users\DELL\AppData\Local\Python\pythoncore-3.13-64\Lib\selectors.py", line 314, in select
+2026-07-10 22:44:44 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     r, w, _ = self._select(self._readers, self._writers, [], timeout)
+2026-07-10 22:44:44 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -               ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-07-10 22:44:44 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -   File "C:\Users\DELL\AppData\Local\Python\pythoncore-3.13-64\Lib\selectors.py", line 305, in _select
+2026-07-10 22:44:44 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -     r, w, x = select.select(r, w, w, timeout)
+2026-07-10 22:44:44 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan -               ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+2026-07-10 22:44:44 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - KeyboardInterrupt
+2026-07-10 22:44:45 India Standard Time | INFO     | NeuroSanRunner:signal_handler:318 - Running cleanup for plugin: ProcessLogBridgePlugin Plugin
+2026-07-10 22:44:45 India Standard Time | INFO     | ProcessLogBridgePlugin:cleanup:87 - [ProcessLogBridgePlugin] Cleaning up
+2026-07-10 22:44:45 India Standard Time | INFO     | ProcessLogBridgePlugin:cleanup:89 - [ProcessLogBridgePlugin] Cleanup complete
+2026-07-10 22:45:00 India Standard Time | INFO     | ProcessLogBridge:_ensure_root_configured:202 - Runner logging initialized (rich console enabled)
+2026-07-10 22:45:06 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - Loading plugin: ProcessLogBridgePlugin from module: neuro_san_studio.plugins.log_bridge.process_log_bridge_plugin
+2026-07-10 22:45:06 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - Loaded plugin: ProcessLogBridgePlugin Plugin
+2026-07-10 22:45:06 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - Initializing plugin: ProcessLogBridgePlugin Plugin
+2026-07-10 22:45:06 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - [ProcessLogBridgePlugin] Initializing (PID=29364)
+2026-07-10 22:45:06 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - [ProcessLogBridgePlugin] Initialized (PID=29364)
+2026-07-10 22:45:06 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - Validating airline_disruption agent network...
+2026-07-10 22:45:06 India Standard Time | INFO     | NeuroSan:_log:720 - NeuroSan - Reading C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\neuro_san\deploy\logging.hocon

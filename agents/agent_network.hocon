@@ -1,0 +1,79 @@
+{
+   "llm_config": {
+    "class": "ollama",
+    "model_name": "llama3.1:8b",
+    "base_url": "http://127.0.0.1:11434",
+    "temperature": 0.2
+},
+  "max_execution_seconds": 300,
+  "tools": [
+    {
+      "name": "orchestrator",
+      "function": {"description": "Coordinate end-to-end airline disruption analysis and return a structured report."},
+      "instructions": """
+        You are the frontman for airline disruption management. You MUST coordinate the specialist agents.
+        First call weather_agent, then prediction_agent, then recovery_agent, then evaluator_agent, and finally comms_agent.
+        Use the flight ID, airport, reason, status, delay, origin and destination supplied by the user.
+        Do not invent operational facts when a coded tool provides them.
+        After all specialists return, respond with ONLY one valid JSON object and no markdown fences.
+        Required keys: weather, prediction, recovery_plan, evaluation, plan_approved, passenger_notification.
+        weather, prediction, recovery_plan, evaluation and passenger_notification must be strings.
+        plan_approved must be a boolean.
+      """,
+      "tools": ["weather_agent", "prediction_agent", "recovery_agent", "evaluator_agent", "comms_agent"]
+    },
+    {
+      "name": "weather_agent",
+      "function": {
+        "description": "Assess current weather and six-hour outlook for an airport.",
+        "parameters": {"type":"object","properties":{"airport":{"type":"string"}},"required":["airport"]}
+      },
+      "instructions": "Call both weather_lookup and forecast_lookup. Return a concise grounded weather assessment including condition, severity, hazards and outlook.",
+      "tools": ["weather_lookup", "forecast_lookup"]
+    },
+    {
+      "name": "prediction_agent",
+      "function": {
+        "description": "Assess delay and cascade risk for a flight.",
+        "parameters": {"type":"object","properties":{"flight_id":{"type":"string"},"weather_severity":{"type":"string"},"route":{"type":"string"}},"required":["flight_id","weather_severity","route"]}
+      },
+      "instructions": "Call delay_prediction, historical_performance and aircraft_position. Summarize probability, estimated delay, cascade risk, route context and aircraft state.",
+      "tools": ["delay_prediction", "historical_performance", "aircraft_position"]
+    },
+    {
+      "name": "recovery_agent",
+      "function": {
+        "description": "Build a grounded recovery proposal for a disrupted flight.",
+        "parameters": {"type":"object","properties":{"flight_id":{"type":"string"},"origin":{"type":"string"},"destination":{"type":"string"},"airport":{"type":"string"},"delay_minutes":{"type":"int"},"status":{"type":"string"}},"required":["flight_id","origin","destination","airport","delay_minutes","status"]}
+      },
+      "instructions": "Call alternate_flights, gate_availability and passenger_impact. Build a concise recovery proposal. Preserve DELAYED status unless the supplied status is CANCELLED; never silently convert a delayed flight into a cancellation.",
+      "tools": ["alternate_flights", "gate_availability", "passenger_impact"]
+    },
+    {
+      "name": "evaluator_agent",
+      "function": {"description": "Evaluate a proposed recovery plan and decide approval."},
+      "instructions": "Evaluate the recovery proposal returned by the recovery agent. Score feasibility, passenger impact, cost efficiency and compliance from 1-10, compute the average, and clearly return APPROVED when average >= 7, otherwise REJECTED with corrective feedback.",
+      "tools": []
+    },
+    {
+      "name": "comms_agent",
+      "function": {
+        "description": "Create consistent passenger and staff disruption communications.",
+        "parameters": {"type":"object","properties":{"flight_id":{"type":"string"},"delay_minutes":{"type":"int"},"reason":{"type":"string"},"status":{"type":"string"}},"required":["flight_id","delay_minutes","reason","status"]}
+      },
+      "instructions": "Call passenger_message and staff_alert. Return both messages. Communications must match the supplied status: do not say an on-time departure when status is delayed or cancelled.",
+      "tools": ["passenger_message", "staff_alert"]
+    },
+
+    {"name":"weather_lookup","function":{"description":"Return current mock weather for an airport.","parameters":{"type":"object","properties":{"airport":{"type":"string"}},"required":["airport"]}},"class":"airline_tools.WeatherLookup"},
+    {"name":"forecast_lookup","function":{"description":"Return six-hour mock forecast for an airport.","parameters":{"type":"object","properties":{"airport":{"type":"string"}},"required":["airport"]}},"class":"airline_tools.ForecastLookup"},
+    {"name":"delay_prediction","function":{"description":"Predict delay probability and cascade risk.","parameters":{"type":"object","properties":{"flight_id":{"type":"string"},"weather_severity":{"type":"string"}},"required":["flight_id","weather_severity"]}},"class":"airline_tools.DelayPrediction"},
+    {"name":"historical_performance","function":{"description":"Return route historical performance.","parameters":{"type":"object","properties":{"route":{"type":"string"}},"required":["route"]}},"class":"airline_tools.HistoricalPerformance"},
+    {"name":"aircraft_position","function":{"description":"Return aircraft position and readiness context.","parameters":{"type":"object","properties":{"flight_id":{"type":"string"}},"required":["flight_id"]}},"class":"airline_tools.AircraftPosition"},
+    {"name":"alternate_flights","function":{"description":"Find alternate flights for a route.","parameters":{"type":"object","properties":{"origin":{"type":"string"},"destination":{"type":"string"},"date":{"type":"string","default":"2026-07-07"}},"required":["origin","destination"]}},"class":"airline_tools.AlternateFlights"},
+    {"name":"gate_availability","function":{"description":"Find available gates at an airport.","parameters":{"type":"object","properties":{"airport":{"type":"string"}},"required":["airport"]}},"class":"airline_tools.GateAvailability"},
+    {"name":"passenger_impact","function":{"description":"Calculate passenger impact for a disruption.","parameters":{"type":"object","properties":{"flight_id":{"type":"string"},"delay_minutes":{"type":"int"}},"required":["flight_id","delay_minutes"]}},"class":"airline_tools.PassengerImpact"},
+    {"name":"passenger_message","function":{"description":"Draft a passenger disruption message.","parameters":{"type":"object","properties":{"flight_id":{"type":"string"},"delay_minutes":{"type":"int"},"reason":{"type":"string"}},"required":["flight_id","delay_minutes","reason"]}},"class":"airline_tools.PassengerMessage"},
+    {"name":"staff_alert","function":{"description":"Draft a staff operational alert.","parameters":{"type":"object","properties":{"flight_id":{"type":"string"},"action":{"type":"string"},"priority":{"type":"string"}},"required":["flight_id","action","priority"]}},"class":"airline_tools.StaffAlert"}
+  ]
+}

@@ -1,0 +1,9 @@
+neuro-san-studio
+langchain-ollama
+ollama
+faker
+streamlit
+fastapi
+uvicorn
+httpx
+python-dotenv

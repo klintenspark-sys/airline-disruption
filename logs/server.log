@@ -1,0 +1,1220 @@
+Loading plugin: ProcessLogBridgePlugin from module: neuro_san_studio.plugins.log_bridge.process_log_bridge_plugin
+Loaded plugin: ProcessLogBridgePlugin Plugin
+Initializing plugin: ProcessLogBridgePlugin Plugin
+[ProcessLogBridgePlugin] Initializing (PID=16040)
+[ProcessLogBridgePlugin] Initialized (PID=16040)
+Validating airline_disruption agent network...
+Reading C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\neuro_san\deploy\logging.hocon
+{"message": "Using Authorizer: neuro_san.internals.authorization.null.always_yes_authorizer.AlwaysYesAuthorizer", "user_id": "None", "Timestamp": "2026-07-10T19:33:53.083989", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+>>>>>>>>>>>> Enabling MCP service...
+{"message": "Added agent airline_disruption to allowed http service list", "user_id": "None", "Timestamp": "2026-07-10T19:33:53.120147", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "ADDED network for agent airline_disruption : 1624820570432", "user_id": "None", "Timestamp": "2026-07-10T19:33:53.120578", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "HTTP server is running 1 instances on port 8080 with backlog 128", "user_id": "None", "Timestamp": "2026-07-10T19:33:53.181674", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "HTTP server idle connections timeout: 3600 seconds", "user_id": "None", "Timestamp": "2026-07-10T19:33:53.181925", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "HTTP server is shutting down after 1012760 requests", "user_id": "None", "Timestamp": "2026-07-10T19:33:53.182084", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "MCP server is running protocol 2025-06-18", "user_id": "None", "Timestamp": "2026-07-10T19:33:53.182214", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "Starting StorageWatcher with 5 seconds period", "user_id": "None", "Timestamp": "2026-07-10T19:33:53.182322", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "Starting RegistryStorageUpdater for ['C:\\airline-disruption-neuro-san-integrated\\registries\\manifest.hocon'] with 5 seconds period", "user_id": "None", "Timestamp": "2026-07-10T19:33:53.182421", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "Registry polling watchdog started on: C:\airline-disruption-neuro-san-integrated\registries for manifest ['C:\\airline-disruption-neuro-san-integrated\\registries\\manifest.hocon'] with polling every 1 sec", "user_id": "None", "Timestamp": "2026-07-10T19:33:53.184313", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "Starting TempNetworkStorageUpdater", "user_id": "None", "Timestamp": "2026-07-10T19:33:53.185473", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "Waiting for new queues to be added for processing", "user_id": "None", "Timestamp": "2026-07-10T19:33:53.189662", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "Starting EventWorkMonitor with 0.500000 seconds period", "user_id": "None", "Timestamp": "2026-07-10T19:33:53.189904", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "Starting PeriodicEventInitiator with 1.000000 seconds period", "user_id": "None", "Timestamp": "2026-07-10T19:33:53.190387", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "Found 0 periodic agent interactions", "user_id": "None", "Timestamp": "2026-07-10T19:33:53.192590", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+Loading plugin: ProcessLogBridgePlugin from module: neuro_san_studio.plugins.log_bridge.process_log_bridge_plugin
+Loaded plugin: ProcessLogBridgePlugin Plugin
+Initializing plugin: ProcessLogBridgePlugin Plugin
+[ProcessLogBridgePlugin] Initializing (PID=18164)
+[ProcessLogBridgePlugin] Initialized (PID=18164)
+Validating airline_disruption agent network...
+Reading C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\neuro_san\deploy\logging.hocon
+{"message": "Using Authorizer: neuro_san.internals.authorization.null.always_yes_authorizer.AlwaysYesAuthorizer", "user_id": "None", "Timestamp": "2026-07-10T19:39:09.678944", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+>>>>>>>>>>>> Enabling MCP service...
+{"message": "Added agent airline_disruption to allowed http service list", "user_id": "None", "Timestamp": "2026-07-10T19:39:09.682122", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "ADDED network for agent airline_disruption : 2045195730432", "user_id": "None", "Timestamp": "2026-07-10T19:39:09.682390", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "HTTP server is running 1 instances on port 8080 with backlog 128", "user_id": "None", "Timestamp": "2026-07-10T19:39:09.695086", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "HTTP server idle connections timeout: 3600 seconds", "user_id": "None", "Timestamp": "2026-07-10T19:39:09.695333", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "HTTP server is shutting down after 947922 requests", "user_id": "None", "Timestamp": "2026-07-10T19:39:09.695492", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "MCP server is running protocol 2025-06-18", "user_id": "None", "Timestamp": "2026-07-10T19:39:09.695617", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "Starting StorageWatcher with 5 seconds period", "user_id": "None", "Timestamp": "2026-07-10T19:39:09.695739", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "Starting RegistryStorageUpdater for ['C:\\airline-disruption-neuro-san-integrated\\registries\\manifest.hocon'] with 5 seconds period", "user_id": "None", "Timestamp": "2026-07-10T19:39:09.695858", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "Registry polling watchdog started on: C:\airline-disruption-neuro-san-integrated\registries for manifest ['C:\\airline-disruption-neuro-san-integrated\\registries\\manifest.hocon'] with polling every 1 sec", "user_id": "None", "Timestamp": "2026-07-10T19:39:09.697719", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "Starting TempNetworkStorageUpdater", "user_id": "None", "Timestamp": "2026-07-10T19:39:09.698252", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "Starting EventWorkMonitor with 0.500000 seconds period", "user_id": "None", "Timestamp": "2026-07-10T19:39:09.702744", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "Waiting for new queues to be added for processing", "user_id": "None", "Timestamp": "2026-07-10T19:39:09.703080", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "Starting PeriodicEventInitiator with 1.000000 seconds period", "user_id": "None", "Timestamp": "2026-07-10T19:39:09.703825", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "Found 0 periodic agent interactions", "user_id": "None", "Timestamp": "2026-07-10T19:39:09.705771", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+Loading plugin: ProcessLogBridgePlugin from module: neuro_san_studio.plugins.log_bridge.process_log_bridge_plugin
+Loaded plugin: ProcessLogBridgePlugin Plugin
+Initializing plugin: ProcessLogBridgePlugin Plugin
+[ProcessLogBridgePlugin] Initializing (PID=28168)
+[ProcessLogBridgePlugin] Initialized (PID=28168)
+Validating airline_disruption agent network...
+Reading C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\neuro_san\deploy\logging.hocon
+{"message": "Using Authorizer: neuro_san.internals.authorization.null.always_yes_authorizer.AlwaysYesAuthorizer", "user_id": "None", "Timestamp": "2026-07-10T19:40:49.305321", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+>>>>>>>>>>>> Enabling MCP service...
+{"message": "Added agent airline_disruption to allowed http service list", "user_id": "None", "Timestamp": "2026-07-10T19:40:49.311179", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "ADDED network for agent airline_disruption : 2650264518144", "user_id": "None", "Timestamp": "2026-07-10T19:40:49.311456", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "HTTP server is running 1 instances on port 8080 with backlog 128", "user_id": "None", "Timestamp": "2026-07-10T19:40:49.323251", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "HTTP server idle connections timeout: 3600 seconds", "user_id": "None", "Timestamp": "2026-07-10T19:40:49.323488", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "HTTP server is shutting down after 1090834 requests", "user_id": "None", "Timestamp": "2026-07-10T19:40:49.323835", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "MCP server is running protocol 2025-06-18", "user_id": "None", "Timestamp": "2026-07-10T19:40:49.324161", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "Starting StorageWatcher with 5 seconds period", "user_id": "None", "Timestamp": "2026-07-10T19:40:49.324444", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "Starting RegistryStorageUpdater for ['C:\\airline-disruption-neuro-san-integrated\\registries\\manifest.hocon'] with 5 seconds period", "user_id": "None", "Timestamp": "2026-07-10T19:40:49.324636", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "Registry polling watchdog started on: C:\airline-disruption-neuro-san-integrated\registries for manifest ['C:\\airline-disruption-neuro-san-integrated\\registries\\manifest.hocon'] with polling every 1 sec", "user_id": "None", "Timestamp": "2026-07-10T19:40:49.327518", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "Starting TempNetworkStorageUpdater", "user_id": "None", "Timestamp": "2026-07-10T19:40:49.328104", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "Waiting for new queues to be added for processing", "user_id": "None", "Timestamp": "2026-07-10T19:40:49.331221", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "Starting EventWorkMonitor with 0.500000 seconds period", "user_id": "None", "Timestamp": "2026-07-10T19:40:49.331468", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "Starting PeriodicEventInitiator with 1.000000 seconds period", "user_id": "None", "Timestamp": "2026-07-10T19:40:49.332071", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "Found 0 periodic agent interactions", "user_id": "None", "Timestamp": "2026-07-10T19:40:49.335172", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "Start airline_disruption/streaming_chat", "user_id": "None", "Timestamp": "2026-07-10T19:46:12.939623", "source": "HttpServer", "message_type": "Other", "request_id": "request-1"}
+{"message": "Received a airline_disruption.StreamingChat request for 'Analyze airline disruption for flight AA347.
+Flight status: Delayed
+Origin: JFK
+Destination: SEA
+Affected airport: JFK
+Disruption reason: Severe Thunderstorm
+Current delay minutes: 95
+Known weather severity: HIGH
+Coordinate all specialist agents and return the required JSON object only.'", "user_id": "None", "Timestamp": "2026-07-10T19:46:12.940903", "source": "HttpServer", "message_type": "Other", "request_id": "request-1"}
+{"message": "Agent network 'airline_disruption' (ID: 2650264518144) used for operation: streaming_chat", "user_id": "None", "Timestamp": "2026-07-10T19:46:12.945122", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "Request reporting: {}", "user_id": "None", "Timestamp": "2026-07-10T19:46:12.965917", "source": "HttpServer", "message_type": "Other", "request_id": "request-1"}
+{"message": "Done with airline_disruption.StreamingChat request for 'Analyze airline disruption for flight AA347.
+Flight status: Delayed
+Origin: JFK
+Destination: SEA
+Affected airport: JFK
+Disruption reason: Severe Thunderstorm
+Current delay minutes: 95
+Known weather severity: HIGH
+Coordinate all specialist agents and return the required JSON object only.'", "user_id": "None", "Timestamp": "2026-07-10T19:46:12.966388", "source": "HttpServer", "message_type": "Other", "request_id": "request-1"}
+{"message": "200 POST /api/v1/airline_disruption/streaming_chat (127.0.0.1) 2575.90ms", "user_id": "None", "Timestamp": "2026-07-10T19:46:12.966996", "source": "HttpServer", "message_type": "Other", "request_id": "request-1"}
+{"message": "Finish airline_disruption/streaming_chat", "user_id": "None", "Timestamp": "2026-07-10T19:46:12.967305", "source": "HttpServer", "message_type": "Other", "request_id": "request-1"}
+{"message": "Stats: {'NumProcessing': 0, 'Total': 1, 'airline_disruption/streaming_chat': 1}", "user_id": "None", "Timestamp": "2026-07-10T19:46:12.967564", "source": "HttpServer", "message_type": "Other", "request_id": "request-1"}
+{"message": "Start airline_disruption/function", "user_id": "None", "Timestamp": "2026-07-10T19:48:35.070688", "source": "HttpServer", "message_type": "Other", "request_id": "request-2"}
+{"message": "Received a airline_disruption.Function request for function request", "user_id": "None", "Timestamp": "2026-07-10T19:48:35.070884", "source": "HttpServer", "message_type": "Other", "request_id": "request-2"}
+{"message": "Agent network 'airline_disruption' (ID: 2650264518144) used for operation: function", "user_id": "None", "Timestamp": "2026-07-10T19:48:35.070958", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "Done with airline_disruption.Function request for function request", "user_id": "None", "Timestamp": "2026-07-10T19:48:35.071007", "source": "HttpServer", "message_type": "Other", "request_id": "request-2"}
+{"message": "200 GET /api/v1/airline_disruption/function (127.0.0.1) 2.36ms", "user_id": "None", "Timestamp": "2026-07-10T19:48:35.071670", "source": "HttpServer", "message_type": "Other", "request_id": "request-2"}
+{"message": "Finish airline_disruption/function", "user_id": "None", "Timestamp": "2026-07-10T19:48:35.071768", "source": "HttpServer", "message_type": "Other", "request_id": "request-2"}
+{"message": "Start airline_disruption/streaming_chat", "user_id": "None", "Timestamp": "2026-07-10T19:49:59.524751", "source": "HttpServer", "message_type": "Other", "request_id": "request-3"}
+{"message": "Received a airline_disruption.StreamingChat request for 'Analyze airline disruption for flight AA347.
+Flight status: Delayed
+Origin: JFK
+Destination: SEA
+Affected airport: JFK
+Disruption reason: Severe Thunderstorm
+Current delay minutes: 95
+Known weather severity: HIGH
+Coordinate all specialist agents and return the required JSON object only.'", "user_id": "None", "Timestamp": "2026-07-10T19:49:59.526083", "source": "HttpServer", "message_type": "Other", "request_id": "request-3"}
+{"message": "Agent network 'airline_disruption' (ID: 2650264518144) used for operation: streaming_chat", "user_id": "None", "Timestamp": "2026-07-10T19:49:59.531039", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "Request reporting: {}", "user_id": "None", "Timestamp": "2026-07-10T19:49:59.559433", "source": "HttpServer", "message_type": "Other", "request_id": "request-3"}
+{"message": "Done with airline_disruption.StreamingChat request for 'Analyze airline disruption for flight AA347.
+Flight status: Delayed
+Origin: JFK
+Destination: SEA
+Affected airport: JFK
+Disruption reason: Severe Thunderstorm
+Current delay minutes: 95
+Known weather severity: HIGH
+Coordinate all specialist agents and return the required JSON object only.'", "user_id": "None", "Timestamp": "2026-07-10T19:49:59.559649", "source": "HttpServer", "message_type": "Other", "request_id": "request-3"}
+{"message": "200 POST /api/v1/airline_disruption/streaming_chat (127.0.0.1) 39.04ms", "user_id": "None", "Timestamp": "2026-07-10T19:49:59.560066", "source": "HttpServer", "message_type": "Other", "request_id": "request-3"}
+{"message": "Finish airline_disruption/streaming_chat", "user_id": "None", "Timestamp": "2026-07-10T19:49:59.560509", "source": "HttpServer", "message_type": "Other", "request_id": "request-3"}
+{"message": "Stats: {'NumProcessing': 0, 'Total': 3, 'airline_disruption/streaming_chat': 2, 'airline_disruption/function': 1}", "user_id": "None", "Timestamp": "2026-07-10T19:49:59.560643", "source": "HttpServer", "message_type": "Other", "request_id": "request-3"}
+{"message": "Start airline_disruption/streaming_chat", "user_id": "None", "Timestamp": "2026-07-10T19:50:31.299714", "source": "HttpServer", "message_type": "Other", "request_id": "request-4"}
+{"message": "error: Invalid JSON format", "user_id": "None", "Timestamp": "2026-07-10T19:50:31.299928", "source": "HttpServer", "message_type": "Error", "request_id": "request-4"}
+{"message": "400 POST /api/v1/airline_disruption/streaming_chat (::1) 2.03ms", "user_id": "None", "Timestamp": "2026-07-10T19:50:31.300205", "source": "HttpServer", "message_type": "Other", "request_id": "request-4"}
+{"message": "Finish airline_disruption/streaming_chat", "user_id": "None", "Timestamp": "2026-07-10T19:50:31.300341", "source": "HttpServer", "message_type": "Other", "request_id": "request-4"}
+{"message": "Stats: {'NumProcessing': 0, 'Total': 4, 'airline_disruption/streaming_chat': 3, 'airline_disruption/function': 1}", "user_id": "None", "Timestamp": "2026-07-10T19:50:31.300407", "source": "HttpServer", "message_type": "Other", "request_id": "request-4"}
+{"message": "Start airline_disruption/streaming_chat", "user_id": "None", "Timestamp": "2026-07-10T19:51:19.114643", "source": "HttpServer", "message_type": "Other", "request_id": "request-5"}
+{"message": "Received a airline_disruption.StreamingChat request for 'Analyze disrupted flight AA347 and return the required JSON object.'", "user_id": "None", "Timestamp": "2026-07-10T19:51:19.114903", "source": "HttpServer", "message_type": "Other", "request_id": "request-5"}
+{"message": "Agent network 'airline_disruption' (ID: 2650264518144) used for operation: streaming_chat", "user_id": "None", "Timestamp": "2026-07-10T19:51:19.116974", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "Request reporting: {}", "user_id": "None", "Timestamp": "2026-07-10T19:51:19.136332", "source": "HttpServer", "message_type": "Other", "request_id": "request-5"}
+{"message": "Done with airline_disruption.StreamingChat request for 'Analyze disrupted flight AA347 and return the required JSON object.'", "user_id": "None", "Timestamp": "2026-07-10T19:51:19.136513", "source": "HttpServer", "message_type": "Other", "request_id": "request-5"}
+{"message": "200 POST /api/v1/airline_disruption/streaming_chat (::1) 23.80ms", "user_id": "None", "Timestamp": "2026-07-10T19:51:19.136703", "source": "HttpServer", "message_type": "Other", "request_id": "request-5"}
+{"message": "Finish airline_disruption/streaming_chat", "user_id": "None", "Timestamp": "2026-07-10T19:51:19.136772", "source": "HttpServer", "message_type": "Other", "request_id": "request-5"}
+{"message": "Stats: {'NumProcessing': 0, 'Total': 5, 'airline_disruption/streaming_chat': 4, 'airline_disruption/function': 1}", "user_id": "None", "Timestamp": "2026-07-10T19:51:19.136813", "source": "HttpServer", "message_type": "Other", "request_id": "request-5"}
+{"message": "Start airline_disruption/streaming_chat", "user_id": "None", "Timestamp": "2026-07-10T21:30:08.858223", "source": "HttpServer", "message_type": "Other", "request_id": "request-6"}
+{"message": "Received a airline_disruption.StreamingChat request for 'Analyze airline disruption for flight AA347.
+Flight status: Delayed
+Origin: JFK
+Destination: SEA
+Affected airport: JFK
+Disruption reason: Severe Thunderstorm
+Current delay minutes: 95
+Known weather severity: HIGH
+Coordinate all specialist agents and return the required JSON object only.'", "user_id": "None", "Timestamp": "2026-07-10T21:30:08.860062", "source": "HttpServer", "message_type": "Other", "request_id": "request-6"}
+{"message": "Agent network 'airline_disruption' (ID: 2650264518144) used for operation: streaming_chat", "user_id": "None", "Timestamp": "2026-07-10T21:30:08.864571", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "Request reporting: {}", "user_id": "None", "Timestamp": "2026-07-10T21:30:08.887737", "source": "HttpServer", "message_type": "Other", "request_id": "request-6"}
+{"message": "Done with airline_disruption.StreamingChat request for 'Analyze airline disruption for flight AA347.
+Flight status: Delayed
+Origin: JFK
+Destination: SEA
+Affected airport: JFK
+Disruption reason: Severe Thunderstorm
+Current delay minutes: 95
+Known weather severity: HIGH
+Coordinate all specialist agents and return the required JSON object only.'", "user_id": "None", "Timestamp": "2026-07-10T21:30:08.888151", "source": "HttpServer", "message_type": "Other", "request_id": "request-6"}
+{"message": "200 POST /api/v1/airline_disruption/streaming_chat (127.0.0.1) 35.20ms", "user_id": "None", "Timestamp": "2026-07-10T21:30:08.889205", "source": "HttpServer", "message_type": "Other", "request_id": "request-6"}
+{"message": "Finish airline_disruption/streaming_chat", "user_id": "None", "Timestamp": "2026-07-10T21:30:08.889566", "source": "HttpServer", "message_type": "Other", "request_id": "request-6"}
+{"message": "Stats: {'NumProcessing': 0, 'Total': 6, 'airline_disruption/streaming_chat': 5, 'airline_disruption/function': 1}", "user_id": "None", "Timestamp": "2026-07-10T21:30:08.889790", "source": "HttpServer", "message_type": "Other", "request_id": "request-6"}
+{"message": "Start airline_disruption/streaming_chat", "user_id": "None", "Timestamp": "2026-07-10T21:34:18.628144", "source": "HttpServer", "message_type": "Other", "request_id": "request-7"}
+{"message": "Received a airline_disruption.StreamingChat request for 'Analyze airline disruption for flight AA347.
+Flight status: Delayed
+Origin: JFK
+Destination: SEA
+Affected airport: JFK
+Disruption reason: Severe Thunderstorm
+Current delay minutes: 95
+Known weather severity: HIGH
+Coordinate all specialist agents and return the required JSON object only.'", "user_id": "None", "Timestamp": "2026-07-10T21:34:18.628671", "source": "HttpServer", "message_type": "Other", "request_id": "request-7"}
+{"message": "Agent network 'airline_disruption' (ID: 2650264518144) used for operation: streaming_chat", "user_id": "None", "Timestamp": "2026-07-10T21:34:18.631967", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "Request reporting: {}", "user_id": "None", "Timestamp": "2026-07-10T21:34:18.651030", "source": "HttpServer", "message_type": "Other", "request_id": "request-7"}
+{"message": "Done with airline_disruption.StreamingChat request for 'Analyze airline disruption for flight AA347.
+Flight status: Delayed
+Origin: JFK
+Destination: SEA
+Affected airport: JFK
+Disruption reason: Severe Thunderstorm
+Current delay minutes: 95
+Known weather severity: HIGH
+Coordinate all specialist agents and return the required JSON object only.'", "user_id": "None", "Timestamp": "2026-07-10T21:34:18.651127", "source": "HttpServer", "message_type": "Other", "request_id": "request-7"}
+{"message": "200 POST /api/v1/airline_disruption/streaming_chat (127.0.0.1) 25.65ms", "user_id": "None", "Timestamp": "2026-07-10T21:34:18.651349", "source": "HttpServer", "message_type": "Other", "request_id": "request-7"}
+{"message": "Finish airline_disruption/streaming_chat", "user_id": "None", "Timestamp": "2026-07-10T21:34:18.651422", "source": "HttpServer", "message_type": "Other", "request_id": "request-7"}
+{"message": "Stats: {'NumProcessing': 0, 'Total': 7, 'airline_disruption/streaming_chat': 6, 'airline_disruption/function': 1}", "user_id": "None", "Timestamp": "2026-07-10T21:34:18.651461", "source": "HttpServer", "message_type": "Other", "request_id": "request-7"}
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Local\Python\pythoncore-3.13-64\Lib\logging\__init__.py", line 1154, in emit
+    stream.write(msg + self.terminator)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Python\pythoncore-3.13-64\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f514' in position 13: character maps to <undefined>
+Call stack:
+  File "C:\Users\DELL\AppData\Local\Python\pythoncore-3.13-64\Lib\threading.py", line 1015, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Users\DELL\AppData\Local\Python\pythoncore-3.13-64\Lib\threading.py", line 1044, in _bootstrap_inner
+    self.run()
+  File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\watchdog\observers\api.py", line 213, in run
+    self.dispatch_events(self.event_queue)
+  File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\watchdog\observers\api.py", line 391, in dispatch_events
+    handler.dispatch(event)
+  File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\watchdog\events.py", line 217, in dispatch
+    getattr(self, f"on_{event.event_type}")(event)
+  File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\neuro_san\service\watcher\registries\registry_change_handler.py", line 51, in on_modified
+    self.handle_event(RegistryChangeHandler.MODIFIED, event.src_path)
+  File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\neuro_san\service\watcher\registries\registry_change_handler.py", line 73, in handle_event
+    self.logger.info("\U0001f514 File %s: %s", event_name, src_path)
+Message: '\U0001f514 File %s: %s'
+Arguments: ('modified', 'C:\\airline-disruption-neuro-san-integrated\\registries\\airline_disruption.hocon')
+{"message": "Observed events: modified 1, added 0, deleted 0", "user_id": "None", "Timestamp": "2026-07-10T21:38:18.598484", "source": "Http Server", "message_type": "Other", "request_id": "request-7"}
+{"message": "Updating manifest file: ['C:\\airline-disruption-neuro-san-integrated\\registries\\manifest.hocon']", "user_id": "None", "Timestamp": "2026-07-10T21:38:18.598876", "source": "Http Server", "message_type": "Other", "request_id": "request-7"}
+{"message": "Validating airline_disruption agent network...", "user_id": "None", "Timestamp": "2026-07-10T21:38:18.970836", "source": "Http Server", "message_type": "Other", "request_id": "request-7"}
+{"message": "Reset service for modified agent airline_disruption", "user_id": "None", "Timestamp": "2026-07-10T21:38:18.990921", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "REPLACED network for agent airline_disruption : 2650266722352", "user_id": "None", "Timestamp": "2026-07-10T21:38:18.991176", "source": "Http Server", "message_type": "Other", "request_id": "request-7"}
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Local\Python\pythoncore-3.13-64\Lib\logging\__init__.py", line 1154, in emit
+    stream.write(msg + self.terminator)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Python\pythoncore-3.13-64\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f514' in position 13: character maps to <undefined>
+Call stack:
+  File "C:\Users\DELL\AppData\Local\Python\pythoncore-3.13-64\Lib\threading.py", line 1015, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Users\DELL\AppData\Local\Python\pythoncore-3.13-64\Lib\threading.py", line 1044, in _bootstrap_inner
+    self.run()
+  File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\watchdog\observers\api.py", line 213, in run
+    self.dispatch_events(self.event_queue)
+  File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\watchdog\observers\api.py", line 391, in dispatch_events
+    handler.dispatch(event)
+  File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\watchdog\events.py", line 217, in dispatch
+    getattr(self, f"on_{event.event_type}")(event)
+  File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\neuro_san\service\watcher\registries\registry_change_handler.py", line 51, in on_modified
+    self.handle_event(RegistryChangeHandler.MODIFIED, event.src_path)
+  File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\neuro_san\service\watcher\registries\registry_change_handler.py", line 73, in handle_event
+    self.logger.info("\U0001f514 File %s: %s", event_name, src_path)
+Message: '\U0001f514 File %s: %s'
+Arguments: ('modified', 'C:\\airline-disruption-neuro-san-integrated\\registries\\airline_disruption.hocon')
+{"message": "Observed events: modified 1, added 0, deleted 0", "user_id": "None", "Timestamp": "2026-07-10T21:38:33.601696", "source": "Http Server", "message_type": "Other", "request_id": "request-7"}
+{"message": "Updating manifest file: ['C:\\airline-disruption-neuro-san-integrated\\registries\\manifest.hocon']", "user_id": "None", "Timestamp": "2026-07-10T21:38:33.601954", "source": "Http Server", "message_type": "Other", "request_id": "request-7"}
+{"message": "Validating airline_disruption agent network...", "user_id": "None", "Timestamp": "2026-07-10T21:38:34.003270", "source": "Http Server", "message_type": "Other", "request_id": "request-7"}
+{"message": "Reset service for modified agent airline_disruption", "user_id": "None", "Timestamp": "2026-07-10T21:38:34.019110", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "REPLACED network for agent airline_disruption : 2650268155376", "user_id": "None", "Timestamp": "2026-07-10T21:38:34.019333", "source": "Http Server", "message_type": "Other", "request_id": "request-7"}
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Local\Python\pythoncore-3.13-64\Lib\logging\__init__.py", line 1154, in emit
+    stream.write(msg + self.terminator)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Python\pythoncore-3.13-64\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f514' in position 13: character maps to <undefined>
+Call stack:
+  File "C:\Users\DELL\AppData\Local\Python\pythoncore-3.13-64\Lib\threading.py", line 1015, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Users\DELL\AppData\Local\Python\pythoncore-3.13-64\Lib\threading.py", line 1044, in _bootstrap_inner
+    self.run()
+  File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\watchdog\observers\api.py", line 213, in run
+    self.dispatch_events(self.event_queue)
+  File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\watchdog\observers\api.py", line 391, in dispatch_events
+    handler.dispatch(event)
+  File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\watchdog\events.py", line 217, in dispatch
+    getattr(self, f"on_{event.event_type}")(event)
+  File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\neuro_san\service\watcher\registries\registry_change_handler.py", line 51, in on_modified
+    self.handle_event(RegistryChangeHandler.MODIFIED, event.src_path)
+  File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\neuro_san\service\watcher\registries\registry_change_handler.py", line 73, in handle_event
+    self.logger.info("\U0001f514 File %s: %s", event_name, src_path)
+Message: '\U0001f514 File %s: %s'
+Arguments: ('modified', 'C:\\airline-disruption-neuro-san-integrated\\registries\\airline_disruption.hocon')
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Local\Python\pythoncore-3.13-64\Lib\logging\__init__.py", line 1154, in emit
+    stream.write(msg + self.terminator)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Python\pythoncore-3.13-64\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f514' in position 13: character maps to <undefined>
+Call stack:
+  File "C:\Users\DELL\AppData\Local\Python\pythoncore-3.13-64\Lib\threading.py", line 1015, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Users\DELL\AppData\Local\Python\pythoncore-3.13-64\Lib\threading.py", line 1044, in _bootstrap_inner
+    self.run()
+  File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\watchdog\observers\api.py", line 213, in run
+    self.dispatch_events(self.event_queue)
+  File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\watchdog\observers\api.py", line 391, in dispatch_events
+    handler.dispatch(event)
+  File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\watchdog\events.py", line 217, in dispatch
+    getattr(self, f"on_{event.event_type}")(event)
+  File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\neuro_san\service\watcher\registries\registry_change_handler.py", line 51, in on_modified
+    self.handle_event(RegistryChangeHandler.MODIFIED, event.src_path)
+  File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\neuro_san\service\watcher\registries\registry_change_handler.py", line 73, in handle_event
+    self.logger.info("\U0001f514 File %s: %s", event_name, src_path)
+Message: '\U0001f514 File %s: %s'
+Arguments: ('modified', 'C:\\airline-disruption-neuro-san-integrated\\registries\\airline_disruption.hocon')
+{"message": "Observed events: modified 2, added 0, deleted 0", "user_id": "None", "Timestamp": "2026-07-10T21:40:33.617376", "source": "Http Server", "message_type": "Other", "request_id": "request-7"}
+{"message": "Updating manifest file: ['C:\\airline-disruption-neuro-san-integrated\\registries\\manifest.hocon']", "user_id": "None", "Timestamp": "2026-07-10T21:40:33.617664", "source": "Http Server", "message_type": "Other", "request_id": "request-7"}
+{"message": "Parse error in registry item airline_disruption.hocon. Skipping. - Expected '}', found '{'  (at char 5), (line:2, col:4)", "user_id": "None", "Timestamp": "2026-07-10T21:40:33.683162", "source": "Http Server", "message_type": "Error", "request_id": "request-7"}
+{"message": "manifest registry airline_disruption.hocon not found in C:\airline-disruption-neuro-san-integrated\registries\manifest.hocon", "user_id": "None", "Timestamp": "2026-07-10T21:40:33.683685", "source": "Http Server", "message_type": "Error", "request_id": "request-7"}
+{"message": "Removed agent airline_disruption from allowed http service list", "user_id": "None", "Timestamp": "2026-07-10T21:40:33.684078", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "REMOVED network for agent airline_disruption : 2650268155376", "user_id": "None", "Timestamp": "2026-07-10T21:40:33.684278", "source": "Http Server", "message_type": "Other", "request_id": "request-7"}
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Local\Python\pythoncore-3.13-64\Lib\logging\__init__.py", line 1154, in emit
+    stream.write(msg + self.terminator)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Python\pythoncore-3.13-64\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f514' in position 13: character maps to <undefined>
+Call stack:
+  File "C:\Users\DELL\AppData\Local\Python\pythoncore-3.13-64\Lib\threading.py", line 1015, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Users\DELL\AppData\Local\Python\pythoncore-3.13-64\Lib\threading.py", line 1044, in _bootstrap_inner
+    self.run()
+  File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\watchdog\observers\api.py", line 213, in run
+    self.dispatch_events(self.event_queue)
+  File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\watchdog\observers\api.py", line 391, in dispatch_events
+    handler.dispatch(event)
+  File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\watchdog\events.py", line 217, in dispatch
+    getattr(self, f"on_{event.event_type}")(event)
+  File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\neuro_san\service\watcher\registries\registry_change_handler.py", line 51, in on_modified
+    self.handle_event(RegistryChangeHandler.MODIFIED, event.src_path)
+  File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\neuro_san\service\watcher\registries\registry_change_handler.py", line 73, in handle_event
+    self.logger.info("\U0001f514 File %s: %s", event_name, src_path)
+Message: '\U0001f514 File %s: %s'
+Arguments: ('modified', 'C:\\airline-disruption-neuro-san-integrated\\registries\\airline_disruption.hocon')
+{"message": "Observed events: modified 1, added 0, deleted 0", "user_id": "None", "Timestamp": "2026-07-10T21:42:13.632257", "source": "Http Server", "message_type": "Other", "request_id": "request-7"}
+{"message": "Updating manifest file: ['C:\\airline-disruption-neuro-san-integrated\\registries\\manifest.hocon']", "user_id": "None", "Timestamp": "2026-07-10T21:42:13.632785", "source": "Http Server", "message_type": "Other", "request_id": "request-7"}
+{"message": "Parse error in registry item airline_disruption.hocon. Skipping. - Expected '}', found '{'  (at char 5), (line:2, col:4)", "user_id": "None", "Timestamp": "2026-07-10T21:42:13.688666", "source": "Http Server", "message_type": "Error", "request_id": "request-7"}
+{"message": "manifest registry airline_disruption.hocon not found in C:\airline-disruption-neuro-san-integrated\registries\manifest.hocon", "user_id": "None", "Timestamp": "2026-07-10T21:42:13.689148", "source": "Http Server", "message_type": "Error", "request_id": "request-7"}
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Local\Python\pythoncore-3.13-64\Lib\logging\__init__.py", line 1154, in emit
+    stream.write(msg + self.terminator)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Python\pythoncore-3.13-64\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f514' in position 13: character maps to <undefined>
+Call stack:
+  File "C:\Users\DELL\AppData\Local\Python\pythoncore-3.13-64\Lib\threading.py", line 1015, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Users\DELL\AppData\Local\Python\pythoncore-3.13-64\Lib\threading.py", line 1044, in _bootstrap_inner
+    self.run()
+  File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\watchdog\observers\api.py", line 213, in run
+    self.dispatch_events(self.event_queue)
+  File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\watchdog\observers\api.py", line 391, in dispatch_events
+    handler.dispatch(event)
+  File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\watchdog\events.py", line 217, in dispatch
+    getattr(self, f"on_{event.event_type}")(event)
+  File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\neuro_san\service\watcher\registries\registry_change_handler.py", line 51, in on_modified
+    self.handle_event(RegistryChangeHandler.MODIFIED, event.src_path)
+  File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\neuro_san\service\watcher\registries\registry_change_handler.py", line 73, in handle_event
+    self.logger.info("\U0001f514 File %s: %s", event_name, src_path)
+Message: '\U0001f514 File %s: %s'
+Arguments: ('modified', 'C:\\airline-disruption-neuro-san-integrated\\registries\\airline_disruption.hocon')
+{"message": "Observed events: modified 1, added 0, deleted 0", "user_id": "None", "Timestamp": "2026-07-10T21:42:43.635401", "source": "Http Server", "message_type": "Other", "request_id": "request-7"}
+{"message": "Updating manifest file: ['C:\\airline-disruption-neuro-san-integrated\\registries\\manifest.hocon']", "user_id": "None", "Timestamp": "2026-07-10T21:42:43.635763", "source": "Http Server", "message_type": "Other", "request_id": "request-7"}
+{"message": "Validating airline_disruption agent network...", "user_id": "None", "Timestamp": "2026-07-10T21:42:44.036511", "source": "Http Server", "message_type": "Other", "request_id": "request-7"}
+{"message": "Added agent airline_disruption to allowed http service list", "user_id": "None", "Timestamp": "2026-07-10T21:42:44.056988", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "ADDED network for agent airline_disruption : 2650288109904", "user_id": "None", "Timestamp": "2026-07-10T21:42:44.057299", "source": "Http Server", "message_type": "Other", "request_id": "request-7"}
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Local\Python\pythoncore-3.13-64\Lib\logging\__init__.py", line 1154, in emit
+    stream.write(msg + self.terminator)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Python\pythoncore-3.13-64\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f514' in position 13: character maps to <undefined>
+Call stack:
+  File "C:\Users\DELL\AppData\Local\Python\pythoncore-3.13-64\Lib\threading.py", line 1015, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Users\DELL\AppData\Local\Python\pythoncore-3.13-64\Lib\threading.py", line 1044, in _bootstrap_inner
+    self.run()
+  File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\watchdog\observers\api.py", line 213, in run
+    self.dispatch_events(self.event_queue)
+  File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\watchdog\observers\api.py", line 391, in dispatch_events
+    handler.dispatch(event)
+  File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\watchdog\events.py", line 217, in dispatch
+    getattr(self, f"on_{event.event_type}")(event)
+  File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\neuro_san\service\watcher\registries\registry_change_handler.py", line 51, in on_modified
+    self.handle_event(RegistryChangeHandler.MODIFIED, event.src_path)
+  File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\neuro_san\service\watcher\registries\registry_change_handler.py", line 73, in handle_event
+    self.logger.info("\U0001f514 File %s: %s", event_name, src_path)
+Message: '\U0001f514 File %s: %s'
+Arguments: ('modified', 'C:\\airline-disruption-neuro-san-integrated\\registries\\airline_disruption.hocon')
+{"message": "Observed events: modified 1, added 0, deleted 0", "user_id": "None", "Timestamp": "2026-07-10T21:42:53.636511", "source": "Http Server", "message_type": "Other", "request_id": "request-7"}
+{"message": "Updating manifest file: ['C:\\airline-disruption-neuro-san-integrated\\registries\\manifest.hocon']", "user_id": "None", "Timestamp": "2026-07-10T21:42:53.637150", "source": "Http Server", "message_type": "Other", "request_id": "request-7"}
+{"message": "Validating airline_disruption agent network...", "user_id": "None", "Timestamp": "2026-07-10T21:42:54.042061", "source": "Http Server", "message_type": "Other", "request_id": "request-7"}
+{"message": "Reset service for modified agent airline_disruption", "user_id": "None", "Timestamp": "2026-07-10T21:42:54.065875", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "REPLACED network for agent airline_disruption : 2650288109136", "user_id": "None", "Timestamp": "2026-07-10T21:42:54.066456", "source": "Http Server", "message_type": "Other", "request_id": "request-7"}
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Local\Python\pythoncore-3.13-64\Lib\logging\__init__.py", line 1154, in emit
+    stream.write(msg + self.terminator)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Python\pythoncore-3.13-64\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f514' in position 13: character maps to <undefined>
+Call stack:
+  File "C:\Users\DELL\AppData\Local\Python\pythoncore-3.13-64\Lib\threading.py", line 1015, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Users\DELL\AppData\Local\Python\pythoncore-3.13-64\Lib\threading.py", line 1044, in _bootstrap_inner
+    self.run()
+  File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\watchdog\observers\api.py", line 213, in run
+    self.dispatch_events(self.event_queue)
+  File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\watchdog\observers\api.py", line 391, in dispatch_events
+    handler.dispatch(event)
+  File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\watchdog\events.py", line 217, in dispatch
+    getattr(self, f"on_{event.event_type}")(event)
+  File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\neuro_san\service\watcher\registries\registry_change_handler.py", line 51, in on_modified
+    self.handle_event(RegistryChangeHandler.MODIFIED, event.src_path)
+  File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\neuro_san\service\watcher\registries\registry_change_handler.py", line 73, in handle_event
+    self.logger.info("\U0001f514 File %s: %s", event_name, src_path)
+Message: '\U0001f514 File %s: %s'
+Arguments: ('modified', 'C:\\airline-disruption-neuro-san-integrated\\registries\\airline_disruption.hocon')
+{"message": "Observed events: modified 1, added 0, deleted 0", "user_id": "None", "Timestamp": "2026-07-10T21:43:13.638690", "source": "Http Server", "message_type": "Other", "request_id": "request-7"}
+{"message": "Updating manifest file: ['C:\\airline-disruption-neuro-san-integrated\\registries\\manifest.hocon']", "user_id": "None", "Timestamp": "2026-07-10T21:43:13.639024", "source": "Http Server", "message_type": "Other", "request_id": "request-7"}
+{"message": "Validating airline_disruption agent network...", "user_id": "None", "Timestamp": "2026-07-10T21:43:14.104524", "source": "Http Server", "message_type": "Other", "request_id": "request-7"}
+{"message": "Reset service for modified agent airline_disruption", "user_id": "None", "Timestamp": "2026-07-10T21:43:14.124977", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "REPLACED network for agent airline_disruption : 2650269323328", "user_id": "None", "Timestamp": "2026-07-10T21:43:14.125230", "source": "Http Server", "message_type": "Other", "request_id": "request-7"}
+Loading plugin: ProcessLogBridgePlugin from module: neuro_san_studio.plugins.log_bridge.process_log_bridge_plugin
+Loaded plugin: ProcessLogBridgePlugin Plugin
+Initializing plugin: ProcessLogBridgePlugin Plugin
+[ProcessLogBridgePlugin] Initializing (PID=5288)
+[ProcessLogBridgePlugin] Initialized (PID=5288)
+Validating airline_disruption agent network...
+Reading C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\neuro_san\deploy\logging.hocon
+{"message": "Using Authorizer: neuro_san.internals.authorization.null.always_yes_authorizer.AlwaysYesAuthorizer", "user_id": "None", "Timestamp": "2026-07-10T21:48:18.651515", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+>>>>>>>>>>>> Enabling MCP service...
+{"message": "Added agent airline_disruption to allowed http service list", "user_id": "None", "Timestamp": "2026-07-10T21:48:18.655580", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "ADDED network for agent airline_disruption : 2589921197568", "user_id": "None", "Timestamp": "2026-07-10T21:48:18.655814", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "HTTP server is running 1 instances on port 8080 with backlog 128", "user_id": "None", "Timestamp": "2026-07-10T21:48:18.667617", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "HTTP server idle connections timeout: 3600 seconds", "user_id": "None", "Timestamp": "2026-07-10T21:48:18.667759", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "HTTP server is shutting down after 1039597 requests", "user_id": "None", "Timestamp": "2026-07-10T21:48:18.667832", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "MCP server is running protocol 2025-06-18", "user_id": "None", "Timestamp": "2026-07-10T21:48:18.667895", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "Starting StorageWatcher with 5 seconds period", "user_id": "None", "Timestamp": "2026-07-10T21:48:18.667964", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "Starting RegistryStorageUpdater for ['C:\\airline-disruption-neuro-san-integrated\\registries\\manifest.hocon'] with 5 seconds period", "user_id": "None", "Timestamp": "2026-07-10T21:48:18.668020", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "Registry polling watchdog started on: C:\airline-disruption-neuro-san-integrated\registries for manifest ['C:\\airline-disruption-neuro-san-integrated\\registries\\manifest.hocon'] with polling every 1 sec", "user_id": "None", "Timestamp": "2026-07-10T21:48:18.670143", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "Starting TempNetworkStorageUpdater", "user_id": "None", "Timestamp": "2026-07-10T21:48:18.670906", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "Starting EventWorkMonitor with 0.500000 seconds period", "user_id": "None", "Timestamp": "2026-07-10T21:48:18.673593", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "Waiting for new queues to be added for processing", "user_id": "None", "Timestamp": "2026-07-10T21:48:18.673880", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "Starting PeriodicEventInitiator with 1.000000 seconds period", "user_id": "None", "Timestamp": "2026-07-10T21:48:18.674225", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "Found 0 periodic agent interactions", "user_id": "None", "Timestamp": "2026-07-10T21:48:18.676723", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "Start airline_disruption/streaming_chat", "user_id": "None", "Timestamp": "2026-07-10T21:49:16.049125", "source": "HttpServer", "message_type": "Other", "request_id": "request-1"}
+{"message": "Received a airline_disruption.StreamingChat request for 'Analyze airline disruption for flight AA347.
+Flight status: Delayed
+Origin: JFK
+Destination: SEA
+Affected airport: JFK
+Disruption reason: Severe Thunderstorm
+Current delay minutes: 95
+Known weather severity: HIGH
+Coordinate all specialist agents and return the required JSON object only.'", "user_id": "None", "Timestamp": "2026-07-10T21:49:16.050146", "source": "HttpServer", "message_type": "Other", "request_id": "request-1"}
+{"message": "Agent network 'airline_disruption' (ID: 2589921197568) used for operation: streaming_chat", "user_id": "None", "Timestamp": "2026-07-10T21:49:16.055024", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "Task from orchestrator:RunContextRunnable.invoke_agent_chain was cancelled", "user_id": "None", "Timestamp": "2026-07-10T21:50:48.870254", "source": "HttpServer", "message_type": "Other", "request_id": "request-1"}
+{"message": "Agent 'orchestrator' timed out: exceeded max_execution_seconds=90s and was cancelled.", "user_id": "None", "Timestamp": "2026-07-10T21:50:48.873528", "source": "HttpServer", "message_type": "Warning", "request_id": "request-1"}
+{"message": "Task 2589923191008/request-1:DataDrivenChatSession.streaming_chat is not present in the tasks table.", "user_id": "None", "Timestamp": "2026-07-10T21:50:48.884171", "source": "HttpServer", "message_type": "Other", "request_id": "request-1"}
+{"message": "Request reporting: {
+    "token_accounting": {
+        "time_taken_in_seconds": 90.01475167274475,
+        "caveats": [
+            "External agent token usage is not included.",
+            "Token counts are approximate and estimated using tiktoken.",
+            "time_taken_in_seconds includes overhead from Langchain and Neuro SAN"
+        ],
+        "models": {
+            "ollama": {}
+        }
+    }
+}", "user_id": "None", "Timestamp": "2026-07-10T21:50:48.884938", "source": "HttpServer", "message_type": "Other", "request_id": "request-1"}
+{"message": "Done with airline_disruption.StreamingChat request for 'Analyze airline disruption for flight AA347.
+Flight status: Delayed
+Origin: JFK
+Destination: SEA
+Affected airport: JFK
+Disruption reason: Severe Thunderstorm
+Current delay minutes: 95
+Known weather severity: HIGH
+Coordinate all specialist agents and return the required JSON object only.'", "user_id": "None", "Timestamp": "2026-07-10T21:50:48.885175", "source": "HttpServer", "message_type": "Other", "request_id": "request-1"}
+{"message": "200 POST /api/v1/airline_disruption/streaming_chat (127.0.0.1) 95507.48ms", "user_id": "None", "Timestamp": "2026-07-10T21:50:48.885844", "source": "HttpServer", "message_type": "Other", "request_id": "request-1"}
+{"message": "Finish airline_disruption/streaming_chat", "user_id": "None", "Timestamp": "2026-07-10T21:50:48.886161", "source": "HttpServer", "message_type": "Other", "request_id": "request-1"}
+{"message": "Stats: {'NumProcessing': 0, 'Total': 1, 'airline_disruption/streaming_chat': 1}", "user_id": "None", "Timestamp": "2026-07-10T21:50:48.886350", "source": "HttpServer", "message_type": "Other", "request_id": "request-1"}
+{"message": "Start airline_disruption/streaming_chat", "user_id": "None", "Timestamp": "2026-07-10T21:53:04.939872", "source": "HttpServer", "message_type": "Other", "request_id": "request-2"}
+{"message": "Received a airline_disruption.StreamingChat request for 'Analyze airline disruption for flight AA347.
+Flight status: Delayed
+Origin: JFK
+Destination: SEA
+Affected airport: JFK
+Disruption reason: Severe Thunderstorm
+Current delay minutes: 95
+Known weather severity: HIGH
+Coordinate all specialist agents and return the required JSON object only.'", "user_id": "None", "Timestamp": "2026-07-10T21:53:04.940736", "source": "HttpServer", "message_type": "Other", "request_id": "request-2"}
+{"message": "Agent network 'airline_disruption' (ID: 2589921197568) used for operation: streaming_chat", "user_id": "None", "Timestamp": "2026-07-10T21:53:04.945439", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "Calling class airline_tools.WeatherLookup", "user_id": "None", "Timestamp": "2026-07-10T21:54:13.256175", "source": "HttpServer", "message_type": "Other", "request_id": "request-2"}
+{"message": "Calling class airline_tools.ForecastLookup", "user_id": "None", "Timestamp": "2026-07-10T21:54:13.542677", "source": "HttpServer", "message_type": "Other", "request_id": "request-2"}
+{"message": "Task from orchestrator.weather_agent:RunContextRunnable.invoke_agent_chain was cancelled", "user_id": "None", "Timestamp": "2026-07-10T21:54:36.445893", "source": "HttpServer", "message_type": "Other", "request_id": "request-2"}
+{"message": "Task from orchestrator.prediction_agent:RunContextRunnable.invoke_agent_chain was cancelled", "user_id": "None", "Timestamp": "2026-07-10T21:54:36.450768", "source": "HttpServer", "message_type": "Other", "request_id": "request-2"}
+{"message": "Task from orchestrator.recovery_agent:RunContextRunnable.invoke_agent_chain was cancelled", "user_id": "None", "Timestamp": "2026-07-10T21:54:36.451675", "source": "HttpServer", "message_type": "Other", "request_id": "request-2"}
+{"message": "Task from orchestrator:RunContextRunnable.invoke_agent_chain was cancelled", "user_id": "None", "Timestamp": "2026-07-10T21:54:36.455802", "source": "HttpServer", "message_type": "Other", "request_id": "request-2"}
+{"message": "Agent 'orchestrator' timed out: exceeded max_execution_seconds=90s and was cancelled.", "user_id": "None", "Timestamp": "2026-07-10T21:54:36.458272", "source": "HttpServer", "message_type": "Warning", "request_id": "request-2"}
+{"message": "Request reporting: {
+    "token_accounting": {
+        "total_tokens": 1037,
+        "prompt_tokens": 843,
+        "completion_tokens": 194,
+        "successful_requests": 2,
+        "empty_responses": 0,
+        "total_cost": 0.0,
+        "time_taken_in_seconds": 90.02543830871582,
+        "caveats": [
+            "External agent token usage is not included.",
+            "Token counts are approximate and estimated using tiktoken.",
+            "time_taken_in_seconds includes overhead from Langchain and Neuro SAN"
+        ],
+        "models": {
+            "ollama": {
+                "llama3.1:8b": {
+                    "total_tokens": 1037,
+                    "prompt_tokens": 843,
+                    "completion_tokens": 194,
+                    "successful_requests": 2,
+                    "empty_responses": 0,
+                    "total_cost": 0.0,
+                    "time_taken_in_seconds": 61.23984241485596
+                }
+            }
+        }
+    }
+}", "user_id": "None", "Timestamp": "2026-07-10T21:54:36.468021", "source": "HttpServer", "message_type": "Other", "request_id": "request-2"}
+{"message": "Done with airline_disruption.StreamingChat request for 'Analyze airline disruption for flight AA347.
+Flight status: Delayed
+Origin: JFK
+Destination: SEA
+Affected airport: JFK
+Disruption reason: Severe Thunderstorm
+Current delay minutes: 95
+Known weather severity: HIGH
+Coordinate all specialist agents and return the required JSON object only.'", "user_id": "None", "Timestamp": "2026-07-10T21:54:36.468344", "source": "HttpServer", "message_type": "Other", "request_id": "request-2"}
+{"message": "200 POST /api/v1/airline_disruption/streaming_chat (127.0.0.1) 91534.91ms", "user_id": "None", "Timestamp": "2026-07-10T21:54:36.470787", "source": "HttpServer", "message_type": "Other", "request_id": "request-2"}
+{"message": "Finish airline_disruption/streaming_chat", "user_id": "None", "Timestamp": "2026-07-10T21:54:36.472039", "source": "HttpServer", "message_type": "Other", "request_id": "request-2"}
+{"message": "Stats: {'NumProcessing': 0, 'Total': 2, 'airline_disruption/streaming_chat': 2}", "user_id": "None", "Timestamp": "2026-07-10T21:54:36.472213", "source": "HttpServer", "message_type": "Other", "request_id": "request-2"}
+{"message": "Cleaning up plugin: ProcessLogBridgePlugin Plugin", "user_id": "None", "Timestamp": "2026-07-10T21:56:19.207735", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "[ProcessLogBridgePlugin] Cleaning up", "user_id": "None", "Timestamp": "2026-07-10T21:56:19.208204", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "[ProcessLogBridgePlugin] Cleanup complete", "user_id": "None", "Timestamp": "2026-07-10T21:56:19.208325", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+Traceback (most recent call last):
+  File "<frozen runpy>", line 203, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\neuro_san_studio\runner\neuro_san_server_wrapper.py", line 89, in <module>
+    wrapper.run()
+    ~~~~~~~~~~~^^
+  File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\neuro_san_studio\runner\neuro_san_server_wrapper.py", line 80, in run
+    ServerMainLoop().main_loop()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\neuro_san\service\main_loop\server_main_loop.py", line 298, in main_loop
+    self.http_server.start(components_to_start)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\neuro_san\service\http\server\http_server.py", line 194, in start
+    tornado.ioloop.IOLoop.current().start()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\tornado\platform\asyncio.py", line 211, in start
+    self.asyncio_loop.run_forever()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\DELL\AppData\Local\Python\pythoncore-3.13-64\Lib\asyncio\base_events.py", line 683, in run_forever
+    self._run_once()
+    ~~~~~~~~~~~~~~^^
+  File "C:\Users\DELL\AppData\Local\Python\pythoncore-3.13-64\Lib\asyncio\base_events.py", line 2022, in _run_once
+    event_list = self._selector.select(timeout)
+  File "C:\Users\DELL\AppData\Local\Python\pythoncore-3.13-64\Lib\selectors.py", line 314, in select
+    r, w, _ = self._select(self._readers, self._writers, [], timeout)
+              ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Python\pythoncore-3.13-64\Lib\selectors.py", line 305, in _select
+    r, w, x = select.select(r, w, w, timeout)
+              ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+Loading plugin: ProcessLogBridgePlugin from module: neuro_san_studio.plugins.log_bridge.process_log_bridge_plugin
+Loaded plugin: ProcessLogBridgePlugin Plugin
+Initializing plugin: ProcessLogBridgePlugin Plugin
+[ProcessLogBridgePlugin] Initializing (PID=24264)
+[ProcessLogBridgePlugin] Initialized (PID=24264)
+Validating airline_disruption agent network...
+Reading C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\neuro_san\deploy\logging.hocon
+{"message": "Using Authorizer: neuro_san.internals.authorization.null.always_yes_authorizer.AlwaysYesAuthorizer", "user_id": "None", "Timestamp": "2026-07-10T21:58:23.044229", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+>>>>>>>>>>>> Enabling MCP service...
+{"message": "Added agent airline_disruption to allowed http service list", "user_id": "None", "Timestamp": "2026-07-10T21:58:23.047100", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "ADDED network for agent airline_disruption : 2421043183104", "user_id": "None", "Timestamp": "2026-07-10T21:58:23.047263", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "HTTP server is running 1 instances on port 8080 with backlog 128", "user_id": "None", "Timestamp": "2026-07-10T21:58:23.058748", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "HTTP server idle connections timeout: 3600 seconds", "user_id": "None", "Timestamp": "2026-07-10T21:58:23.058902", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "HTTP server is shutting down after 916816 requests", "user_id": "None", "Timestamp": "2026-07-10T21:58:23.058984", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "MCP server is running protocol 2025-06-18", "user_id": "None", "Timestamp": "2026-07-10T21:58:23.059042", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "Starting StorageWatcher with 5 seconds period", "user_id": "None", "Timestamp": "2026-07-10T21:58:23.059119", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "Starting RegistryStorageUpdater for ['C:\\airline-disruption-neuro-san-integrated\\registries\\manifest.hocon'] with 5 seconds period", "user_id": "None", "Timestamp": "2026-07-10T21:58:23.059193", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "Registry polling watchdog started on: C:\airline-disruption-neuro-san-integrated\registries for manifest ['C:\\airline-disruption-neuro-san-integrated\\registries\\manifest.hocon'] with polling every 1 sec", "user_id": "None", "Timestamp": "2026-07-10T21:58:23.060778", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "Starting TempNetworkStorageUpdater", "user_id": "None", "Timestamp": "2026-07-10T21:58:23.061158", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "Starting EventWorkMonitor with 0.500000 seconds period", "user_id": "None", "Timestamp": "2026-07-10T21:58:23.063365", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "Waiting for new queues to be added for processing", "user_id": "None", "Timestamp": "2026-07-10T21:58:23.063769", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "Starting PeriodicEventInitiator with 1.000000 seconds period", "user_id": "None", "Timestamp": "2026-07-10T21:58:23.064149", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "Found 0 periodic agent interactions", "user_id": "None", "Timestamp": "2026-07-10T21:58:23.066254", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "Start airline_disruption/streaming_chat", "user_id": "None", "Timestamp": "2026-07-10T21:58:38.013531", "source": "HttpServer", "message_type": "Other", "request_id": "request-1"}
+{"message": "Received a airline_disruption.StreamingChat request for 'Analyze airline disruption for flight AA347.
+Flight status: Delayed
+Origin: JFK
+Destination: SEA
+Affected airport: JFK
+Disruption reason: Severe Thunderstorm
+Current delay minutes: 95
+Known weather severity: HIGH
+Coordinate all specialist agents and return the required JSON object only.'", "user_id": "None", "Timestamp": "2026-07-10T21:58:38.014796", "source": "HttpServer", "message_type": "Other", "request_id": "request-1"}
+{"message": "Agent network 'airline_disruption' (ID: 2421043183104) used for operation: streaming_chat", "user_id": "None", "Timestamp": "2026-07-10T21:58:38.020430", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "Start airline_disruption/function", "user_id": "None", "Timestamp": "2026-07-10T21:59:44.691562", "source": "HttpServer", "message_type": "Other", "request_id": "request-2"}
+{"message": "Received a airline_disruption.Function request for function request", "user_id": "None", "Timestamp": "2026-07-10T21:59:44.691934", "source": "HttpServer", "message_type": "Other", "request_id": "request-2"}
+{"message": "Agent network 'airline_disruption' (ID: 2421043183104) used for operation: function", "user_id": "None", "Timestamp": "2026-07-10T21:59:44.692095", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "Done with airline_disruption.Function request for function request", "user_id": "None", "Timestamp": "2026-07-10T21:59:44.692226", "source": "HttpServer", "message_type": "Other", "request_id": "request-2"}
+{"message": "200 GET /api/v1/airline_disruption/function (127.0.0.1) 11.31ms", "user_id": "None", "Timestamp": "2026-07-10T21:59:44.699393", "source": "HttpServer", "message_type": "Other", "request_id": "request-2"}
+{"message": "Finish airline_disruption/function", "user_id": "None", "Timestamp": "2026-07-10T21:59:44.699657", "source": "HttpServer", "message_type": "Other", "request_id": "request-2"}
+{"message": "Task from orchestrator.weather_agent:RunContextRunnable.invoke_agent_chain was cancelled", "user_id": "None", "Timestamp": "2026-07-10T22:00:10.857826", "source": "HttpServer", "message_type": "Other", "request_id": "request-1"}
+{"message": "Task from orchestrator.prediction_agent:RunContextRunnable.invoke_agent_chain was cancelled", "user_id": "None", "Timestamp": "2026-07-10T22:00:10.858393", "source": "HttpServer", "message_type": "Other", "request_id": "request-1"}
+{"message": "Task from orchestrator.recovery_agent:RunContextRunnable.invoke_agent_chain was cancelled", "user_id": "None", "Timestamp": "2026-07-10T22:00:10.858759", "source": "HttpServer", "message_type": "Other", "request_id": "request-1"}
+{"message": "Task from orchestrator:RunContextRunnable.invoke_agent_chain was cancelled", "user_id": "None", "Timestamp": "2026-07-10T22:00:10.863095", "source": "HttpServer", "message_type": "Other", "request_id": "request-1"}
+{"message": "Agent 'orchestrator' timed out: exceeded max_execution_seconds=90s and was cancelled.", "user_id": "None", "Timestamp": "2026-07-10T22:00:10.865438", "source": "HttpServer", "message_type": "Warning", "request_id": "request-1"}
+{"message": "Request reporting: {
+    "token_accounting": {
+        "total_tokens": 777,
+        "prompt_tokens": 618,
+        "completion_tokens": 159,
+        "successful_requests": 1,
+        "empty_responses": 0,
+        "total_cost": 0.0,
+        "time_taken_in_seconds": 90.01223111152649,
+        "caveats": [
+            "External agent token usage is not included.",
+            "Token counts are approximate and estimated using tiktoken.",
+            "time_taken_in_seconds includes overhead from Langchain and Neuro SAN"
+        ],
+        "models": {
+            "ollama": {
+                "llama3.1:8b": {
+                    "total_tokens": 777,
+                    "prompt_tokens": 618,
+                    "completion_tokens": 159,
+                    "successful_requests": 1,
+                    "empty_responses": 0,
+                    "total_cost": 0.0,
+                    "time_taken_in_seconds": 40.09805226325989
+                }
+            }
+        }
+    }
+}", "user_id": "None", "Timestamp": "2026-07-10T22:00:10.870832", "source": "HttpServer", "message_type": "Other", "request_id": "request-1"}
+{"message": "Done with airline_disruption.StreamingChat request for 'Analyze airline disruption for flight AA347.
+Flight status: Delayed
+Origin: JFK
+Destination: SEA
+Affected airport: JFK
+Disruption reason: Severe Thunderstorm
+Current delay minutes: 95
+Known weather severity: HIGH
+Coordinate all specialist agents and return the required JSON object only.'", "user_id": "None", "Timestamp": "2026-07-10T22:00:10.871358", "source": "HttpServer", "message_type": "Other", "request_id": "request-1"}
+{"message": "200 POST /api/v1/airline_disruption/streaming_chat (127.0.0.1) 95442.16ms", "user_id": "None", "Timestamp": "2026-07-10T22:00:10.871942", "source": "HttpServer", "message_type": "Other", "request_id": "request-1"}
+{"message": "Finish airline_disruption/streaming_chat", "user_id": "None", "Timestamp": "2026-07-10T22:00:10.872137", "source": "HttpServer", "message_type": "Other", "request_id": "request-1"}
+{"message": "Stats: {'NumProcessing': 0, 'Total': 2, 'airline_disruption/streaming_chat': 1, 'airline_disruption/function': 1}", "user_id": "None", "Timestamp": "2026-07-10T22:00:10.872255", "source": "HttpServer", "message_type": "Other", "request_id": "request-1"}
+{"message": "Start airline_disruption/streaming_chat", "user_id": "None", "Timestamp": "2026-07-10T22:00:21.376259", "source": "HttpServer", "message_type": "Other", "request_id": "request-3"}
+{"message": "Received a airline_disruption.StreamingChat request for 'Analyze airline disruption for flight AA347.
+Flight status: Delayed
+Origin: JFK
+Destination: SEA
+Affected airport: JFK
+Disruption reason: Severe Thunderstorm
+Current delay minutes: 95
+Known weather severity: HIGH
+Coordinate all specialist agents and return the required JSON object only.'", "user_id": "None", "Timestamp": "2026-07-10T22:00:21.377550", "source": "HttpServer", "message_type": "Other", "request_id": "request-3"}
+{"message": "Agent network 'airline_disruption' (ID: 2421043183104) used for operation: streaming_chat", "user_id": "None", "Timestamp": "2026-07-10T22:00:21.379307", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "Task from orchestrator.weather_agent:RunContextRunnable.invoke_agent_chain was cancelled", "user_id": "None", "Timestamp": "2026-07-10T22:01:53.049482", "source": "HttpServer", "message_type": "Other", "request_id": "request-3"}
+{"message": "Task from orchestrator.prediction_agent:RunContextRunnable.invoke_agent_chain was cancelled", "user_id": "None", "Timestamp": "2026-07-10T22:01:53.050308", "source": "HttpServer", "message_type": "Other", "request_id": "request-3"}
+{"message": "Task from orchestrator.recovery_agent:RunContextRunnable.invoke_agent_chain was cancelled", "user_id": "None", "Timestamp": "2026-07-10T22:01:53.050760", "source": "HttpServer", "message_type": "Other", "request_id": "request-3"}
+{"message": "Task from orchestrator:RunContextRunnable.invoke_agent_chain was cancelled", "user_id": "None", "Timestamp": "2026-07-10T22:01:53.058629", "source": "HttpServer", "message_type": "Other", "request_id": "request-3"}
+{"message": "Agent 'orchestrator' timed out: exceeded max_execution_seconds=90s and was cancelled.", "user_id": "None", "Timestamp": "2026-07-10T22:01:53.062287", "source": "HttpServer", "message_type": "Warning", "request_id": "request-3"}
+{"message": "Task 2421045176544/request-3:DataDrivenChatSession.streaming_chat is not present in the tasks table.", "user_id": "None", "Timestamp": "2026-07-10T22:01:53.069406", "source": "HttpServer", "message_type": "Other", "request_id": "request-3"}
+{"message": "Request reporting: {
+    "token_accounting": {
+        "total_tokens": 777,
+        "prompt_tokens": 618,
+        "completion_tokens": 159,
+        "successful_requests": 1,
+        "empty_responses": 0,
+        "total_cost": 0.0,
+        "time_taken_in_seconds": 90.02176523208618,
+        "caveats": [
+            "External agent token usage is not included.",
+            "Token counts are approximate and estimated using tiktoken.",
+            "time_taken_in_seconds includes overhead from Langchain and Neuro SAN"
+        ],
+        "models": {
+            "ollama": {
+                "llama3.1:8b": {
+                    "total_tokens": 777,
+                    "prompt_tokens": 618,
+                    "completion_tokens": 159,
+                    "successful_requests": 1,
+                    "empty_responses": 0,
+                    "total_cost": 0.0,
+                    "time_taken_in_seconds": 41.361995458602905
+                }
+            }
+        }
+    }
+}", "user_id": "None", "Timestamp": "2026-07-10T22:01:53.069944", "source": "HttpServer", "message_type": "Other", "request_id": "request-3"}
+{"message": "Done with airline_disruption.StreamingChat request for 'Analyze airline disruption for flight AA347.
+Flight status: Delayed
+Origin: JFK
+Destination: SEA
+Affected airport: JFK
+Disruption reason: Severe Thunderstorm
+Current delay minutes: 95
+Known weather severity: HIGH
+Coordinate all specialist agents and return the required JSON object only.'", "user_id": "None", "Timestamp": "2026-07-10T22:01:53.070128", "source": "HttpServer", "message_type": "Other", "request_id": "request-3"}
+{"message": "200 POST /api/v1/airline_disruption/streaming_chat (127.0.0.1) 91699.01ms", "user_id": "None", "Timestamp": "2026-07-10T22:01:53.070627", "source": "HttpServer", "message_type": "Other", "request_id": "request-3"}
+{"message": "Finish airline_disruption/streaming_chat", "user_id": "None", "Timestamp": "2026-07-10T22:01:53.070817", "source": "HttpServer", "message_type": "Other", "request_id": "request-3"}
+{"message": "Stats: {'NumProcessing': 0, 'Total': 3, 'airline_disruption/streaming_chat': 2, 'airline_disruption/function': 1}", "user_id": "None", "Timestamp": "2026-07-10T22:01:53.070923", "source": "HttpServer", "message_type": "Other", "request_id": "request-3"}
+{"message": "Start airline_disruption/streaming_chat", "user_id": "None", "Timestamp": "2026-07-10T22:01:59.082366", "source": "HttpServer", "message_type": "Other", "request_id": "request-4"}
+{"message": "Received a airline_disruption.StreamingChat request for 'Analyze airline disruption for flight AA347.
+Flight status: Delayed
+Origin: JFK
+Destination: SEA
+Affected airport: JFK
+Disruption reason: Severe Thunderstorm
+Current delay minutes: 95
+Known weather severity: HIGH
+Coordinate all specialist agents and return the required JSON object only.'", "user_id": "None", "Timestamp": "2026-07-10T22:01:59.083291", "source": "HttpServer", "message_type": "Other", "request_id": "request-4"}
+{"message": "Agent network 'airline_disruption' (ID: 2421043183104) used for operation: streaming_chat", "user_id": "None", "Timestamp": "2026-07-10T22:01:59.085069", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "Calling class airline_tools.AlternateFlights", "user_id": "None", "Timestamp": "2026-07-10T22:03:28.366798", "source": "HttpServer", "message_type": "Other", "request_id": "request-4"}
+{"message": "Calling class airline_tools.GateAvailability", "user_id": "None", "Timestamp": "2026-07-10T22:03:28.387166", "source": "HttpServer", "message_type": "Other", "request_id": "request-4"}
+{"message": "Calling class airline_tools.PassengerImpact", "user_id": "None", "Timestamp": "2026-07-10T22:03:28.421238", "source": "HttpServer", "message_type": "Other", "request_id": "request-4"}
+{"message": "Calling class airline_tools.AlternateFlights", "user_id": "None", "Timestamp": "2026-07-10T22:03:28.426600", "source": "HttpServer", "message_type": "Other", "request_id": "request-4"}
+{"message": "Calling class airline_tools.GateAvailability", "user_id": "None", "Timestamp": "2026-07-10T22:03:28.434037", "source": "HttpServer", "message_type": "Other", "request_id": "request-4"}
+{"message": "Calling class airline_tools.PassengerImpact", "user_id": "None", "Timestamp": "2026-07-10T22:03:28.438967", "source": "HttpServer", "message_type": "Other", "request_id": "request-4"}
+{"message": "Task from orchestrator.weather_agent:RunContextRunnable.invoke_agent_chain was cancelled", "user_id": "None", "Timestamp": "2026-07-10T22:03:30.732773", "source": "HttpServer", "message_type": "Other", "request_id": "request-4"}
+{"message": "Task from orchestrator.prediction_agent:RunContextRunnable.invoke_agent_chain was cancelled", "user_id": "None", "Timestamp": "2026-07-10T22:03:30.735202", "source": "HttpServer", "message_type": "Other", "request_id": "request-4"}
+{"message": "Task from orchestrator.recovery_agent:RunContextRunnable.invoke_agent_chain was cancelled", "user_id": "None", "Timestamp": "2026-07-10T22:03:30.735837", "source": "HttpServer", "message_type": "Other", "request_id": "request-4"}
+{"message": "Task from orchestrator:RunContextRunnable.invoke_agent_chain was cancelled", "user_id": "None", "Timestamp": "2026-07-10T22:03:30.744785", "source": "HttpServer", "message_type": "Other", "request_id": "request-4"}
+{"message": "Agent 'orchestrator' timed out: exceeded max_execution_seconds=90s and was cancelled.", "user_id": "None", "Timestamp": "2026-07-10T22:03:30.749916", "source": "HttpServer", "message_type": "Warning", "request_id": "request-4"}
+{"message": "Task 2421066907360/request-4:DataDrivenChatSession.streaming_chat is not present in the tasks table.", "user_id": "None", "Timestamp": "2026-07-10T22:03:30.758551", "source": "HttpServer", "message_type": "Other", "request_id": "request-4"}
+{"message": "Request reporting: {
+    "token_accounting": {
+        "total_tokens": 1285,
+        "prompt_tokens": 965,
+        "completion_tokens": 320,
+        "successful_requests": 2,
+        "empty_responses": 0,
+        "total_cost": 0.0,
+        "time_taken_in_seconds": 90.02338433265686,
+        "caveats": [
+            "External agent token usage is not included.",
+            "Token counts are approximate and estimated using tiktoken.",
+            "time_taken_in_seconds includes overhead from Langchain and Neuro SAN"
+        ],
+        "models": {
+            "ollama": {
+                "llama3.1:8b": {
+                    "total_tokens": 1285,
+                    "prompt_tokens": 965,
+                    "completion_tokens": 320,
+                    "successful_requests": 2,
+                    "empty_responses": 0,
+                    "total_cost": 0.0,
+                    "time_taken_in_seconds": 82.31204438209534
+                }
+            }
+        }
+    }
+}", "user_id": "None", "Timestamp": "2026-07-10T22:03:30.759564", "source": "HttpServer", "message_type": "Other", "request_id": "request-4"}
+{"message": "Done with airline_disruption.StreamingChat request for 'Analyze airline disruption for flight AA347.
+Flight status: Delayed
+Origin: JFK
+Destination: SEA
+Affected airport: JFK
+Disruption reason: Severe Thunderstorm
+Current delay minutes: 95
+Known weather severity: HIGH
+Coordinate all specialist agents and return the required JSON object only.'", "user_id": "None", "Timestamp": "2026-07-10T22:03:30.766248", "source": "HttpServer", "message_type": "Other", "request_id": "request-4"}
+{"message": "200 POST /api/v1/airline_disruption/streaming_chat (127.0.0.1) 91689.41ms", "user_id": "None", "Timestamp": "2026-07-10T22:03:30.767090", "source": "HttpServer", "message_type": "Other", "request_id": "request-4"}
+{"message": "Finish airline_disruption/streaming_chat", "user_id": "None", "Timestamp": "2026-07-10T22:03:30.770039", "source": "HttpServer", "message_type": "Other", "request_id": "request-4"}
+{"message": "Stats: {'NumProcessing': 0, 'Total': 4, 'airline_disruption/streaming_chat': 3, 'airline_disruption/function': 1}", "user_id": "None", "Timestamp": "2026-07-10T22:03:30.774582", "source": "HttpServer", "message_type": "Other", "request_id": "request-4"}
+{"message": "Cleaning up plugin: ProcessLogBridgePlugin Plugin", "user_id": "None", "Timestamp": "2026-07-10T22:09:57.990277", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "[ProcessLogBridgePlugin] Cleaning up", "user_id": "None", "Timestamp": "2026-07-10T22:09:57.990720", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "[ProcessLogBridgePlugin] Cleanup complete", "user_id": "None", "Timestamp": "2026-07-10T22:09:57.990875", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+Traceback (most recent call last):
+  File "<frozen runpy>", line 203, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\neuro_san_studio\runner\neuro_san_server_wrapper.py", line 89, in <module>
+    wrapper.run()
+    ~~~~~~~~~~~^^
+  File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\neuro_san_studio\runner\neuro_san_server_wrapper.py", line 80, in run
+    ServerMainLoop().main_loop()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\neuro_san\service\main_loop\server_main_loop.py", line 298, in main_loop
+    self.http_server.start(components_to_start)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\neuro_san\service\http\server\http_server.py", line 194, in start
+    tornado.ioloop.IOLoop.current().start()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\tornado\platform\asyncio.py", line 211, in start
+    self.asyncio_loop.run_forever()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\DELL\AppData\Local\Python\pythoncore-3.13-64\Lib\asyncio\base_events.py", line 683, in run_forever
+    self._run_once()
+    ~~~~~~~~~~~~~~^^
+  File "C:\Users\DELL\AppData\Local\Python\pythoncore-3.13-64\Lib\asyncio\base_events.py", line 2022, in _run_once
+    event_list = self._selector.select(timeout)
+  File "C:\Users\DELL\AppData\Local\Python\pythoncore-3.13-64\Lib\selectors.py", line 314, in select
+    r, w, _ = self._select(self._readers, self._writers, [], timeout)
+              ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Python\pythoncore-3.13-64\Lib\selectors.py", line 305, in _select
+    r, w, x = select.select(r, w, w, timeout)
+              ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+Loading plugin: ProcessLogBridgePlugin from module: neuro_san_studio.plugins.log_bridge.process_log_bridge_plugin
+Loaded plugin: ProcessLogBridgePlugin Plugin
+Initializing plugin: ProcessLogBridgePlugin Plugin
+[ProcessLogBridgePlugin] Initializing (PID=24908)
+[ProcessLogBridgePlugin] Initialized (PID=24908)
+Validating airline_disruption agent network...
+Reading C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\neuro_san\deploy\logging.hocon
+{"message": "Using Authorizer: neuro_san.internals.authorization.null.always_yes_authorizer.AlwaysYesAuthorizer", "user_id": "None", "Timestamp": "2026-07-10T22:10:35.483270", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+>>>>>>>>>>>> Enabling MCP service...
+{"message": "Added agent airline_disruption to allowed http service list", "user_id": "None", "Timestamp": "2026-07-10T22:10:35.487380", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "ADDED network for agent airline_disruption : 2617793854976", "user_id": "None", "Timestamp": "2026-07-10T22:10:35.487705", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "HTTP server is running 1 instances on port 8080 with backlog 128", "user_id": "None", "Timestamp": "2026-07-10T22:10:35.499428", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "HTTP server idle connections timeout: 3600 seconds", "user_id": "None", "Timestamp": "2026-07-10T22:10:35.499570", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "HTTP server is shutting down after 927485 requests", "user_id": "None", "Timestamp": "2026-07-10T22:10:35.499690", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "MCP server is running protocol 2025-06-18", "user_id": "None", "Timestamp": "2026-07-10T22:10:35.499766", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "Starting StorageWatcher with 5 seconds period", "user_id": "None", "Timestamp": "2026-07-10T22:10:35.499827", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "Starting RegistryStorageUpdater for ['C:\\airline-disruption-neuro-san-integrated\\registries\\manifest.hocon'] with 5 seconds period", "user_id": "None", "Timestamp": "2026-07-10T22:10:35.499884", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "Registry polling watchdog started on: C:\airline-disruption-neuro-san-integrated\registries for manifest ['C:\\airline-disruption-neuro-san-integrated\\registries\\manifest.hocon'] with polling every 1 sec", "user_id": "None", "Timestamp": "2026-07-10T22:10:35.501783", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "Starting TempNetworkStorageUpdater", "user_id": "None", "Timestamp": "2026-07-10T22:10:35.502504", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "Starting EventWorkMonitor with 0.500000 seconds period", "user_id": "None", "Timestamp": "2026-07-10T22:10:35.506751", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "Waiting for new queues to be added for processing", "user_id": "None", "Timestamp": "2026-07-10T22:10:35.507007", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "Starting PeriodicEventInitiator with 1.000000 seconds period", "user_id": "None", "Timestamp": "2026-07-10T22:10:35.507595", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "Found 0 periodic agent interactions", "user_id": "None", "Timestamp": "2026-07-10T22:10:35.510395", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "Start airline_disruption/streaming_chat", "user_id": "None", "Timestamp": "2026-07-10T22:10:46.035235", "source": "HttpServer", "message_type": "Other", "request_id": "request-1"}
+{"message": "Received a airline_disruption.StreamingChat request for 'Analyze airline disruption for flight AA347.
+Flight status: Delayed
+Origin: JFK
+Destination: SEA
+Affected airport: JFK
+Disruption reason: Severe Thunderstorm
+Current delay minutes: 95
+Known weather severity: HIGH
+Coordinate all specialist agents and return the required JSON object only.'", "user_id": "None", "Timestamp": "2026-07-10T22:10:46.036520", "source": "HttpServer", "message_type": "Other", "request_id": "request-1"}
+{"message": "Agent network 'airline_disruption' (ID: 2617793854976) used for operation: streaming_chat", "user_id": "None", "Timestamp": "2026-07-10T22:10:46.041580", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "Task from orchestrator:RunContextRunnable.invoke_agent_chain was cancelled", "user_id": "None", "Timestamp": "2026-07-10T22:12:18.853514", "source": "HttpServer", "message_type": "Other", "request_id": "request-1"}
+{"message": "Agent 'orchestrator' timed out: exceeded max_execution_seconds=90s and was cancelled.", "user_id": "None", "Timestamp": "2026-07-10T22:12:18.858678", "source": "HttpServer", "message_type": "Warning", "request_id": "request-1"}
+{"message": "Request reporting: {
+    "token_accounting": {
+        "time_taken_in_seconds": 90.00924754142761,
+        "caveats": [
+            "External agent token usage is not included.",
+            "Token counts are approximate and estimated using tiktoken.",
+            "time_taken_in_seconds includes overhead from Langchain and Neuro SAN"
+        ],
+        "models": {
+            "ollama": {}
+        }
+    }
+}", "user_id": "None", "Timestamp": "2026-07-10T22:12:18.874890", "source": "HttpServer", "message_type": "Other", "request_id": "request-1"}
+{"message": "Done with airline_disruption.StreamingChat request for 'Analyze airline disruption for flight AA347.
+Flight status: Delayed
+Origin: JFK
+Destination: SEA
+Affected airport: JFK
+Disruption reason: Severe Thunderstorm
+Current delay minutes: 95
+Known weather severity: HIGH
+Coordinate all specialist agents and return the required JSON object only.'", "user_id": "None", "Timestamp": "2026-07-10T22:12:18.875145", "source": "HttpServer", "message_type": "Other", "request_id": "request-1"}
+{"message": "200 POST /api/v1/airline_disruption/streaming_chat (127.0.0.1) 95409.93ms", "user_id": "None", "Timestamp": "2026-07-10T22:12:18.875778", "source": "HttpServer", "message_type": "Other", "request_id": "request-1"}
+{"message": "Finish airline_disruption/streaming_chat", "user_id": "None", "Timestamp": "2026-07-10T22:12:18.876021", "source": "HttpServer", "message_type": "Other", "request_id": "request-1"}
+{"message": "Stats: {'NumProcessing': 0, 'Total': 1, 'airline_disruption/streaming_chat': 1}", "user_id": "None", "Timestamp": "2026-07-10T22:12:18.876121", "source": "HttpServer", "message_type": "Other", "request_id": "request-1"}
+{"message": "Cleaning up plugin: ProcessLogBridgePlugin Plugin", "user_id": "None", "Timestamp": "2026-07-10T22:18:18.909752", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "[ProcessLogBridgePlugin] Cleaning up", "user_id": "None", "Timestamp": "2026-07-10T22:18:18.910059", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "[ProcessLogBridgePlugin] Cleanup complete", "user_id": "None", "Timestamp": "2026-07-10T22:18:18.910117", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+Traceback (most recent call last):
+  File "<frozen runpy>", line 203, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\neuro_san_studio\runner\neuro_san_server_wrapper.py", line 89, in <module>
+    wrapper.run()
+    ~~~~~~~~~~~^^
+  File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\neuro_san_studio\runner\neuro_san_server_wrapper.py", line 80, in run
+    ServerMainLoop().main_loop()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\neuro_san\service\main_loop\server_main_loop.py", line 298, in main_loop
+    self.http_server.start(components_to_start)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\neuro_san\service\http\server\http_server.py", line 194, in start
+    tornado.ioloop.IOLoop.current().start()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\tornado\platform\asyncio.py", line 211, in start
+    self.asyncio_loop.run_forever()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\DELL\AppData\Local\Python\pythoncore-3.13-64\Lib\asyncio\base_events.py", line 683, in run_forever
+    self._run_once()
+    ~~~~~~~~~~~~~~^^
+  File "C:\Users\DELL\AppData\Local\Python\pythoncore-3.13-64\Lib\asyncio\base_events.py", line 2022, in _run_once
+    event_list = self._selector.select(timeout)
+  File "C:\Users\DELL\AppData\Local\Python\pythoncore-3.13-64\Lib\selectors.py", line 314, in select
+    r, w, _ = self._select(self._readers, self._writers, [], timeout)
+              ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Python\pythoncore-3.13-64\Lib\selectors.py", line 305, in _select
+    r, w, x = select.select(r, w, w, timeout)
+              ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+Loading plugin: ProcessLogBridgePlugin from module: neuro_san_studio.plugins.log_bridge.process_log_bridge_plugin
+Loaded plugin: ProcessLogBridgePlugin Plugin
+Initializing plugin: ProcessLogBridgePlugin Plugin
+[ProcessLogBridgePlugin] Initializing (PID=30664)
+[ProcessLogBridgePlugin] Initialized (PID=30664)
+Validating airline_disruption agent network...
+Reading C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\neuro_san\deploy\logging.hocon
+{"message": "Using Authorizer: neuro_san.internals.authorization.null.always_yes_authorizer.AlwaysYesAuthorizer", "user_id": "None", "Timestamp": "2026-07-10T22:18:41.441020", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+>>>>>>>>>>>> Enabling MCP service...
+{"message": "Added agent airline_disruption to allowed http service list", "user_id": "None", "Timestamp": "2026-07-10T22:18:41.442930", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "ADDED network for agent airline_disruption : 1469825564160", "user_id": "None", "Timestamp": "2026-07-10T22:18:41.443014", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "HTTP server is running 1 instances on port 8080 with backlog 128", "user_id": "None", "Timestamp": "2026-07-10T22:18:41.449419", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "HTTP server idle connections timeout: 3600 seconds", "user_id": "None", "Timestamp": "2026-07-10T22:18:41.449553", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "HTTP server is shutting down after 1084042 requests", "user_id": "None", "Timestamp": "2026-07-10T22:18:41.449620", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "MCP server is running protocol 2025-06-18", "user_id": "None", "Timestamp": "2026-07-10T22:18:41.449678", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "Starting StorageWatcher with 5 seconds period", "user_id": "None", "Timestamp": "2026-07-10T22:18:41.449733", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "Starting RegistryStorageUpdater for ['C:\\airline-disruption-neuro-san-integrated\\registries\\manifest.hocon'] with 5 seconds period", "user_id": "None", "Timestamp": "2026-07-10T22:18:41.449783", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "Registry polling watchdog started on: C:\airline-disruption-neuro-san-integrated\registries for manifest ['C:\\airline-disruption-neuro-san-integrated\\registries\\manifest.hocon'] with polling every 1 sec", "user_id": "None", "Timestamp": "2026-07-10T22:18:41.450898", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "Starting TempNetworkStorageUpdater", "user_id": "None", "Timestamp": "2026-07-10T22:18:41.451290", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "Starting EventWorkMonitor with 0.500000 seconds period", "user_id": "None", "Timestamp": "2026-07-10T22:18:41.453123", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "Waiting for new queues to be added for processing", "user_id": "None", "Timestamp": "2026-07-10T22:18:41.453479", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "Starting PeriodicEventInitiator with 1.000000 seconds period", "user_id": "None", "Timestamp": "2026-07-10T22:18:41.454050", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "Found 0 periodic agent interactions", "user_id": "None", "Timestamp": "2026-07-10T22:18:41.455962", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "Start airline_disruption/streaming_chat", "user_id": "None", "Timestamp": "2026-07-10T22:18:51.072347", "source": "HttpServer", "message_type": "Other", "request_id": "request-1"}
+{"message": "Received a airline_disruption.StreamingChat request for 'Analyze airline disruption for flight AA347.
+Flight status: Delayed
+Origin: JFK
+Destination: SEA
+Affected airport: JFK
+Disruption reason: Severe Thunderstorm
+Current delay minutes: 95
+Known weather severity: HIGH
+Coordinate all specialist agents and return the required JSON object only.'", "user_id": "None", "Timestamp": "2026-07-10T22:18:51.072978", "source": "HttpServer", "message_type": "Other", "request_id": "request-1"}
+{"message": "Agent network 'airline_disruption' (ID: 1469825564160) used for operation: streaming_chat", "user_id": "None", "Timestamp": "2026-07-10T22:18:51.075493", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "Task from orchestrator.weather_agent:RunContextRunnable.invoke_agent_chain was cancelled", "user_id": "None", "Timestamp": "2026-07-10T22:20:22.068350", "source": "HttpServer", "message_type": "Other", "request_id": "request-1"}
+{"message": "Task from orchestrator.prediction_agent:RunContextRunnable.invoke_agent_chain was cancelled", "user_id": "None", "Timestamp": "2026-07-10T22:20:22.068753", "source": "HttpServer", "message_type": "Other", "request_id": "request-1"}
+{"message": "Task from orchestrator.recovery_agent:RunContextRunnable.invoke_agent_chain was cancelled", "user_id": "None", "Timestamp": "2026-07-10T22:20:22.068993", "source": "HttpServer", "message_type": "Other", "request_id": "request-1"}
+{"message": "Task from orchestrator:RunContextRunnable.invoke_agent_chain was cancelled", "user_id": "None", "Timestamp": "2026-07-10T22:20:22.072712", "source": "HttpServer", "message_type": "Other", "request_id": "request-1"}
+{"message": "Agent 'orchestrator' timed out: exceeded max_execution_seconds=90s and was cancelled.", "user_id": "None", "Timestamp": "2026-07-10T22:20:22.074942", "source": "HttpServer", "message_type": "Warning", "request_id": "request-1"}
+{"message": "Request reporting: {
+    "token_accounting": {
+        "total_tokens": 777,
+        "prompt_tokens": 618,
+        "completion_tokens": 159,
+        "successful_requests": 1,
+        "empty_responses": 0,
+        "total_cost": 0.0,
+        "time_taken_in_seconds": 90.01061201095581,
+        "caveats": [
+            "External agent token usage is not included.",
+            "Token counts are approximate and estimated using tiktoken.",
+            "time_taken_in_seconds includes overhead from Langchain and Neuro SAN"
+        ],
+        "models": {
+            "ollama": {
+                "llama3.1:8b": {
+                    "total_tokens": 777,
+                    "prompt_tokens": 618,
+                    "completion_tokens": 159,
+                    "successful_requests": 1,
+                    "empty_responses": 0,
+                    "total_cost": 0.0,
+                    "time_taken_in_seconds": 85.45068120956421
+                }
+            }
+        }
+    }
+}", "user_id": "None", "Timestamp": "2026-07-10T22:20:22.106760", "source": "HttpServer", "message_type": "Other", "request_id": "request-1"}
+{"message": "Done with airline_disruption.StreamingChat request for 'Analyze airline disruption for flight AA347.
+Flight status: Delayed
+Origin: JFK
+Destination: SEA
+Affected airport: JFK
+Disruption reason: Severe Thunderstorm
+Current delay minutes: 95
+Known weather severity: HIGH
+Coordinate all specialist agents and return the required JSON object only.'", "user_id": "None", "Timestamp": "2026-07-10T22:20:22.106953", "source": "HttpServer", "message_type": "Other", "request_id": "request-1"}
+{"message": "200 POST /api/v1/airline_disruption/streaming_chat (127.0.0.1) 91980.46ms", "user_id": "None", "Timestamp": "2026-07-10T22:20:22.107451", "source": "HttpServer", "message_type": "Other", "request_id": "request-1"}
+{"message": "Finish airline_disruption/streaming_chat", "user_id": "None", "Timestamp": "2026-07-10T22:20:22.107617", "source": "HttpServer", "message_type": "Other", "request_id": "request-1"}
+{"message": "Stats: {'NumProcessing': 0, 'Total': 1, 'airline_disruption/streaming_chat': 1}", "user_id": "None", "Timestamp": "2026-07-10T22:20:22.107699", "source": "HttpServer", "message_type": "Other", "request_id": "request-1"}
+{"message": "Start airline_disruption/streaming_chat", "user_id": "None", "Timestamp": "2026-07-10T22:25:02.044831", "source": "HttpServer", "message_type": "Other", "request_id": "request-2"}
+{"message": "Received a airline_disruption.StreamingChat request for 'Analyze airline disruption for flight AA347.
+Flight status: Delayed
+Origin: JFK
+Destination: SEA
+Affected airport: JFK
+Disruption reason: Severe Thunderstorm
+Current delay minutes: 95
+Known weather severity: HIGH
+Coordinate all specialist agents and return the required JSON object only.'", "user_id": "None", "Timestamp": "2026-07-10T22:25:02.045645", "source": "HttpServer", "message_type": "Other", "request_id": "request-2"}
+{"message": "Agent network 'airline_disruption' (ID: 1469825564160) used for operation: streaming_chat", "user_id": "None", "Timestamp": "2026-07-10T22:25:02.048462", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "Task from orchestrator.weather_agent:RunContextRunnable.invoke_agent_chain was cancelled", "user_id": "None", "Timestamp": "2026-07-10T22:26:32.938290", "source": "HttpServer", "message_type": "Other", "request_id": "request-2"}
+{"message": "Task from orchestrator.prediction_agent:RunContextRunnable.invoke_agent_chain was cancelled", "user_id": "None", "Timestamp": "2026-07-10T22:26:32.938824", "source": "HttpServer", "message_type": "Other", "request_id": "request-2"}
+{"message": "Task from orchestrator.recovery_agent:RunContextRunnable.invoke_agent_chain was cancelled", "user_id": "None", "Timestamp": "2026-07-10T22:26:32.939098", "source": "HttpServer", "message_type": "Other", "request_id": "request-2"}
+{"message": "Task from orchestrator:RunContextRunnable.invoke_agent_chain was cancelled", "user_id": "None", "Timestamp": "2026-07-10T22:26:32.942096", "source": "HttpServer", "message_type": "Other", "request_id": "request-2"}
+{"message": "Agent 'orchestrator' timed out: exceeded max_execution_seconds=90s and was cancelled.", "user_id": "None", "Timestamp": "2026-07-10T22:26:32.943577", "source": "HttpServer", "message_type": "Warning", "request_id": "request-2"}
+{"message": "Request reporting: {
+    "token_accounting": {
+        "total_tokens": 777,
+        "prompt_tokens": 618,
+        "completion_tokens": 159,
+        "successful_requests": 1,
+        "empty_responses": 0,
+        "total_cost": 0.0,
+        "time_taken_in_seconds": 90.0222897529602,
+        "caveats": [
+            "External agent token usage is not included.",
+            "Token counts are approximate and estimated using tiktoken.",
+            "time_taken_in_seconds includes overhead from Langchain and Neuro SAN"
+        ],
+        "models": {
+            "ollama": {
+                "llama3.1:8b": {
+                    "total_tokens": 777,
+                    "prompt_tokens": 618,
+                    "completion_tokens": 159,
+                    "successful_requests": 1,
+                    "empty_responses": 0,
+                    "total_cost": 0.0,
+                    "time_taken_in_seconds": 33.59261775016785
+                }
+            }
+        }
+    }
+}", "user_id": "None", "Timestamp": "2026-07-10T22:26:32.947672", "source": "HttpServer", "message_type": "Other", "request_id": "request-2"}
+{"message": "Done with airline_disruption.StreamingChat request for 'Analyze airline disruption for flight AA347.
+Flight status: Delayed
+Origin: JFK
+Destination: SEA
+Affected airport: JFK
+Disruption reason: Severe Thunderstorm
+Current delay minutes: 95
+Known weather severity: HIGH
+Coordinate all specialist agents and return the required JSON object only.'", "user_id": "None", "Timestamp": "2026-07-10T22:26:32.947957", "source": "HttpServer", "message_type": "Other", "request_id": "request-2"}
+{"message": "200 POST /api/v1/airline_disruption/streaming_chat (127.0.0.1) 90915.86ms", "user_id": "None", "Timestamp": "2026-07-10T22:26:32.948474", "source": "HttpServer", "message_type": "Other", "request_id": "request-2"}
+{"message": "Finish airline_disruption/streaming_chat", "user_id": "None", "Timestamp": "2026-07-10T22:26:32.948649", "source": "HttpServer", "message_type": "Other", "request_id": "request-2"}
+{"message": "Stats: {'NumProcessing': 0, 'Total': 2, 'airline_disruption/streaming_chat': 2}", "user_id": "None", "Timestamp": "2026-07-10T22:26:32.948783", "source": "HttpServer", "message_type": "Other", "request_id": "request-2"}
+{"message": "Start airline_disruption/function", "user_id": "None", "Timestamp": "2026-07-10T22:29:15.574390", "source": "HttpServer", "message_type": "Other", "request_id": "request-3"}
+{"message": "Received a airline_disruption.Function request for function request", "user_id": "None", "Timestamp": "2026-07-10T22:29:15.574540", "source": "HttpServer", "message_type": "Other", "request_id": "request-3"}
+{"message": "Agent network 'airline_disruption' (ID: 1469825564160) used for operation: function", "user_id": "None", "Timestamp": "2026-07-10T22:29:15.574621", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "Done with airline_disruption.Function request for function request", "user_id": "None", "Timestamp": "2026-07-10T22:29:15.574677", "source": "HttpServer", "message_type": "Other", "request_id": "request-3"}
+{"message": "200 GET /api/v1/airline_disruption/function (127.0.0.1) 3.38ms", "user_id": "None", "Timestamp": "2026-07-10T22:29:15.576076", "source": "HttpServer", "message_type": "Other", "request_id": "request-3"}
+{"message": "Finish airline_disruption/function", "user_id": "None", "Timestamp": "2026-07-10T22:29:15.576159", "source": "HttpServer", "message_type": "Other", "request_id": "request-3"}
+{"message": "Start airline_disruption/streaming_chat", "user_id": "None", "Timestamp": "2026-07-10T22:29:52.622501", "source": "HttpServer", "message_type": "Other", "request_id": "request-4"}
+{"message": "Received a airline_disruption.StreamingChat request for 'Analyze airline disruption for flight AA347.
+Flight status: Delayed
+Origin: JFK
+Destination: SEA
+Affected airport: JFK
+Disruption reason: Severe Thunderstorm
+Current delay minutes: 95
+Known weather severity: HIGH
+Coordinate all specialist agents and return the required JSON object only.'", "user_id": "None", "Timestamp": "2026-07-10T22:29:52.622772", "source": "HttpServer", "message_type": "Other", "request_id": "request-4"}
+{"message": "Agent network 'airline_disruption' (ID: 1469825564160) used for operation: streaming_chat", "user_id": "None", "Timestamp": "2026-07-10T22:29:52.624102", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "Calling class airline_tools.DelayPrediction", "user_id": "None", "Timestamp": "2026-07-10T22:30:53.831316", "source": "HttpServer", "message_type": "Other", "request_id": "request-4"}
+{"message": "Calling class airline_tools.HistoricalPerformance", "user_id": "None", "Timestamp": "2026-07-10T22:30:53.857065", "source": "HttpServer", "message_type": "Other", "request_id": "request-4"}
+{"message": "Calling class airline_tools.AircraftPosition", "user_id": "None", "Timestamp": "2026-07-10T22:30:53.859470", "source": "HttpServer", "message_type": "Other", "request_id": "request-4"}
+{"message": "Calling class airline_tools.AlternateFlights", "user_id": "None", "Timestamp": "2026-07-10T22:31:21.654243", "source": "HttpServer", "message_type": "Other", "request_id": "request-4"}
+{"message": "Calling class airline_tools.GateAvailability", "user_id": "None", "Timestamp": "2026-07-10T22:31:21.657275", "source": "HttpServer", "message_type": "Other", "request_id": "request-4"}
+{"message": "Calling class airline_tools.PassengerImpact", "user_id": "None", "Timestamp": "2026-07-10T22:31:21.660376", "source": "HttpServer", "message_type": "Other", "request_id": "request-4"}
+{"message": "Calling class airline_tools.AlternateFlights", "user_id": "None", "Timestamp": "2026-07-10T22:31:21.662947", "source": "HttpServer", "message_type": "Other", "request_id": "request-4"}
+{"message": "Calling class airline_tools.GateAvailability", "user_id": "None", "Timestamp": "2026-07-10T22:31:21.665978", "source": "HttpServer", "message_type": "Other", "request_id": "request-4"}
+{"message": "Calling class airline_tools.PassengerImpact", "user_id": "None", "Timestamp": "2026-07-10T22:31:21.668717", "source": "HttpServer", "message_type": "Other", "request_id": "request-4"}
+{"message": "Task from orchestrator.weather_agent:RunContextRunnable.invoke_agent_chain was cancelled", "user_id": "None", "Timestamp": "2026-07-10T22:31:23.082328", "source": "HttpServer", "message_type": "Other", "request_id": "request-4"}
+{"message": "Task from orchestrator.prediction_agent:RunContextRunnable.invoke_agent_chain was cancelled", "user_id": "None", "Timestamp": "2026-07-10T22:31:23.082738", "source": "HttpServer", "message_type": "Other", "request_id": "request-4"}
+{"message": "Task from orchestrator.recovery_agent:RunContextRunnable.invoke_agent_chain was cancelled", "user_id": "None", "Timestamp": "2026-07-10T22:31:23.083477", "source": "HttpServer", "message_type": "Other", "request_id": "request-4"}
+{"message": "Task from orchestrator:RunContextRunnable.invoke_agent_chain was cancelled", "user_id": "None", "Timestamp": "2026-07-10T22:31:23.086167", "source": "HttpServer", "message_type": "Other", "request_id": "request-4"}
+{"message": "Agent 'orchestrator' timed out: exceeded max_execution_seconds=90s and was cancelled.", "user_id": "None", "Timestamp": "2026-07-10T22:31:23.087401", "source": "HttpServer", "message_type": "Warning", "request_id": "request-4"}
+{"message": "Request reporting: {
+    "token_accounting": {
+        "total_tokens": 1652,
+        "prompt_tokens": 1266,
+        "completion_tokens": 386,
+        "successful_requests": 3,
+        "empty_responses": 0,
+        "total_cost": 0.0,
+        "time_taken_in_seconds": 90.01043677330017,
+        "caveats": [
+            "External agent token usage is not included.",
+            "Token counts are approximate and estimated using tiktoken.",
+            "time_taken_in_seconds includes overhead from Langchain and Neuro SAN"
+        ],
+        "models": {
+            "ollama": {
+                "llama3.1:8b": {
+                    "total_tokens": 1652,
+                    "prompt_tokens": 1266,
+                    "completion_tokens": 386,
+                    "successful_requests": 3,
+                    "empty_responses": 0,
+                    "total_cost": 0.0,
+                    "time_taken_in_seconds": 86.98776960372925
+                }
+            }
+        }
+    }
+}", "user_id": "None", "Timestamp": "2026-07-10T22:31:23.091479", "source": "HttpServer", "message_type": "Other", "request_id": "request-4"}
+{"message": "Done with airline_disruption.StreamingChat request for 'Analyze airline disruption for flight AA347.
+Flight status: Delayed
+Origin: JFK
+Destination: SEA
+Affected airport: JFK
+Disruption reason: Severe Thunderstorm
+Current delay minutes: 95
+Known weather severity: HIGH
+Coordinate all specialist agents and return the required JSON object only.'", "user_id": "None", "Timestamp": "2026-07-10T22:31:23.091711", "source": "HttpServer", "message_type": "Other", "request_id": "request-4"}
+{"message": "200 POST /api/v1/airline_disruption/streaming_chat (127.0.0.1) 90471.39ms", "user_id": "None", "Timestamp": "2026-07-10T22:31:23.092044", "source": "HttpServer", "message_type": "Other", "request_id": "request-4"}
+{"message": "Finish airline_disruption/streaming_chat", "user_id": "None", "Timestamp": "2026-07-10T22:31:23.092168", "source": "HttpServer", "message_type": "Other", "request_id": "request-4"}
+{"message": "Stats: {'NumProcessing': 0, 'Total': 4, 'airline_disruption/streaming_chat': 3, 'airline_disruption/function': 1}", "user_id": "None", "Timestamp": "2026-07-10T22:31:23.092243", "source": "HttpServer", "message_type": "Other", "request_id": "request-4"}
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Local\Python\pythoncore-3.13-64\Lib\logging\__init__.py", line 1154, in emit
+    stream.write(msg + self.terminator)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Python\pythoncore-3.13-64\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f514' in position 13: character maps to <undefined>
+Call stack:
+  File "C:\Users\DELL\AppData\Local\Python\pythoncore-3.13-64\Lib\threading.py", line 1015, in _bootstrap
+{"message": "Observed events: modified 1, added 0, deleted 0", "user_id": "None", "Timestamp": "2026-07-10T22:42:36.572317", "source": "Http Server", "message_type": "Other", "request_id": "request-4"}
+    self._bootstrap_inner()
+{"message": "Updating manifest file: ['C:\\airline-disruption-neuro-san-integrated\\registries\\manifest.hocon']", "user_id": "None", "Timestamp": "2026-07-10T22:42:36.592932", "source": "Http Server", "message_type": "Other", "request_id": "request-4"}
+  File "C:\Users\DELL\AppData\Local\Python\pythoncore-3.13-64\Lib\threading.py", line 1044, in _bootstrap_inner
+    self.run()
+  File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\watchdog\observers\api.py", line 213, in run
+    self.dispatch_events(self.event_queue)
+  File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\watchdog\observers\api.py", line 391, in dispatch_events
+    handler.dispatch(event)
+  File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\watchdog\events.py", line 217, in dispatch
+    getattr(self, f"on_{event.event_type}")(event)
+  File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\neuro_san\service\watcher\registries\registry_change_handler.py", line 51, in on_modified
+    self.handle_event(RegistryChangeHandler.MODIFIED, event.src_path)
+  File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\neuro_san\service\watcher\registries\registry_change_handler.py", line 73, in handle_event
+    self.logger.info("\U0001f514 File %s: %s", event_name, src_path)
+Message: '\U0001f514 File %s: %s'
+Arguments: ('modified', 'C:\\airline-disruption-neuro-san-integrated\\registries\\airline_disruption.hocon')
+{"message": "Validating airline_disruption agent network...", "user_id": "None", "Timestamp": "2026-07-10T22:42:36.869253", "source": "Http Server", "message_type": "Other", "request_id": "request-4"}
+{"message": "Reset service for modified agent airline_disruption", "user_id": "None", "Timestamp": "2026-07-10T22:42:36.876111", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "REPLACED network for agent airline_disruption : 1469830704800", "user_id": "None", "Timestamp": "2026-07-10T22:42:36.876244", "source": "Http Server", "message_type": "Other", "request_id": "request-4"}
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Local\Python\pythoncore-3.13-64\Lib\logging\__init__.py", line 1154, in emit
+    stream.write(msg + self.terminator)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Python\pythoncore-3.13-64\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f514' in position 13: character maps to <undefined>
+Call stack:
+  File "C:\Users\DELL\AppData\Local\Python\pythoncore-3.13-64\Lib\threading.py", line 1015, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Users\DELL\AppData\Local\Python\pythoncore-3.13-64\Lib\threading.py", line 1044, in _bootstrap_inner
+    self.run()
+  File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\watchdog\observers\api.py", line 213, in run
+    self.dispatch_events(self.event_queue)
+  File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\watchdog\observers\api.py", line 391, in dispatch_events
+    handler.dispatch(event)
+  File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\watchdog\events.py", line 217, in dispatch
+    getattr(self, f"on_{event.event_type}")(event)
+  File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\neuro_san\service\watcher\registries\registry_change_handler.py", line 51, in on_modified
+    self.handle_event(RegistryChangeHandler.MODIFIED, event.src_path)
+  File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\neuro_san\service\watcher\registries\registry_change_handler.py", line 73, in handle_event
+    self.logger.info("\U0001f514 File %s: %s", event_name, src_path)
+Message: '\U0001f514 File %s: %s'
+Arguments: ('modified', 'C:\\airline-disruption-neuro-san-integrated\\registries\\airline_disruption.hocon')
+{"message": "Observed events: modified 1, added 0, deleted 0", "user_id": "None", "Timestamp": "2026-07-10T22:42:41.572958", "source": "Http Server", "message_type": "Other", "request_id": "request-4"}
+{"message": "Updating manifest file: ['C:\\airline-disruption-neuro-san-integrated\\registries\\manifest.hocon']", "user_id": "None", "Timestamp": "2026-07-10T22:42:41.573135", "source": "Http Server", "message_type": "Other", "request_id": "request-4"}
+{"message": "Validating airline_disruption agent network...", "user_id": "None", "Timestamp": "2026-07-10T22:42:41.738548", "source": "Http Server", "message_type": "Other", "request_id": "request-4"}
+{"message": "Reset service for modified agent airline_disruption", "user_id": "None", "Timestamp": "2026-07-10T22:42:41.748255", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "REPLACED network for agent airline_disruption : 1469853596656", "user_id": "None", "Timestamp": "2026-07-10T22:42:41.748419", "source": "Http Server", "message_type": "Other", "request_id": "request-4"}
+{"message": "Cleaning up plugin: ProcessLogBridgePlugin Plugin", "user_id": "None", "Timestamp": "2026-07-10T22:44:44.549203", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "[ProcessLogBridgePlugin] Cleaning up", "user_id": "None", "Timestamp": "2026-07-10T22:44:44.549511", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+{"message": "[ProcessLogBridgePlugin] Cleanup complete", "user_id": "None", "Timestamp": "2026-07-10T22:44:44.549591", "source": "HttpServer", "message_type": "Other", "request_id": "None"}
+Traceback (most recent call last):
+  File "<frozen runpy>", line 203, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\neuro_san_studio\runner\neuro_san_server_wrapper.py", line 89, in <module>
+    wrapper.run()
+    ~~~~~~~~~~~^^
+  File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\neuro_san_studio\runner\neuro_san_server_wrapper.py", line 80, in run
+    ServerMainLoop().main_loop()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\neuro_san\service\main_loop\server_main_loop.py", line 298, in main_loop
+    self.http_server.start(components_to_start)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\neuro_san\service\http\server\http_server.py", line 194, in start
+    tornado.ioloop.IOLoop.current().start()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\airline-disruption-neuro-san-integrated\.venv\Lib\site-packages\tornado\platform\asyncio.py", line 211, in start
+    self.asyncio_loop.run_forever()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\DELL\AppData\Local\Python\pythoncore-3.13-64\Lib\asyncio\base_events.py", line 683, in run_forever
+    self._run_once()
+    ~~~~~~~~~~~~~~^^
+  File "C:\Users\DELL\AppData\Local\Python\pythoncore-3.13-64\Lib\asyncio\base_events.py", line 2022, in _run_once
+    event_list = self._selector.select(timeout)
+  File "C:\Users\DELL\AppData\Local\Python\pythoncore-3.13-64\Lib\selectors.py", line 314, in select
+    r, w, _ = self._select(self._readers, self._writers, [], timeout)
+              ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Python\pythoncore-3.13-64\Lib\selectors.py", line 305, in _select
+    r, w, x = select.select(r, w, w, timeout)
+              ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
