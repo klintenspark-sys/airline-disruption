@@ -1,176 +1,126 @@
-# ✈️ AI-Powered Airline Disruption Management Platform
+# AI-Powered Airline Disruption Management Platform
 
-An interactive multi-agent airline disruption management prototype built
-The platform connects airline operations
-analysis, disruption recovery, communication, and passenger self-service
-through a shared operational state.
+A multi-agent airline disruption management platform that connects
+operational monitoring, disruption analysis, recovery planning,
+evaluation, communication, and passenger self-service through a shared
+operational state.
 
-The application provides two coordinated experiences:
+## Overview
 
--   **Operations Control Center** --- monitor flights, review airport
-    weather, analyze disruptions, evaluate recovery options, apply
-    recovery plans, and generate synchronized communications.
--   **Passenger Portal** --- search by PNR to view current flight status
-    and confirmed recovery details.
+Airline disruptions require coordinated decisions across weather
+monitoring, operations, recovery planning, crew and passenger handling,
+and communications. This project demonstrates a coordinated workflow in
+which specialized AI agents divide those responsibilities while using
+consistent operational and recovery data.
 
-## Problem Statement
+The application provides two connected experiences:
 
-Airline disruptions such as weather events, ground stops, maintenance
-issues, and operational delays require coordination across multiple
-teams and systems. This can result in slow decisions, inconsistent
-recovery actions, and contradictory communication to passengers and
-staff.
+-   **Operations Control Center** --- monitors flights and airport
+    conditions, analyzes disruptions, reviews recovery proposals,
+    applies recovery plans, and generates synchronized communications.
+-   **Passenger Portal** --- allows passengers to search by PNR and view
+    current flight information and confirmed recovery details.
 
-This project demonstrates how specialized AI agents can divide the
-disruption-management workflow while sharing a consistent operational
-and recovery state.
+## Core Workflow
 
-## Solution Overview
+``` text
+Flight and Airport Operational Data
+                ↓
+        Disruption Analysis
+                ↓
+   Weather and Impact Assessment
+                ↓
+         Recovery Proposal
+                ↓
+        Recovery Evaluation
+                ↓
+       Human-Controlled Apply
+                ↓
+      Shared Recovery State
+           ↙           ↘
+ Communications     Passenger Portal
+```
 
-The workflow is designed around specialized responsibilities:
+## Multi-Agent Workflow
 
-1.  **Weather Agent** evaluates weather and environmental conditions
-    affecting airport and flight operations.
-2.  **Prediction Agent** estimates disruption impact and delay risk.
-3.  **Recovery Agent** creates a recovery proposal using flight and
-    disruption context.
-4.  **Evaluator Agent** reviews the proposed recovery before execution.
-5.  **Communications Agent** prepares passenger and staff messages using
-    the final operational decision.
+The platform separates the disruption-management process into
+specialized responsibilities:
 
-The application separates **proposed recovery** from **applied
-recovery**. Once the Operations Team applies a plan, the recovery
-information is persisted and becomes available to the Passenger Portal
-through PNR search.
+1.  **Weather Agent** --- evaluates weather and environmental conditions
+    affecting operations.
+2.  **Prediction Agent** --- estimates disruption impact and delay risk.
+3.  **Recovery Agent** --- creates a recovery proposal using the flight
+    and disruption context.
+4.  **Evaluator Agent** --- reviews the proposed recovery before
+    execution.
+5.  **Communications Agent** --- prepares passenger and staff messages
+    using the operational decision.
+
+The objective is not simply to use multiple agents. The architecture
+divides responsibilities, exposes intermediate decisions, supports
+evaluation before execution, and keeps downstream communication aligned
+with the applied recovery state.
 
 ## Key Features
 
 ### Operations Control Center
 
 -   Airport weather status overview
--   Live flight board
+-   Live flight board with pagination
 -   Flight status filtering
--   Pagination for the flight board
--   On Time, Delayed, and Cancelled flight states
--   Scheduled and estimated timing information
+-   On Time, Delayed, and Cancelled states
+-   Scheduled and estimated flight timing
 -   Operational stage and current location
 -   Automatic affected-airport and disruption-cause selection
--   AI disruption analysis workflow
--   Specialized agent result views
+-   Multi-agent disruption analysis
 -   Recovery proposal and evaluation
 -   Controlled recovery-plan application
--   Updated recovery flight, departure time, gate, passenger, crew, and
-    ground-team details
+-   Applied recovery details including flight, departure time, gate,
+    passenger impact, crew status, and ground-team status
 -   Passenger and staff communication synchronized with applied recovery
-    state
--   Demo PNR generation for the selected flight
+    details
+-   Demo Tools for generating a unique PNR linked to the selected flight
 
 ### Passenger Portal
 
--   PNR-based passenger search
+-   PNR-based booking search
 -   Dynamic passenger and flight information
 -   Current flight status
 -   Confirmed recovery booking details
 -   Recovery flight, departure time, gate, and seat information
 -   Voucher and notification information where applicable
 -   Reset PNR functionality
--   Recovery state synchronized with the Operations Control Center
+-   Recovery information synchronized with the Operations Control Center
 
-## End-to-End Demo Flow
+## Data and State Management
 
-``` text
-Select a disrupted flight
-        ↓
-Generate a Demo PNR
-        ↓
-Run AI Analysis
-        ↓
-Weather Agent
-        ↓
-Prediction Agent
-        ↓
-Recovery Agent
-        ↓
-Evaluator Agent
-        ↓
-Communications Agent
-        ↓
-Apply Recovery Plan
-        ↓
-Recovery state is persisted
-        ↓
-Open Passenger Portal
-        ↓
-Search the generated PNR
-        ↓
-View confirmed recovery booking
-```
-
-## Project Architecture
-
-``` text
-                         ┌──────────────────────────┐
-                         │      Streamlit UI        │
-                         └────────────┬─────────────┘
-                                      │
-                    ┌─────────────────┴─────────────────┐
-                    │                                   │
-          ┌─────────▼──────────┐              ┌────────▼─────────┐
-          │ Operations Control │              │ Passenger Portal │
-          │      Center        │              │    PNR Search    │
-          └─────────┬──────────┘              └────────┬─────────┘
-                    │                                   │
-                    ▼                                   │
-          ┌────────────────────┐                        │
-          │ Multi-Agent Flow   │                        │
-          │                    │                        │
-          │ Weather            │                        │
-          │ Prediction         │                        │
-          │ Recovery           │                        │
-          │ Evaluator          │                        │
-          │ Communications     │                        │
-          └─────────┬──────────┘                        │
-                    │                                   │
-                    ▼                                   ▼
-          ┌────────────────────────────────────────────────────┐
-          │        Shared Operational & Recovery State         │
-          └────────────────────────────────────────────────────┘
-```
+The current implementation uses local JSON files for lightweight
+persistence.
 
 ### Passenger Records
 
-Dynamically generated demo passengers are stored in:
+Generated passenger records are stored in:
 
 ``` text
 mock_data/passengers.json
 ```
 
-Each passenger PNR is linked to a flight ID. The Passenger Portal
-derives the passenger's current flight state through this relationship.
-
-Conceptually:
+Each PNR is linked to a flight ID. Flight status is derived from the
+linked operational flight state.
 
 ``` text
-PNR
- ↓
-Passenger Record
- ↓
-Flight ID
- ↓
-Operational State
- ↓
-On Time / Delayed / Cancelled
+PNR → Passenger Record → Flight ID → Operational State
 ```
 
 ### Recovery Records
 
-Applied recovery information is stored in:
+Applied recovery details are stored in:
 
 ``` text
 mock_data/recovery_state.json
 ```
 
-The recovery state can include information such as:
+Recovery records can include:
 
 -   Original flight
 -   Recovery flight
@@ -180,35 +130,29 @@ The recovery state can include information such as:
 -   Voucher information
 -   Confirmation status
 
-Resetting a PNR search clears the Passenger Portal display state but
-does not delete the persisted recovery booking.
+Resetting a PNR search clears the Passenger Portal view but does not
+delete the persisted recovery booking.
 
 ## Demo PNR Generator
 
-The Operations page includes a collapsed **Demo Tools** section.
+The Operations page includes a collapsed **Demo Tools** section that
+can:
 
-The generator:
-
--   Creates a unique six-character PNR
--   Links the passenger to the currently selected flight
--   Stores the new passenger record
--   Allows the same PNR to be searched from the Passenger Portal
-
-For the strongest demonstration, generate the demo PNR before applying
-the recovery plan.
+-   Generate a unique six-character PNR
+-   Link the passenger to the currently selected flight
+-   Store the passenger record
+-   Make the generated PNR searchable from the Passenger Portal
 
 ## Technology Stack
 
--   **Python**
--   **Streamlit**
--   **JSON-based mock operational data**
--   **Session state for interactive UI behavior**
--   **Multi-agent orchestration layer**
--   **Custom HTML and CSS for dashboard presentation**
+-   Python
+-   Streamlit
+-   JSON-based operational and passenger data
+-   Streamlit Session State
+-   Multi-agent orchestration
+-   Custom HTML and CSS
 
 ## Project Structure
-
-A typical project structure is:
 
 ``` text
 airline-disruption/
@@ -229,23 +173,20 @@ airline-disruption/
 │   └── agent implementation files
 │
 ├── bridge/
-│   └── orchestration / integration logic
+│   └── orchestration and integration logic
 │
 ├── requirements.txt
 └── README.md
 ```
 
-> The exact internal agent and bridge filenames may differ depending on
-> the project version.
+> Internal agent and bridge filenames may vary by project version.
 
-## Getting Started
+## Installation and Setup
 
-### 1. Clone or extract the project
-
-Open PowerShell or a terminal and move to the project root:
+### 1. Open the project directory
 
 ``` powershell
-cd C:\hackathon\airline-disruption
+cd C:\Project\airline-disruption
 ```
 
 ### 2. Create a virtual environment
@@ -254,13 +195,13 @@ cd C:\hackathon\airline-disruption
 python -m venv .venv
 ```
 
-Activate it on Windows PowerShell:
+### 3. Activate the environment
 
 ``` powershell
 .venv\Scripts\Activate.ps1
 ```
 
-### 3. Install dependencies
+### 4. Install dependencies
 
 ``` powershell
 python -m pip install -r requirements.txt
@@ -272,105 +213,92 @@ If Streamlit is not included in the requirements file:
 python -m pip install streamlit
 ```
 
-### 4. Start the application
+### 5. Run the application
 
-Run the command from the **project root directory**:
+Run from the project root:
 
 ``` powershell
+python dashboard/api_bridge.py
 python -m streamlit run dashboard/app.py
 ```
 
-Streamlit will display the local application address in the terminal.
+## Suggested Demo Flow
+
+1.  Open the Home page and introduce the Operations and Passenger
+    experiences.
+2.  Enter the Operations Control Center.
+3.  Show airport weather conditions and the live flight board.
+4.  Select a disrupted flight.
+5.  Generate a PNR from Demo Tools.
+6.  Run the AI analysis.
+7.  Review Weather, Prediction, Recovery, Evaluator, and Communications
+    outputs.
+8.  Apply the Recovery Plan.
+9.  Verify that recovery and communication details reflect the applied
+    decision.
+10. Open the Passenger Portal.
+11. Search the generated PNR.
+12. Show the confirmed recovery booking.
 
 ## Design Principles
 
-### Single Operational Source of Truth
+### Shared Operational State
 
-Flight board status, disruption analysis, recovery execution,
-communication, and passenger recovery should use consistent operational
-facts.
+Flight status, disruption analysis, recovery execution, communication,
+and passenger recovery use consistent operational facts.
 
-### Specialized Agent Responsibilities
+### Specialized Responsibilities
 
-The multi-agent design divides a complex workflow into focused
-responsibilities instead of asking one prompt to perform every
-operational task.
+Complex disruption management is divided into focused agent
+responsibilities rather than handled as one unrestricted prompt.
 
 ### Human-Controlled Execution
 
-A recovery recommendation is not treated as an executed action. The
-Operations Team applies the recovery plan explicitly.
+A proposed recovery remains a recommendation until the Operations Team
+explicitly applies it.
 
-### Communication After Decision
+### Communication Based on Applied Decisions
 
-Passenger and staff communication should be generated from the final
-applied recovery facts to avoid contradictions.
+Passenger and staff messages are based on the applied recovery facts to
+reduce contradictory information.
 
 ### Dynamic Passenger Experience
 
-The Passenger Portal resolves information from the searched PNR rather
-than displaying one static passenger scenario.
+Passenger results are resolved from the searched PNR and its linked
+flight and recovery state rather than from a static passenger scenario.
 
-## Current Prototype Scope
+## Current Scope
 
-This application is a hackathon prototype. Local JSON persistence is
-appropriate for controlled demonstration but would be replaced in a
-production deployment.
+The current implementation is a functional prototype using local JSON
+persistence and simulated operational data. A production deployment
+would typically require:
 
-A production implementation could add:
-
--   Airline reservation and departure-control system integration
--   Real-time flight and airport data feeds
--   Durable relational or document database storage
+-   Airline reservation and departure-control system integrations
+-   Real-time flight, airport, and weather feeds
+-   Durable database storage
 -   Authentication and role-based access control
--   Message queues and event-driven processing
+-   Event-driven processing
 -   Agent observability and tracing
--   Audit history for recovery decisions
--   Notification delivery through email, SMS, and mobile push
--   Failure handling and agent retry policies
--   Human approval workflows and operational policy constraints
+-   Audit history for operational decisions
+-   Email, SMS, and push-notification integrations
+-   Retry and failure-handling policies
+-   Human approval and operational policy controls
 
 ## Future Enhancements
 
-Potential next steps include:
-
 -   Real-time airline and weather APIs
--   Passenger prioritization based on connection risk
--   Automated hotel and meal eligibility evaluation
+-   Connection-risk-based passenger prioritization
+-   Hotel and meal eligibility evaluation
 -   Crew legality and duty-time validation
 -   Aircraft rotation and gate-conflict analysis
 -   Recovery-cost comparison
 -   Agent execution timeline and trace visualization
 -   Operational KPI dashboard
--   Recovery acceptance and rejection feedback loop
--   Database-backed PNR and recovery management
-
-## Why Multi-Agent?
-
-Airline disruption management contains several distinct reasoning tasks.
-Weather interpretation, delay prediction, recovery planning, policy
-evaluation, and communication have different goals and constraints.
-
-The multi-agent approach in this project is intended to:
-
--   Divide responsibilities clearly
--   Make intermediate decisions visible
--   Allow recovery proposals to be evaluated before execution
--   Keep communication downstream of operational decisions
--   Make the workflow easier to inspect and extend
-
-The value of the architecture is not the number of agents. The value is
-the coordinated workflow and consistent state shared across operational
-decisions and passenger outcomes.
+-   Recovery feedback and evaluation loop
+-   Database-backed passenger and recovery management
 
 ## Disclaimer
 
-This project is a hackathon prototype using mock and simulated data. It
-is not connected to a live airline reservation, operations-control,
-crew-management, airport, or passenger-notification system.
-
-
-## License
-
-Add the appropriate license for your hackathon or organization before
-public distribution.
+This project uses mock and simulated data and is not connected to a live
+airline reservation, operations-control, crew-management, airport, or
+passenger-notification system.
