@@ -35,25 +35,62 @@ def health():
 
 def _extract_final_text(response: httpx.Response) -> str:
     final_text = ""
-    # Neuro SAN streaming_chat returns a stream of JSON messages. Keep the last framework/AI text.
+
     for raw in response.iter_lines():
-        if not raw: continue
+        if not raw:
+            continue
+
         line = raw.strip()
-        if line.startswith("data:"): line = line[5:].strip()
+
+        if line.startswith("data:"):
+            line = line[5:].strip()
+
         try:
             obj = json.loads(line)
+
+            print("=" * 80)
+            print("STREAM EVENT:")
+            print(json.dumps(obj, indent=2))
+            print("=" * 80)
+
         except json.JSONDecodeError:
+            print("NON-JSON:", line)
             continue
+
         payload = obj.get("response", obj)
-        text = payload.get("text") if isinstance(payload, dict) else None
-        msg_type = str(payload.get("type", "")) if isinstance(payload, dict) else ""
-        if text and (msg_type in {"AGENT_FRAMEWORK", "AI", ""}): final_text = text
+
+        if not isinstance(payload, dict):
+            continue
+
+        text = payload.get("text", "")
+        msg_type = str(payload.get("type", ""))
+
+        print(f"TYPE: {msg_type}")
+        print(f"TEXT: {text}")
+
+        if text:
+            stripped = text.strip()
+
+            # Only keep text that looks like JSON
+            if stripped.startswith("{") and stripped.endswith("}"):
+                final_text = stripped
+
     if not final_text:
         try:
-            obj=response.json(); payload=obj.get("response",obj); final_text=payload.get("text","")
-        except Exception: pass
-    return final_text
+            obj = response.json()
+            payload = obj.get("response", obj)
 
+            if isinstance(payload, dict):
+                final_text = payload.get("text", "")
+        except Exception:
+            pass
+
+    print("=" * 80)
+    print("FINAL TEXT")
+    print(final_text)
+    print("=" * 80)
+
+    return final_text
 def _parse_json_text(text: str) -> dict[str, Any]:
     cleaned=text.strip()
     cleaned=re.sub(r"^```(?:json)?\s*", "", cleaned, flags=re.I)
