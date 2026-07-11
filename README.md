@@ -293,25 +293,7 @@ python -m streamlit run dashboard/app.py
 
 Streamlit will display the local application address in the terminal.
 
-## Recommended Hackathon Demo
 
-A concise demonstration can follow this sequence:
-
-1.  Open the Home page and introduce the two coordinated user
-    experiences.
-2.  Enter the Operations Control Center.
-3.  Show airport weather and the live flight board.
-4.  Select a disrupted flight.
-5.  Expand Demo Tools and generate a PNR.
-6.  Run AI Analysis.
-7.  Walk through Weather, Prediction, Recovery, Evaluator, and
-    Communications.
-8.  Apply the Recovery Plan.
-9.  Show that recovery and communication views now use the applied
-    details.
-10. Open the Passenger Portal.
-11. Search the generated PNR.
-12. Show the confirmed recovery booking.
 
 ## Design Principles
 
