@@ -34,8 +34,7 @@ The network runs against a local model via **Ollama**, configured directly in th
 }
 ```
 
-> **Note:** the Streamlit landing page displays `llama3.1:8b` as the "powered by" model, and `config.py` defaults `OLLAMA_MODEL` to `llama3.1:8b` — but the agent network's actual behavior is controlled by the HOCON above, which is hardcoded to `qwen2.5:3b`. These aren't currently wired together; if you change the model, update the HOCON (the source of truth for what the agents actually run on), not just `config.py`.
-
+> **Note:** the Streamlit landing page displays `llama3.1:8b` as the "powered by" model, and `config.py` defaults `OLLAMA_MODEL` to `llama3.1:8b` — but the agent network's actual behavior is controlled by the HOCON above, which is hardcoded to `qwen2.5:3b`. hange this according to the RAM capacity.
 ## Coded tools
 
 Grounded, deterministic operations are exposed to the agents as Neuro SAN **CodedTools** (`coded_tools/airline_tools.py`), which each wrap a plain Python function from `tools/`:
