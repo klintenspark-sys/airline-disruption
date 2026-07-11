@@ -21,7 +21,7 @@ Agents are declared in `registries/airline_disruption.hocon` and served by Neuro
 
 The orchestrator's call order is **fixed**, not dynamically negotiated — each specialist runs in sequence and hands its output forward. This keeps the flow predictable and auditable, at the cost of the fully dynamic task delegation that a more open-ended AAOSA network could support.
 
-## LLM configuration
+## LLM configuration (Local setup)
 
 The network runs against a local model via **Ollama**, configured directly in the HOCON:
 
