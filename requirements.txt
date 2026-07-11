@@ -1,3 +1,5 @@
+neuro-san-studio
+langchain-ollama
 ollama
 faker
 streamlit
