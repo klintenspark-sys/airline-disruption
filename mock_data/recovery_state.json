@@ -339,5 +339,38 @@
     "status": "Confirmed",
     "cause": "Severe Thunderstorm",
     "applied": true
+  },
+  "QM0TY7": {
+    "original_flight": "AA347",
+    "new_flight": "AA748",
+    "new_departure": "2026-07-07T13:20",
+    "new_gate": "JFK-R3",
+    "seat": "19F",
+    "voucher_code": "MEAL-QM0TY7",
+    "status": "Confirmed",
+    "cause": "Severe Thunderstorm",
+    "applied": true
+  },
+  "MLZA26": {
+    "original_flight": "AA347",
+    "new_flight": "AA749",
+    "new_departure": "2026-07-07T13:20",
+    "new_gate": "JFK-R4",
+    "seat": "21B",
+    "voucher_code": "MEAL-MLZA26",
+    "status": "Confirmed",
+    "cause": "Severe Thunderstorm",
+    "applied": true
+  },
+  "SXE43B": {
+    "original_flight": "AA347",
+    "new_flight": "AA750",
+    "new_departure": "2026-07-07T13:20",
+    "new_gate": "JFK-R5",
+    "seat": "22C",
+    "voucher_code": "MEAL-SXE43B",
+    "status": "Confirmed",
+    "cause": "Severe Thunderstorm",
+    "applied": true
   }
 }

@@ -966,5 +966,49 @@
     "cabin": "Economy Class",
     "terminal": "A",
     "gate": "JFK-B5"
+  },
+  {
+    "pnr": "QM0TY7",
+    "passenger_name": "Demo Passenger 89",
+    "flight_id": "AA347",
+    "email": "demo89@example.com",
+    "phone": "+1-555-0089",
+    "seat": "19F",
+    "cabin": "Economy Class",
+    "terminal": "A",
+    "gate": "JFK-B6"
+  },
+  {
+    "pnr": "05892A",
+    "passenger_name": "Demo Passenger 90",
+    "flight_id": "AA875",
+    "email": "demo90@example.com",
+    "phone": "+1-555-0090",
+    "seat": "20A",
+    "cabin": "Economy Class",
+    "terminal": "A",
+    "gate": "JFK-B7"
+  },
+  {
+    "pnr": "MLZA26",
+    "passenger_name": "Demo Passenger 91",
+    "flight_id": "AA347",
+    "email": "demo91@example.com",
+    "phone": "+1-555-0091",
+    "seat": "21B",
+    "cabin": "Economy Class",
+    "terminal": "A",
+    "gate": "JFK-B8"
+  },
+  {
+    "pnr": "SXE43B",
+    "passenger_name": "Demo Passenger 92",
+    "flight_id": "AA347",
+    "email": "demo92@example.com",
+    "phone": "+1-555-0092",
+    "seat": "22C",
+    "cabin": "Economy Class",
+    "terminal": "A",
+    "gate": "JFK-B9"
   }
 ]
